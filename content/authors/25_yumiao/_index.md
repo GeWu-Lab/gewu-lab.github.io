@@ -11,4 +11,4 @@ role: Since 2025
 user_groups:
 - Ph.D Students
 ---
-Yu Miao is a prospective Ph.D. student at [Gaoling School of Artificial Intelligence, Renmin University of China](http://ai.ruc.edu.cn/), advised by [Prof. Di Hu](https://dtaoo.github.io/). She will soon receive her bachelor's degree in [Beijing University of Posts and Telecommunications](https://www.bupt.edu.cn/) in 2025. Now she has a keen interest in multimodal large language models.
+Yu Miao is a first-year Ph.D. student at [Gaoling School of Artificial Intelligence, Renmin University of China](http://ai.ruc.edu.cn/), advised by [Prof. Di Hu](https://dtaoo.github.io/). She received her bachelor's degree in [Beijing University of Posts and Telecommunications](https://www.bupt.edu.cn/) in 2025. Now she has a keen interest in multimodel large language models.
