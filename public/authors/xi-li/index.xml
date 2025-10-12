@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xi Li | GeWu-Lab</title>
+    <link>/authors/xi-li/</link>
+      <atom:link href="/authors/xi-li/index.xml" rel="self" type="application/rss+xml" />
+    <description>Xi Li</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2025 GeWu-Lab</copyright>
+    <image>
+      <url>/img/logo.png</url>
+      <title>Xi Li</title>
+      <link>/authors/xi-li/</link>
+    </image>
+    
+    <item>
+      <title>Prompting Segmentation with Sound is Generalizable Audio-Visual Source Localizer</title>
+      <link>/publication/prompting-segmentation-with-sound-is-generalizable-audio-visual-source-localizer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/prompting-segmentation-with-sound-is-generalizable-audio-visual-source-localizer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SphereDiffusion: Spherical Geometry-aware Distortion Resilient Diffusion Model</title>
+      <link>/publication/spherediffusion_-spherical-geometry-aware-distortion-resilient-diffusion-model/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/spherediffusion_-spherical-geometry-aware-distortion-resilient-diffusion-model/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

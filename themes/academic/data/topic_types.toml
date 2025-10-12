@@ -1,0 +1,6 @@
+# Publication types.
+# Each item in the list corresponds to an item in the language packs.
+types = [ "topic_mechanism",
+          "topic_scene_understanding",
+          "topic_hash"
+        ]

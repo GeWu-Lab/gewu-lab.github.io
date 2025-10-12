@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&lt;b&gt;DISCO&lt;/b&gt;: au&lt;b&gt;D&lt;/b&gt;&lt;b&gt;I&lt;/b&gt;ovi&lt;b&gt;S&lt;/b&gt;ual &lt;b&gt;C&lt;/b&gt;rowd c&lt;b&gt;O&lt;/b&gt;unting dataset | GeWu-Lab</title>
+    <link>/dataset/disco/</link>
+      <atom:link href="/dataset/disco/index.xml" rel="self" type="application/rss+xml" />
+    <description>&lt;b&gt;DISCO&lt;/b&gt;: au&lt;b&gt;D&lt;/b&gt;&lt;b&gt;I&lt;/b&gt;ovi&lt;b&gt;S&lt;/b&gt;ual &lt;b&gt;C&lt;/b&gt;rowd c&lt;b&gt;O&lt;/b&gt;unting dataset</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2025 GeWu-Lab</copyright>
+    <image>
+      <url>/dataset/disco/featured.jpg</url>
+      <title>&lt;b&gt;DISCO&lt;/b&gt;: au&lt;b&gt;D&lt;/b&gt;&lt;b&gt;I&lt;/b&gt;ovi&lt;b&gt;S&lt;/b&gt;ual &lt;b&gt;C&lt;/b&gt;rowd c&lt;b&gt;O&lt;/b&gt;unting dataset</title>
+      <link>/dataset/disco/</link>
+    </image>
+    
+  </channel>
+</rss>

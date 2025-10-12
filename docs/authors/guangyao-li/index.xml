@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guangyao Li | GeWu-Lab</title>
+    <link>/authors/guangyao-li/</link>
+      <atom:link href="/authors/guangyao-li/index.xml" rel="self" type="application/rss+xml" />
+    <description>Guangyao Li</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2025 GeWu-Lab</copyright>
+    <image>
+      <url>/img/logo.png</url>
+      <title>Guangyao Li</title>
+      <link>/authors/guangyao-li/</link>
+    </image>
+    
+    <item>
+      <title>Boosting Audio Visual Question Answering via Key Semantic-Aware Cues</title>
+      <link>/publication/boosting-audio-visual-question-answering-via-key-semantic-aware-cues/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/boosting-audio-visual-question-answering-via-key-semantic-aware-cues/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning to Answer Questions in Dynamic Audio-Visual Scenarios</title>
+      <link>/publication/learning-to-answer-questions-in-dynamic-audio-visual-scenarios/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/learning-to-answer-questions-in-dynamic-audio-visual-scenarios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-Scale Attention for Audio Question Answering</title>
+      <link>/publication/multi-scale-attention-for-audio-question-answering/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/multi-scale-attention-for-audio-question-answering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Progressive Spatio-temporal Perception for Audio-Visual Question Answering</title>
+      <link>/publication/progressive-spatio-temporal-perception-for-audio-visual-question-answering/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/progressive-spatio-temporal-perception-for-audio-visual-question-answering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prompting Segmentation with Sound is Generalizable Audio-Visual Source Localizer</title>
+      <link>/publication/prompting-segmentation-with-sound-is-generalizable-audio-visual-source-localizer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/prompting-segmentation-with-sound-is-generalizable-audio-visual-source-localizer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ref-AVS: Refer and Segment Objects in Audio-Visual Scenes</title>
+      <link>/publication/ref-avs_-refer-and-segment-objects-in-audio-visual-scenes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/ref-avs_-refer-and-segment-objects-in-audio-visual-scenes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Self-supervised Audiovisual Representation Learning for Remote Sensing Data</title>
+      <link>/publication/self-supervised-audiovisual-representation-learning-for-remote-sensing-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/self-supervised-audiovisual-representation-learning-for-remote-sensing-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards Long Form Audio-visual Video Understanding</title>
+      <link>/publication/towards-long-form-audio-visual-video-understanding/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/towards-long-form-audio-visual-video-understanding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>🔥Crab: A Unified Audio-Visual Scene Understanding Model with Explicit Cooperation</title>
+      <link>/publication/crab-a-unified-audio-visual-scene-understanding-model-with-explicit-cooperation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/crab-a-unified-audio-visual-scene-understanding-model-with-explicit-cooperation/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

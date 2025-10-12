@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yixin Xu | GeWu-Lab</title>
+    <link>/authors/yixin-xu/</link>
+      <atom:link href="/authors/yixin-xu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yixin Xu</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2025 GeWu-Lab</copyright>
+    <image>
+      <url>/img/logo.png</url>
+      <title>Yixin Xu</title>
+      <link>/authors/yixin-xu/</link>
+    </image>
+    
+    <item>
+      <title>Multi-Scale Attention for Audio Question Answering</title>
+      <link>/publication/multi-scale-attention-for-audio-question-answering/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/multi-scale-attention-for-audio-question-answering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TikTalk: A Video-Based Dialogue Dataset for Multi-Modal Chitchat in Real World</title>
+      <link>/publication/tiktalk_-a-video-based-dialogue-dataset-for-multi-modal-chitchat-in-real-world/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/tiktalk_-a-video-based-dialogue-dataset-for-multi-modal-chitchat-in-real-world/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zechen Bai | GeWu-Lab</title>
+    <link>/authors/zechen-bai/</link>
+      <atom:link href="/authors/zechen-bai/index.xml" rel="self" type="application/rss+xml" />
+    <description>Zechen Bai</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2025 GeWu-Lab</copyright>
+    <image>
+      <url>/img/logo.png</url>
+      <title>Zechen Bai</title>
+      <link>/authors/zechen-bai/</link>
+    </image>
+    
+    <item>
+      <title>Unsupervised Multi-Source Domain Adaptation for Person Re-Identification</title>
+      <link>/publication/unsupervised-multi-source-domain-adaptation-for-person-re-identification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/unsupervised-multi-source-domain-adaptation-for-person-re-identification/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

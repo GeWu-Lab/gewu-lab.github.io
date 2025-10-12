@@ -1,0 +1,82 @@
+{{- define "main" -}}
+
+<style>
+  .featured-image-wrapper {
+    display: none !important;
+  }
+  /* 页面标题（文章最上方的标题）不换行，保持在一行 */
+  .article-container h1:first-child,
+  .universal-wrapper h1:first-child {
+    white-space: nowrap;
+  }
+  /* 隐藏page_header.html中默认的作者信息 */
+  .article-container > .article-metadata {
+    display: none !important;
+  }
+  /* 正文双端对齐 */
+  .article-style {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  /* 正文中的标题大小调整 */
+  .article-style h1 {
+    font-size: 1.8rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    white-space: normal;
+    text-align: left;
+  }
+  .article-style h2 {
+    font-size: 1.5rem;
+    margin-top: 1.3rem;
+    margin-bottom: 0.8rem;
+    text-align: left;
+  }
+  .article-style h3 {
+    font-size: 1.3rem;
+    margin-top: 1.1rem;
+    margin-bottom: 0.6rem;
+    text-align: left;
+  }
+  .article-style h4 {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    text-align: left;
+  }
+</style>
+
+<article class="article">
+
+  {{ partial "page_header.html" . }}
+
+  <div class="article-container">
+
+    {{/* 自定义作者和审阅者信息显示 - 放在标题下面 */}}
+    {{ if or .Params.authors .Params.reviewers }}
+    <div class="custom-author-info" style="margin-bottom: 2rem; color: #666;">
+      {{ if .Params.authors }}
+      <div style="margin-bottom: 0.5rem;">
+        <strong>Author:</strong>
+        {{ delimit .Params.authors ", " }}
+      </div>
+      {{ end }}
+      {{ if .Params.reviewers }}
+      <div>
+        <strong>Reviewed by:</strong>
+        {{ delimit .Params.reviewers ", " }}
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
+
+    <div class="article-style">
+      {{ .Content }}
+    </div>
+
+    {{ partial "page_footer" . }}
+
+  </div>
+</article>
+
+{{- end -}}

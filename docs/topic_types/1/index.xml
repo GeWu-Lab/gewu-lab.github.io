@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1 | GeWu-Lab</title>
+    <link>/topic_types/1/</link>
+      <atom:link href="/topic_types/1/index.xml" rel="self" type="application/rss+xml" />
+    <description>1</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2025 GeWu-Lab</copyright>
+    <image>
+      <url>/img/logo.png</url>
+      <title>1</title>
+      <link>/topic_types/1/</link>
+    </image>
+    
+    <item>
+      <title>A Two-Stage Framework for Multiple Sound-Source Localization</title>
+      <link>/publication/a-two-stage-framework-for-multiple-sound-source-localization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/a-two-stage-framework-for-multiple-sound-source-localization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ambient Sound Helps: Audiovisual Crowd Counting in Extreme Conditions</title>
+      <link>/publication/ambient-sound-helps_-audiovisual-crowd-counting-in-extreme-conditions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/ambient-sound-helps_-audiovisual-crowd-counting-in-extreme-conditions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Boosting Audio Visual Question Answering via Key Semantic-Aware Cues</title>
+      <link>/publication/boosting-audio-visual-question-answering-via-key-semantic-aware-cues/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/boosting-audio-visual-question-answering-via-key-semantic-aware-cues/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Can Textual Semantics Mitigate Sounding Object SegmentationPreference?</title>
+      <link>/publication/can-textual-semantics-mitigate-sounding-object-segmentationpreference_/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/can-textual-semantics-mitigate-sounding-object-segmentationpreference_/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Class-aware Sounding Objects Localization via Audiovisual Correspondence</title>
+      <link>/publication/class-aware-sounding-objects-localization-via-audiovisual-correspondence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/class-aware-sounding-objects-localization-via-audiovisual-correspondence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Co-Learn Sounding Object Visual Grounding and Visually Indicated Sound Separation in A Cycle</title>
+      <link>/publication/co-learn-sounding-object-visual-grounding-and-visually-indicated-sound-separation-in-a-cycle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/co-learn-sounding-object-visual-grounding-and-visually-indicated-sound-separation-in-a-cycle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cross-Task Transfer for Geotagged Audiovisual Aerial Scene Recognition</title>
+      <link>/publication/cross-task-transfer-for-geotagged-audiovisual-aerial-scene-recognition/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/cross-task-transfer-for-geotagged-audiovisual-aerial-scene-recognition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Curriculum Audiovisual Learning</title>
+      <link>/publication/curriculum-audiovisual-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/curriculum-audiovisual-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cyclic Co-Learning of Sounding Object Visual Grounding and Sound Separation</title>
+      <link>/publication/cyclic-co-learning-of-sounding-object-visual-grounding-and-sound-separation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/cyclic-co-learning-of-sounding-object-visual-grounding-and-sound-separation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Multimodal Clustering for Unsupervised Audiovisual Learning Representation</title>
+      <link>/publication/deep-multimodal-clustering-for-unsupervised-audiovisual-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/deep-multimodal-clustering-for-unsupervised-audiovisual-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dense Multimodal Fusion for Hierarchically Joint Representation</title>
+      <link>/publication/dense-multimodal-fusion-for-hierarchically-joint-representation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/dense-multimodal-fusion-for-hierarchically-joint-representation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Discriminative Sounding Objects Localization via Self-supervised Audiovisual Matching</title>
+      <link>/publication/discriminative-sounding-objects-localization-via-self-supervised-audiovisual-matching/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/discriminative-sounding-objects-localization-via-self-supervised-audiovisual-matching/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Does Ambient Sound Help? - Audiovisual Crowd Counting</title>
+      <link>/publication/does-ambient-sound-help_-audiovisual-crowd-counting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/does-ambient-sound-help_-audiovisual-crowd-counting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient Quantification of Multimodal Interaction at Sample Level</title>
+      <link>/publication/efficient-quantification-of-multimodal-interaction-at-sample-level/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/efficient-quantification-of-multimodal-interaction-at-sample-level/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploiting Visual Context Semantics for Sound Source Localization</title>
+      <link>/publication/exploiting-visual-context-semantics-for-sound-source-localization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/exploiting-visual-context-semantics-for-sound-source-localization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Heterogeneous Scene Analysis via Self-supervised Audiovisual Learning</title>
+      <link>/publication/heterogeneous-scene-analysis-via-self-supervised-audiovisual-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/heterogeneous-scene-analysis-via-self-supervised-audiovisual-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Image2song: Song Retrieval via Bridging Image Content and Lyric Words</title>
+      <link>/publication/image2song-song-retrieval-via-bridging-image-content-and-lyric-words/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/image2song-song-retrieval-via-bridging-image-content-and-lyric-words/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning in Audio-visual Context: A Review, Analysis, and New Perspective</title>
+      <link>/publication/learning-in-audio-visual-context_-a-review-analysis-and-new-perspective/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/learning-in-audio-visual-context_-a-review-analysis-and-new-perspective/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning to Answer Questions in Dynamic Audio-Visual Scenarios</title>
+      <link>/publication/learning-to-answer-questions-in-dynamic-audio-visual-scenarios/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/learning-to-answer-questions-in-dynamic-audio-visual-scenarios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Listen to the Image</title>
+      <link>/publication/listen-to-the-image/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/listen-to-the-image/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MMPareto: Innocent Uni-modal Assistance for Enhanced Multi-modal Learning</title>
+      <link>/publication/mmpareto_-innocent-uni-modal-assistance-for-enhanced-multi-modal-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/mmpareto_-innocent-uni-modal-assistance-for-enhanced-multi-modal-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-Scale Attention for Audio Question Answering</title>
+      <link>/publication/multi-scale-attention-for-audio-question-answering/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/multi-scale-attention-for-audio-question-answering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multiple Sound Sources Localization from Coarse to Fine</title>
+      <link>/publication/multiple-sound-sources-localization-from-coarse-to-fine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/multiple-sound-sources-localization-from-coarse-to-fine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Progressive Spatio-temporal Perception for Audio-Visual Question Answering</title>
+      <link>/publication/progressive-spatio-temporal-perception-for-audio-visual-question-answering/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/progressive-spatio-temporal-perception-for-audio-visual-question-answering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prompting Segmentation with Sound is Generalizable Audio-Visual Source Localizer</title>
+      <link>/publication/prompting-segmentation-with-sound-is-generalizable-audio-visual-source-localizer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/prompting-segmentation-with-sound-is-generalizable-audio-visual-source-localizer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ref-AVS: Refer and Segment Objects in Audio-Visual Scenes</title>
+      <link>/publication/ref-avs_-refer-and-segment-objects-in-audio-visual-scenes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/ref-avs_-refer-and-segment-objects-in-audio-visual-scenes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Revisiting Pre-training in Audio-Visual Learning</title>
+      <link>/publication/revisiting-pre-training-in-audio-visual-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/revisiting-pre-training-in-audio-visual-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reviving the Cooperation Dynamics in Multimodal Transformer</title>
+      <link>/publication/reviving-the-cooperation-dynamics-in-multimodal-transformer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/reviving-the-cooperation-dynamics-in-multimodal-transformer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robust Cross-modal Knowledge Distillation for Unconstrained Videos</title>
+      <link>/publication/robust-cross-modal-knowledge-distillation-for-unconstrained-videos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/robust-cross-modal-knowledge-distillation-for-unconstrained-videos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SeCo: Separating Unknown Musical Visual Sounds with Consistency Guidance</title>
+      <link>/publication/seco_-separating-unknown-musical-visual-sounds-with-consistency-guidance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/seco_-separating-unknown-musical-visual-sounds-with-consistency-guidance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Self-supervised Audiovisual Representation Learning for Remote Sensing Data</title>
+      <link>/publication/self-supervised-audiovisual-representation-learning-for-remote-sensing-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/self-supervised-audiovisual-representation-learning-for-remote-sensing-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Self-supervised Learning for Heterogeneous Audiovisual Scene Analysis</title>
+      <link>/publication/self-supervised-learning-for-heterogeneous-audiovisual-scene-analysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/self-supervised-learning-for-heterogeneous-audiovisual-scene-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SepFusion: Finding Optimal Fusion Structures for Visual Sound Separation</title>
+      <link>/publication/sepfusion_-finding-optimal-fusion-structures-for-visual-sound-separation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/sepfusion_-finding-optimal-fusion-structures-for-visual-sound-separation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SphereDiffusion: Spherical Geometry-aware Distortion Resilient Diffusion Model</title>
+      <link>/publication/spherediffusion_-spherical-geometry-aware-distortion-resilient-diffusion-model/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/spherediffusion_-spherical-geometry-aware-distortion-resilient-diffusion-model/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stepping Stones: A Progressive Training Strategy for Audio-Visual Semantic Segmentation</title>
+      <link>/publication/stepping-stones_-a-progressive-training-strategy-for-audio-visual-semantic-segmentation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/stepping-stones_-a-progressive-training-strategy-for-audio-visual-semantic-segmentation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Supervised Knowledge May Hurt Novel Class Discovery Performance</title>
+      <link>/publication/supervised-knowledge-may-hurt-novel-class-discovery-performance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/supervised-knowledge-may-hurt-novel-class-discovery-performance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Temporal Multimodal Learning in Audiovisual Speech Recognition</title>
+      <link>/publication/temporal-multimodal-learning-in-audiovisual-speech-recognition/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/temporal-multimodal-learning-in-audiovisual-speech-recognition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Temporal Relational Modeling with Self-Supervision for Action Segmentation</title>
+      <link>/publication/temporal-relational-modeling-with-self-supervision-for-action-segmentation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/temporal-relational-modeling-with-self-supervision-for-action-segmentation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TikTalk: A Video-Based Dialogue Dataset for Multi-Modal Chitchat in Real World</title>
+      <link>/publication/tiktalk_-a-video-based-dialogue-dataset-for-multi-modal-chitchat-in-real-world/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/tiktalk_-a-video-based-dialogue-dataset-for-multi-modal-chitchat-in-real-world/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards Long Form Audio-visual Video Understanding</title>
+      <link>/publication/towards-long-form-audio-visual-video-understanding/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/towards-long-form-audio-visual-video-understanding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unveiling and Mitigating Bias in Audio Visual Segmentation</title>
+      <link>/publication/unveiling-and-mitigating-bias-in-audio-visual-segmentation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/unveiling-and-mitigating-bias-in-audio-visual-segmentation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visual Sound Localization in-the-Wild by Cross-Modal Interference Erasing</title>
+      <link>/publication/visual-sound-localization-in-the-wild-by-cross-modal-interference-erasing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/visual-sound-localization-in-the-wild-by-cross-modal-interference-erasing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>🔥Crab: A Unified Audio-Visual Scene Understanding Model with Explicit Cooperation</title>
+      <link>/publication/crab-a-unified-audio-visual-scene-understanding-model-with-explicit-cooperation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/crab-a-unified-audio-visual-scene-understanding-model-with-explicit-cooperation/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

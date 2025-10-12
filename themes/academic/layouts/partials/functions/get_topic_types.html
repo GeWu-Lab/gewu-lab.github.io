@@ -1,0 +1,6 @@
+{{/* Get Topics Types */}}
+{{ $topic_types := slice }}
+{{ range site.Data.topic_types.types }}
+  {{ $topic_types = $topic_types | append (i18n . | default "Uncategorized") }}
+{{ end }}
+{{ return $topic_types }}

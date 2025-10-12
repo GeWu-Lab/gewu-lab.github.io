@@ -1,0 +1,19 @@
+{{ $is_list := .is_list }}
+{{ $page := .page }}
+
+<div class="article-metadata">
+
+  {{/* If `authors` is set and is not empty. */}}
+  {{ if $page.Params.authors }}
+  {{ $authorLen := len $page.Params.authors }}
+  {{ if gt $authorLen 0 }}
+  <div>
+    {{ partial "page_metadata_authors" $page }}
+  </div>
+  <div>
+    <span>{{ $page.Params.publication | markdownify }}</span>
+  </div>
+  {{ end }}
+  {{ end }}
+
+</div>

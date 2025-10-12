@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xincheng Pang | GeWu-Lab</title>
+    <link>/authors/xincheng-pang/</link>
+      <atom:link href="/authors/xincheng-pang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Xincheng Pang</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2025 GeWu-Lab</copyright>
+    <image>
+      <url>/img/logo.png</url>
+      <title>Xincheng Pang</title>
+      <link>/authors/xincheng-pang/</link>
+    </image>
+    
+    <item>
+      <title>Balanced Audiovisual Dataset for Imbalance Analysis</title>
+      <link>/publication/balanced-audiovisual-dataset-for-imbalance-analysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/balanced-audiovisual-dataset-for-imbalance-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Depth Helps: Improving Pre-trained RGB-based Policy with Depth Information Injection</title>
+      <link>/publication/depth-helps_-improving-pre-trained-rgb-based-policy-with-depth-information-injection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/depth-helps_-improving-pre-trained-rgb-based-policy-with-depth-information-injection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kinematic-aware Prompting for Generalizable Articulated Object Manipulation with LLMs</title>
+      <link>/publication/kinematic-aware-prompting-for-generalizable-articulated-object-manipulation-with-llms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/kinematic-aware-prompting-for-generalizable-articulated-object-manipulation-with-llms/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

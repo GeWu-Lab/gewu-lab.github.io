@@ -1,0 +1,94 @@
+{{/* News Widget */}}
+
+{{/* Initialise */}}
+{{ $ := .root }}
+{{ $page := .page }}
+
+<style>
+/* 添加样式：整体居中，并设置大间距 */
+.network-icon {
+  /* 确保列表是 Flex 容器 */
+  display: flex !important; 
+  
+  /* 关键修改 1：将图标整体居中 */
+  justify-content: center !important; 
+  
+  /* 关键修改 2：使用 gap 属性设置图标之间的固定间距 */
+  /* 你可以根据需要调整 40px 这个值 */
+  gap: 40px !important; 
+  
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+</style>
+
+<div class="row">
+    <div class="col-6 mx-auto col-md-6 order-md-1" style="display: flex; flex-direction: column; align-items: center;">
+        
+        <img src="{{ printf "img/%s" $page.Params.direction_img | relURL }}" alt="" style="max-width: 100%; height: auto; margin-bottom: 20px;">
+        
+        <div style="width: 100%;">
+            <ul class="network-icon" aria-hidden="true">            
+                <li style="width: 60px;">
+                    <a href="https://www.zhihu.com/people/GeWu-Lab" target="_blank" rel="noopener">
+                    <i class="fab fa-zhihu big-icon"></i>
+                    </a>
+                </li> 
+                <li style="width: 60px;">
+                    <a href="https://github.com/GeWu-Lab" target="_blank" rel="noopener">
+                    <i class="fab fa-github big-icon"></i>
+                    </a>
+                </li>            
+                <li style="width: 60px;">
+                    <a href="mailto:dihu@ruc.edu.cn">
+                        <i class="fas fa-envelope big-icon"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+
+    <div></div>
+    <div class="col-md-6 order-md-2" style="border-radius:20px; box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2); transition: all 0.2s ease-out;">
+        <h2>News</h2>
+        <hr/>
+        <div style="height: 250px; margin-top: 20px; overflow:auto">
+            {{ range $index, $item := $page.Params.item }}
+            <a href="{{ $item.link }}" target="_blank">{{ $item.title }}</a>  
+            <p style="color: {{ $item.subtitle_color }};">{{ $item.subtitle }}</p>
+            {{ end }}
+            {{ $page.Content }}
+        </div>
+    </div>
+</div>
+
+<!-- <div>
+    <br>
+    <br>
+    <div style="display: flex; align-items: center;">
+        <h2><a> Recent highlight works </a></h2>
+    </div>
+</div>
+
+<div class="row">
+    <div><h4>
+        &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://gewu-lab.github.io/llm_for_articulated_object_manipulation/">Kinematic-aware Prompting for Generalizable Articulated Object Manipulation with LLMs</a>
+    </h4></div>
+    <div  class="col-6 mx-auto col-md-6 order-md-1" style="display: flex; align-items: center;">
+        <video width="320" height="240" controls>
+            <source src="{{ printf "img/%s" $page.Params.robotic_video | relURL }}" type="video/mp4">
+          </video>
+    </div>
+    <div  class="col-6 mx-auto col-md-6 order-md-1" style="display: flex; align-items: center;">
+        <video width="320" height="240" controls>
+            <source src="{{ printf "img/%s" $page.Params.robotic_video_2 | relURL }}" type="video/mp4">
+          </video>
+    </div> -->
+
+
+
+
+
+

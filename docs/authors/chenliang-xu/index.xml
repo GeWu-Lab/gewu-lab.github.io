@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chenliang Xu | GeWu-Lab</title>
+    <link>/authors/chenliang-xu/</link>
+      <atom:link href="/authors/chenliang-xu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Chenliang Xu</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2025 GeWu-Lab</copyright>
+    <image>
+      <url>/img/logo.png</url>
+      <title>Chenliang Xu</title>
+      <link>/authors/chenliang-xu/</link>
+    </image>
+    
+    <item>
+      <title>Co-Learn Sounding Object Visual Grounding and Visually Indicated Sound Separation in A Cycle</title>
+      <link>/publication/co-learn-sounding-object-visual-grounding-and-visually-indicated-sound-separation-in-a-cycle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/co-learn-sounding-object-visual-grounding-and-visually-indicated-sound-separation-in-a-cycle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cyclic Co-Learning of Sounding Object Visual Grounding and Sound Separation</title>
+      <link>/publication/cyclic-co-learning-of-sounding-object-visual-grounding-and-sound-separation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/cyclic-co-learning-of-sounding-object-visual-grounding-and-sound-separation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning to Answer Questions in Dynamic Audio-Visual Scenarios</title>
+      <link>/publication/learning-to-answer-questions-in-dynamic-audio-visual-scenarios/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/learning-to-answer-questions-in-dynamic-audio-visual-scenarios/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

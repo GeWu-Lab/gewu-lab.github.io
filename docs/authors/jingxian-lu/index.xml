@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jingxian Lu | GeWu-Lab</title>
+    <link>/authors/jingxian-lu/</link>
+      <atom:link href="/authors/jingxian-lu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jingxian Lu</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2025 GeWu-Lab</copyright>
+    <image>
+      <url>/img/logo.png</url>
+      <title>Jingxian Lu</title>
+      <link>/authors/jingxian-lu/</link>
+    </image>
+    
+    <item>
+      <title>KOI: Accelerating Online Imitation Learning via Hybrid Key-state Guidance</title>
+      <link>/publication/koi_-accelerating-online-imitation-learning-via-hybrid-key-state-guidance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/koi_-accelerating-online-imitation-learning-via-hybrid-key-state-guidance/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

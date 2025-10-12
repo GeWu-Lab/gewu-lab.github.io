@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Minyue Jiang | GeWu-Lab</title>
+    <link>/authors/minyue-jiang/</link>
+      <atom:link href="/authors/minyue-jiang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Minyue Jiang</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2025 GeWu-Lab</copyright>
+    <image>
+      <url>/img/logo.png</url>
+      <title>Minyue Jiang</title>
+      <link>/authors/minyue-jiang/</link>
+    </image>
+    
+    <item>
+      <title>Discriminative Sounding Objects Localization via Self-supervised Audiovisual Matching</title>
+      <link>/publication/discriminative-sounding-objects-localization-via-self-supervised-audiovisual-matching/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/discriminative-sounding-objects-localization-via-self-supervised-audiovisual-matching/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

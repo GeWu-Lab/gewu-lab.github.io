@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wenke Xia | GeWu-Lab</title>
+    <link>/authors/wenke-xia/</link>
+      <atom:link href="/authors/wenke-xia/index.xml" rel="self" type="application/rss+xml" />
+    <description>Wenke Xia</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2025 GeWu-Lab</copyright>
+    <image>
+      <url>/img/logo.png</url>
+      <title>Wenke Xia</title>
+      <link>/authors/wenke-xia/</link>
+    </image>
+    
+    <item>
+      <title>AnyTouch: Learning Unified Static-Dynamic Representation across Multiple Visuo-tactile Sensors</title>
+      <link>/publication/anytouch-learning-unified-static-dynamic-representation-across-multiple-visuo-tactile-sensors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/anytouch-learning-unified-static-dynamic-representation-across-multiple-visuo-tactile-sensors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Balanced Audiovisual Dataset for Imbalance Analysis</title>
+      <link>/publication/balanced-audiovisual-dataset-for-imbalance-analysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/balanced-audiovisual-dataset-for-imbalance-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Depth Helps: Improving Pre-trained RGB-based Policy with Depth Information Injection</title>
+      <link>/publication/depth-helps_-improving-pre-trained-rgb-based-policy-with-depth-information-injection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/depth-helps_-improving-pre-trained-rgb-based-policy-with-depth-information-injection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kinematic-aware Prompting for Generalizable Articulated Object Manipulation with LLMs</title>
+      <link>/publication/kinematic-aware-prompting-for-generalizable-articulated-object-manipulation-with-llms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/kinematic-aware-prompting-for-generalizable-articulated-object-manipulation-with-llms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>KOI: Accelerating Online Imitation Learning via Hybrid Key-state Guidance</title>
+      <link>/publication/koi_-accelerating-online-imitation-learning-via-hybrid-key-state-guidance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/koi_-accelerating-online-imitation-learning-via-hybrid-key-state-guidance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Phoenix: A Motion-based Self-Reflection Framework for Fine-grained Robotic Action Correction</title>
+      <link>/publication/phoenix-a-motion-based-self-reflection-framework-for-fine-grained-robotic-action-correction-/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/phoenix-a-motion-based-self-reflection-framework-for-fine-grained-robotic-action-correction-/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Revisiting Pre-training in Audio-Visual Learning</title>
+      <link>/publication/revisiting-pre-training-in-audio-visual-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/revisiting-pre-training-in-audio-visual-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robust Cross-modal Knowledge Distillation for Unconstrained Videos</title>
+      <link>/publication/robust-cross-modal-knowledge-distillation-for-unconstrained-videos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/robust-cross-modal-knowledge-distillation-for-unconstrained-videos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TikTalk: A Video-Based Dialogue Dataset for Multi-Modal Chitchat in Real World</title>
+      <link>/publication/tiktalk_-a-video-based-dialogue-dataset-for-multi-modal-chitchat-in-real-world/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/tiktalk_-a-video-based-dialogue-dataset-for-multi-modal-chitchat-in-real-world/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>🔥Robotic Policy Learning via Human-assisted Action Preference Optimization</title>
+      <link>/publication/robotic-policy-learning-via-human-assisted-action-preference-optimization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/robotic-policy-learning-via-human-assisted-action-preference-optimization/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

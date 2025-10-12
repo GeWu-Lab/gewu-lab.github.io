@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Henghui Du | GeWu-Lab</title>
+    <link>/authors/henghui-du/</link>
+      <atom:link href="/authors/henghui-du/index.xml" rel="self" type="application/rss+xml" />
+    <description>Henghui Du</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2025 GeWu-Lab</copyright>
+    <image>
+      <url>/img/logo.png</url>
+      <title>Henghui Du</title>
+      <link>/authors/henghui-du/</link>
+    </image>
+    
+    <item>
+      <title>Boosting Audio Visual Question Answering via Key Semantic-Aware Cues</title>
+      <link>/publication/boosting-audio-visual-question-answering-via-key-semantic-aware-cues/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/boosting-audio-visual-question-answering-via-key-semantic-aware-cues/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On-the-fly Modulation for Balanced Multimodal Learning</title>
+      <link>/publication/on-the-fly-modulation-for-balanced-multimodal-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/on-the-fly-modulation-for-balanced-multimodal-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>🔥Crab: A Unified Audio-Visual Scene Understanding Model with Explicit Cooperation</title>
+      <link>/publication/crab-a-unified-audio-visual-scene-understanding-model-with-explicit-cooperation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/crab-a-unified-audio-visual-scene-understanding-model-with-explicit-cooperation/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

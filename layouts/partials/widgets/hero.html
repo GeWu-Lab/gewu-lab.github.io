@@ -1,0 +1,62 @@
+{{ $ := .root }}
+{{ $page := .page }}
+{{ $bg := $page.Params.design.background }}
+
+{{ if $page.Params.hero_media }}
+<div class="row">
+<div class="col-md-6 order-md-1 text-center text-md-left" style="display: flex; flex-direction: column; justify-content: center;">
+{{ end }}
+
+
+{{ with $page.Content }}
+<div class="hero-lead" style="font-size: 25px; color: {{ $page.Params.content_color  }}">{{ . }}</div>
+{{ end }}
+
+<div>
+    <ul class="network-icon" aria-hidden="true">
+        {{ range $page.Params.cta }}
+            {{ $pack := or .icon_pack "fas" }}
+            {{ $pack_prefix := $pack }}
+            {{ if in (slice "fab" "fas" "far" "fal") $pack }}
+                {{ $pack_prefix = "fa" }}
+            {{ end }}
+            {{ $link := .url }}
+            {{ $scheme := (urls.Parse $link).Scheme }}
+            {{ $target := "" }}
+            {{ if not $scheme }}
+                {{ $link = .link | relLangURL }}
+            {{ else if in (slice "http" "https") $scheme }}
+                {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+            {{ end }}
+            <li style="width: 60px;">
+                <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}>
+                <i class="{{ $pack }} {{ $pack_prefix }}-{{ .icon }} big-icon"></i>
+                </a>
+            </li>
+        {{ end }}
+
+        {{ if $page.Params.email.url }}
+            {{ $pack := or $page.Params.email.icon_pack "fas" }}
+            {{ $pack_prefix := $pack }}
+            {{ if in (slice "fab" "fas" "far" "fal") $pack }}
+                {{ $pack_prefix = "fa" }}
+            {{ end }}
+            {{ $link := $page.Params.email.url }}
+            <li style="width: 60px;">
+                <a  href="mailto:{{ $link }}">
+                    <i class="{{ $pack }} {{ $pack_prefix }}-{{ $page.Params.email.icon }} big-icon"></i>
+                </a>
+            </li>
+        {{ end }}
+    </ul>
+</div>
+
+
+{{/* Hero image */}}
+{{ if $page.Params.hero_media }}
+</div>
+<div class="col-6 mx-auto col-md-6 order-md-2 hero-media">
+    <img src="{{ printf "img/%s" $page.Params.hero_media | relURL }}" alt="" style="max-width: 70%">
+</div>
+</div>
+{{ end }}

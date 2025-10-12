@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 | GeWu-Lab</title>
+    <link>/topic_types/2/</link>
+      <atom:link href="/topic_types/2/index.xml" rel="self" type="application/rss+xml" />
+    <description>2</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2025 GeWu-Lab</copyright>
+    <image>
+      <url>/img/logo.png</url>
+      <title>2</title>
+      <link>/topic_types/2/</link>
+    </image>
+    
+    <item>
+      <title>AnyTouch: Learning Unified Static-Dynamic Representation across Multiple Visuo-tactile Sensors</title>
+      <link>/publication/anytouch-learning-unified-static-dynamic-representation-across-multiple-visuo-tactile-sensors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/anytouch-learning-unified-static-dynamic-representation-across-multiple-visuo-tactile-sensors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Depth Helps: Improving Pre-trained RGB-based Policy with Depth Information Injection</title>
+      <link>/publication/depth-helps_-improving-pre-trained-rgb-based-policy-with-depth-information-injection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/depth-helps_-improving-pre-trained-rgb-based-policy-with-depth-information-injection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kinematic-aware Prompting for Generalizable Articulated Object Manipulation with LLMs</title>
+      <link>/publication/kinematic-aware-prompting-for-generalizable-articulated-object-manipulation-with-llms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/kinematic-aware-prompting-for-generalizable-articulated-object-manipulation-with-llms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>KOI: Accelerating Online Imitation Learning via Hybrid Key-state Guidance</title>
+      <link>/publication/koi_-accelerating-online-imitation-learning-via-hybrid-key-state-guidance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/koi_-accelerating-online-imitation-learning-via-hybrid-key-state-guidance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Phoenix: A Motion-based Self-Reflection Framework for Fine-grained Robotic Action Correction</title>
+      <link>/publication/phoenix-a-motion-based-self-reflection-framework-for-fine-grained-robotic-action-correction-/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/phoenix-a-motion-based-self-reflection-framework-for-fine-grained-robotic-action-correction-/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>🔥Play to the Score: Stage-Guided Dynamic Multi-Sensory Fusion for Robotic Manipulation</title>
+      <link>/publication/play-to-the-score_-stage-guided-dynamic-multi-sensory-fusion-for-robotic-manipulation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/play-to-the-score_-stage-guided-dynamic-multi-sensory-fusion-for-robotic-manipulation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>🔥Robotic Policy Learning via Human-assisted Action Preference Optimization</title>
+      <link>/publication/robotic-policy-learning-via-human-assisted-action-preference-optimization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/robotic-policy-learning-via-human-assisted-action-preference-optimization/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

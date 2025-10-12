@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xinchi Zhou | GeWu-Lab</title>
+    <link>/authors/xinchi-zhou/</link>
+      <atom:link href="/authors/xinchi-zhou/index.xml" rel="self" type="application/rss+xml" />
+    <description>Xinchi Zhou</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2025 GeWu-Lab</copyright>
+    <image>
+      <url>/img/logo.png</url>
+      <title>Xinchi Zhou</title>
+      <link>/authors/xinchi-zhou/</link>
+    </image>
+    
+    <item>
+      <title>Exploiting Visual Context Semantics for Sound Source Localization</title>
+      <link>/publication/exploiting-visual-context-semantics-for-sound-source-localization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/exploiting-visual-context-semantics-for-sound-source-localization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SeCo: Separating Unknown Musical Visual Sounds with Consistency Guidance</title>
+      <link>/publication/seco_-separating-unknown-musical-visual-sounds-with-consistency-guidance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/seco_-separating-unknown-musical-visual-sounds-with-consistency-guidance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SepFusion: Finding Optimal Fusion Structures for Visual Sound Separation</title>
+      <link>/publication/sepfusion_-finding-optimal-fusion-structures-for-visual-sound-separation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/sepfusion_-finding-optimal-fusion-structures-for-visual-sound-separation/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

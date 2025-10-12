@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="generator" content="Source Themes Academic 4.6.3">
+  
+    
+  
+    
+    
+    
+    
+    
+      
+      
+      
+    
+    
+  
+    <meta name="author" content="Ruize Xu">
+  
+    
+    
+    
+      
+    
+    <meta name="description" content="GeWu Lab is working on how to develop more effectively cross-modal encoding scheme for the disable people with AI technique and this project is trying to help more blind-friends in China Mainland.">
+  
+    
+    <link rel="alternate" hreflang="en-us" href="/project/5_sensory-substitution-for-the-blind/">
+  
+    
+
+
+    
+    
+    
+    <meta name="theme-color" content="#2962ff">
+    
+  
+    
+    
+    
+    
+      
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+  
+      
+      
+      
+        
+      
+      
+        
+        
+          
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+          
+        
+      
+  
+      
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+      
+  
+      
+  
+    
+  
+    
+    
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+    
+  
+    
+    
+    
+    
+    <link rel="stylesheet" href="/css/academic.css">
+  
+    
+
+
+
+
+    
+
+  
+    
+    <link rel="alternate" href="/project/5_sensory-substitution-for-the-blind/index.xml" type="application/rss+xml" title="GeWu-Lab">
+    
+  
+    <link rel="manifest" href="/index.webmanifest">
+    <link rel="icon" type="image/png" href="/img/icon-32.png">
+    <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+  
+    <link rel="canonical" href="/project/5_sensory-substitution-for-the-blind/">
+  
+    
+    
+    
+    
+      
+    
+    
+    <meta property="twitter:card" content="summary_large_image">
+    
+    <meta property="og:site_name" content="GeWu-Lab">
+    <meta property="og:url" content="/project/5_sensory-substitution-for-the-blind/">
+    <meta property="og:title" content="Sensory Substitution for the Blind | GeWu-Lab">
+    <meta property="og:description" content="GeWu Lab is working on how to develop more effectively cross-modal encoding scheme for the disable people with AI technique and this project is trying to help more blind-friends in China Mainland."><meta property="og:image" content="/project/5_sensory-substitution-for-the-blind/featured.jpg">
+    <meta property="twitter:image" content="/project/5_sensory-substitution-for-the-blind/featured.jpg"><meta property="og:locale" content="en-us">
+    
+      
+    
+  
+    
+
+
+
+  
+    
+
+  
+    
+
+
+
+
+  
+    
+    <title>GeWu-Lab</title>
+  
+  </head>
+  
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/"><div style="display: flex; align-items: center;">
+            <img src="/img/logo.png" alt="GeWu-Lab" style="zoom:80%;">
+            <div style="margin-left: 20px; color: #2C298B; letter-spacing: 2px">GeWu-Lab</div>
+          </div></a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/"><img src="/img/logo.png" alt="GeWu-Lab"></a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#hero"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/member/"><span>Members</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/publication/"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/dataset/"><span>Datasets</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/blog/"><span>Blog</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/gallery/"><span>Gallery</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+<div class="article-container pt-3">
+  <h1>Sensory Substitution for the Blind</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+
+</div>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 353px;">
+  <div style="position: relative">
+    <img src="/project/5_sensory-substitution-for-the-blind/featured_hubebe4b9dfe3df6476b40789754506c9d_123876_720x0_resize_q90_lanczos.jpg" alt="" class="featured-image">
+    
+  </div>
+</div>
+
+
+
+
+
+<div class="universal-wrapper">
+  
+  <div class="article-style">
+
+<p>Although this is a difficult task, Assistant Profesor Di Hu and his students of GeWu-Lab are trying to help the visually impaired friends &ldquo;see&rdquo; the world again. By chance, Mr. Di Hu met Luis Goncalves, the developer of The vOICe (OIC is &ldquo;oh! I see&rdquo;) when he attended academic conferences abroad. After some communication, he was deeply moved by Mr. Goncalves as a front-line researcher, the helping behavior to the visually impaired and the sincere desire to benefit the visually impaired.</p>
+
+<p>Since then, close relationship has been established, and cooperation in this field has driven the improvement of related technologies[1]. Mr. Di Hu noticed that compared with developed countries in the West, there are relatively few organizations to protect the rights and interests of special groups in China. Due to the difference in life and communication scope, the major society does not understand the difficulties and needs faced by the visually impaired friends around them. There is a need for more organizations and individuals devoting abilities and actions to take on social responsibilities, walk into them, understand them, combine science and technology with humanistic care, and implement the dividends of technological progress to those who really need help.</p>
+
+<h4 id="ssd-technology-research-make-the-visually-disabled-see-the-world-again">SSD Technology Research—make the visually disabled ‘see’ the world again</h4>
+
+<p>Biomedicine and cognitive neuroscience have gradually discovered that there are close connections between different functional areas of the human cerebral cortex, such as the phenomenon of multi-channel perception: when we eat an apple, the brain naturally associates the appearance, aroma, taste, etc. The information comes together to help us get a complete picture of Apple. We know that regardless of the type of external signals, they are captured by the body&rsquo;s receptors and then converted into chemical substances or pulses for transmission in the body. There is no difference in the form of different signals.</p>
+
+<p>Since the main cause of blindness is various eye diseases, most of the visual cortex should be intact. Then maybe there is this possibility: in these areas where there is multi-channel perception, because the different signals have the same form, other signals can also be transmitted in the visual pathway. If other signals are sent to the visual center, the brain also interprets them as images. In other words, a blind person can “make up” an image of a flower by hearing a piece of audio, or &ldquo;see&rdquo; an apple by smelling the scent of an apple.</p>
+
+<p><img src="1.jpg" alt="img" />
+<center>Schematic representation of cerebral cortical activation in a blind and control group capable of echolocation</center></p>
+
+<p>In fact, there are already many blind people who rely on methods such as tapping on a cane and stomping their feet to echolocate (like bats) to be able to recognize scenes to help them walk. Some scientists have conducted brain MRI studies on blind people who &ldquo;see&rdquo; their surroundings through their ears [2]. It was found that when the blind people heard the echolocation recordings, their primary visual cortex was activated, but the auditory cortex was not. And that doesn&rsquo;t happen in ordinary people. This finding provides a strong physiological basis for helping blind people &ldquo;see&rdquo; their surroundings through other senses.</p>
+
+<p>Over the past few decades, there have been a number of projects trying to help people with disabilities regain lost senses through other sensory pathways, known as sensory replacement devices. One of the main ones we use is The vOICe.</p>
+
+<p><img src="2.jpg" alt="img2" />
+<center>Di Hu (left) and The vOICe developer Luis Goncalves (right)</center></p>
+
+<h4 id="social-welfare-practice-make-ai-repay-the-society-we-are-in-the-way">Social Welfare Practice — make AI repay the society, we are in the way</h4>
+
+<p>The goal of the GeWu-Lab is &ldquo;make AI warm&rdquo;. We hope that technology can truly benefit people&rsquo;s lives and make technology better. We also hope that more and more people will pay more attention to what we are doing, pay attention to the visually impaired, a group that needs help and respect, and can do even a little bit of dedication for them. At present, Mr. Hu Di and his students Xiaokang Peng, Zhaoyang Yu, Yake Wei have established cooperation with organizations such as the Beijing Disabled Persons&rsquo; Foundation, and contacted several visually impaired volunteers to conduct testing experiments.</p>
+
+<p><img src="3.png" alt="img3" />
+<center>Xiaokang Peng was debugging the equipment, Zhaoyang Yu took a photo with visually impaired friend</center></p>
+
+<p>From understanding the most real needs of blind friends, to providing supporting blind aid equipment and use guidance for free, and accepting feedback on use and summarizing carefully. In addition, the students in the lab also actively participated in the &ldquo;Asimov Innovation Project&rdquo;, hoping to draw more people&rsquo;s attention to the real needs of the disabled. The strength of an individual may be small, but the original intention of wishing to benefit mankind and contributing to society has never changed. The destination is far, but we are already in the way.</p>
+
+<h4 id="related-links">Related Links</h4>
+
+<p><a href="https://zhuanlan.zhihu.com/p/303239531" target="_blank">The vOICe 知乎介绍</a></p>
+
+<p><a href="https://www.seeingwithsound.com/" target="_blank">The vOICe 官网</a></p>
+
+<p><a href="https://gewu-lab.github.io/" target="_blank">关于GeWu-Lab</a></p>
+
+<h4 id="reference">Reference</h4>
+
+<p>[1] D. Hu, D. Wang, X. Li, F. Nie and Q. Wang, “Listen to the Image , ” In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2019.
+[2] L. Thaler and M. A. Goodale, “Echolocation in humans: an overview,” Wiley Interdisciplinary Reviews: Cognitive Science, vol. 7, no. 6, pp. 382–393, 2016.</p>
+</div>
+  
+
+  
+  
+
+  
+
+</div>
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/js/academic.min.9bd6658f553ad8328726cf536e172917.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+    
+    <p class="powered-by">
+      copyright &copy; 2025 GeWu-Lab 
+      <br/>
+      
+      Gaoling School of Artificial Intelligence, Renmin University of China, Beijing 100872
+    </p>
+  </footer>
+  
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

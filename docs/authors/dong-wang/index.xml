@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dong Wang | GeWu-Lab</title>
+    <link>/authors/dong-wang/</link>
+      <atom:link href="/authors/dong-wang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Dong Wang</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2025 GeWu-Lab</copyright>
+    <image>
+      <url>/img/logo.png</url>
+      <title>Dong Wang</title>
+      <link>/authors/dong-wang/</link>
+    </image>
+    
+    <item>
+      <title>Balanced Multimodal Learning via On-the-fly Gradient Modulation</title>
+      <link>/publication/balanced-multimodal-learning-via-on-the-fly-gradient-modulation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/balanced-multimodal-learning-via-on-the-fly-gradient-modulation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Curriculum Audiovisual Learning</title>
+      <link>/publication/curriculum-audiovisual-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/curriculum-audiovisual-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Depth Helps: Improving Pre-trained RGB-based Policy with Depth Information Injection</title>
+      <link>/publication/depth-helps_-improving-pre-trained-rgb-based-policy-with-depth-information-injection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/depth-helps_-improving-pre-trained-rgb-based-policy-with-depth-information-injection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Heterogeneous Scene Analysis via Self-supervised Audiovisual Learning</title>
+      <link>/publication/heterogeneous-scene-analysis-via-self-supervised-audiovisual-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/heterogeneous-scene-analysis-via-self-supervised-audiovisual-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kinematic-aware Prompting for Generalizable Articulated Object Manipulation with LLMs</title>
+      <link>/publication/kinematic-aware-prompting-for-generalizable-articulated-object-manipulation-with-llms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/kinematic-aware-prompting-for-generalizable-articulated-object-manipulation-with-llms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>KOI: Accelerating Online Imitation Learning via Hybrid Key-state Guidance</title>
+      <link>/publication/koi_-accelerating-online-imitation-learning-via-hybrid-key-state-guidance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/koi_-accelerating-online-imitation-learning-via-hybrid-key-state-guidance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Listen to the Image</title>
+      <link>/publication/listen-to-the-image/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/listen-to-the-image/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Phoenix: A Motion-based Self-Reflection Framework for Fine-grained Robotic Action Correction</title>
+      <link>/publication/phoenix-a-motion-based-self-reflection-framework-for-fine-grained-robotic-action-correction-/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/phoenix-a-motion-based-self-reflection-framework-for-fine-grained-robotic-action-correction-/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Temporal Relational Modeling with Self-Supervision for Action Segmentation</title>
+      <link>/publication/temporal-relational-modeling-with-self-supervision-for-action-segmentation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/temporal-relational-modeling-with-self-supervision-for-action-segmentation/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

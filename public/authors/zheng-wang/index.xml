@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zheng Wang | GeWu-Lab</title>
+    <link>/authors/zheng-wang/</link>
+      <atom:link href="/authors/zheng-wang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Zheng Wang</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2025 GeWu-Lab</copyright>
+    <image>
+      <url>/img/logo.png</url>
+      <title>Zheng Wang</title>
+      <link>/authors/zheng-wang/</link>
+    </image>
+    
+    <item>
+      <title>Curriculum Audiovisual Learning</title>
+      <link>/publication/curriculum-audiovisual-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/curriculum-audiovisual-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Geometric-Inspired Graph-based Incomplete Multi-view Clustering</title>
+      <link>/publication/geometric-inspired-graph-based-incomplete-multi-view-clustering/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/geometric-inspired-graph-based-incomplete-multi-view-clustering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Heterogeneous Scene Analysis via Self-supervised Audiovisual Learning</title>
+      <link>/publication/heterogeneous-scene-analysis-via-self-supervised-audiovisual-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/heterogeneous-scene-analysis-via-self-supervised-audiovisual-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Self-supervised Learning for Heterogeneous Audiovisual Scene Analysis</title>
+      <link>/publication/self-supervised-learning-for-heterogeneous-audiovisual-scene-analysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/self-supervised-learning-for-heterogeneous-audiovisual-scene-analysis/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

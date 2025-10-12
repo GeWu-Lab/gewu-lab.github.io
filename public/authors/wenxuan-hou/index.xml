@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wenxuan Hou | GeWu-Lab</title>
+    <link>/authors/wenxuan-hou/</link>
+      <atom:link href="/authors/wenxuan-hou/index.xml" rel="self" type="application/rss+xml" />
+    <description>Wenxuan Hou</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2025 GeWu-Lab</copyright>
+    <image>
+      <url>/img/logo.png</url>
+      <title>Wenxuan Hou</title>
+      <link>/authors/wenxuan-hou/</link>
+    </image>
+    
+    <item>
+      <title>Progressive Spatio-temporal Perception for Audio-Visual Question Answering</title>
+      <link>/publication/progressive-spatio-temporal-perception-for-audio-visual-question-answering/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/progressive-spatio-temporal-perception-for-audio-visual-question-answering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards Long Form Audio-visual Video Understanding</title>
+      <link>/publication/towards-long-form-audio-visual-video-understanding/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/towards-long-form-audio-visual-video-understanding/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

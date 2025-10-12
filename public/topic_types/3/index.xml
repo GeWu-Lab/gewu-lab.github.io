@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3 | GeWu-Lab</title>
+    <link>/topic_types/3/</link>
+      <atom:link href="/topic_types/3/index.xml" rel="self" type="application/rss+xml" />
+    <description>3</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2025 GeWu-Lab</copyright>
+    <image>
+      <url>/img/logo.png</url>
+      <title>3</title>
+      <link>/topic_types/3/</link>
+    </image>
+    
+    <item>
+      <title>Deep Binary Reconstruction for Cross-modal Hashing</title>
+      <link>/publication/deep-binary-reconstruction-for-cross-modal-hashing-journal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/deep-binary-reconstruction-for-cross-modal-hashing-journal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Binary Reconstruction for Cross-modal Hashing</title>
+      <link>/publication/deep-binary-reconstruction-for-cross-modal-hashing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/deep-binary-reconstruction-for-cross-modal-hashing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Linear Discriminant Analysis Hashing</title>
+      <link>/publication/deep-linear-discriminant-analysis-hashing-supplemental-material/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/deep-linear-discriminant-analysis-hashing-supplemental-material/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Discrete Spectral Hashing for Efficient Similarity Retrieval</title>
+      <link>/publication/discrete-spectral-hashing-for-efficient-similarity-retrieval/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/discrete-spectral-hashing-for-efficient-similarity-retrieval/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Large Graph Hashing with Spectral Rotation</title>
+      <link>/publication/large-graph-hashing-with-spectral-rotation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/large-graph-hashing-with-spectral-rotation/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

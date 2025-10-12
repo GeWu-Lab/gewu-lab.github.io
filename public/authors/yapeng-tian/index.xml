@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yapeng Tian* | GeWu-Lab</title>
+    <link>/authors/yapeng-tian/</link>
+      <atom:link href="/authors/yapeng-tian/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yapeng Tian*</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2025 GeWu-Lab</copyright>
+    <image>
+      <url>/img/logo.png</url>
+      <title>Yapeng Tian*</title>
+      <link>/authors/yapeng-tian/</link>
+    </image>
+    
+    <item>
+      <title>Co-Learn Sounding Object Visual Grounding and Visually Indicated Sound Separation in A Cycle</title>
+      <link>/publication/co-learn-sounding-object-visual-grounding-and-visually-indicated-sound-separation-in-a-cycle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/co-learn-sounding-object-visual-grounding-and-visually-indicated-sound-separation-in-a-cycle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cyclic Co-Learning of Sounding Object Visual Grounding and Sound Separation</title>
+      <link>/publication/cyclic-co-learning-of-sounding-object-visual-grounding-and-sound-separation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/cyclic-co-learning-of-sounding-object-visual-grounding-and-sound-separation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning in Audio-visual Context: A Review, Analysis, and New Perspective</title>
+      <link>/publication/learning-in-audio-visual-context_-a-review-analysis-and-new-perspective/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/learning-in-audio-visual-context_-a-review-analysis-and-new-perspective/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning to Answer Questions in Dynamic Audio-Visual Scenarios</title>
+      <link>/publication/learning-to-answer-questions-in-dynamic-audio-visual-scenarios/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/learning-to-answer-questions-in-dynamic-audio-visual-scenarios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards Long Form Audio-visual Video Understanding</title>
+      <link>/publication/towards-long-form-audio-visual-video-understanding/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/towards-long-form-audio-visual-video-understanding/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xiaokang Peng* | GeWu-Lab</title>
+    <link>/authors/xiaokang-peng/</link>
+      <atom:link href="/authors/xiaokang-peng/index.xml" rel="self" type="application/rss+xml" />
+    <description>Xiaokang Peng*</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2025 GeWu-Lab</copyright>
+    <image>
+      <url>/img/logo.png</url>
+      <title>Xiaokang Peng*</title>
+      <link>/authors/xiaokang-peng/</link>
+    </image>
+    
+    <item>
+      <title>Balanced Multimodal Learning via On-the-fly Gradient Modulation</title>
+      <link>/publication/balanced-multimodal-learning-via-on-the-fly-gradient-modulation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/balanced-multimodal-learning-via-on-the-fly-gradient-modulation/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

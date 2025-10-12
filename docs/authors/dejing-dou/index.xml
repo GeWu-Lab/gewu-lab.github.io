@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dejing Dou | GeWu-Lab</title>
+    <link>/authors/dejing-dou/</link>
+      <atom:link href="/authors/dejing-dou/index.xml" rel="self" type="application/rss+xml" />
+    <description>Dejing Dou</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2025 GeWu-Lab</copyright>
+    <image>
+      <url>/img/logo.png</url>
+      <title>Dejing Dou</title>
+      <link>/authors/dejing-dou/</link>
+    </image>
+    
+    <item>
+      <title>Ambient Sound Helps: Audiovisual Crowd Counting in Extreme Conditions</title>
+      <link>/publication/ambient-sound-helps_-audiovisual-crowd-counting-in-extreme-conditions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/ambient-sound-helps_-audiovisual-crowd-counting-in-extreme-conditions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cross-Task Transfer for Geotagged Audiovisual Aerial Scene Recognition</title>
+      <link>/publication/cross-task-transfer-for-geotagged-audiovisual-aerial-scene-recognition/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/cross-task-transfer-for-geotagged-audiovisual-aerial-scene-recognition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Curriculum Audiovisual Learning</title>
+      <link>/publication/curriculum-audiovisual-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/curriculum-audiovisual-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Discriminative Sounding Objects Localization via Self-supervised Audiovisual Matching</title>
+      <link>/publication/discriminative-sounding-objects-localization-via-self-supervised-audiovisual-matching/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/discriminative-sounding-objects-localization-via-self-supervised-audiovisual-matching/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Does Ambient Sound Help? - Audiovisual Crowd Counting</title>
+      <link>/publication/does-ambient-sound-help_-audiovisual-crowd-counting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/does-ambient-sound-help_-audiovisual-crowd-counting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Heterogeneous Scene Analysis via Self-supervised Audiovisual Learning</title>
+      <link>/publication/heterogeneous-scene-analysis-via-self-supervised-audiovisual-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/heterogeneous-scene-analysis-via-self-supervised-audiovisual-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robust Cross-modal Knowledge Distillation for Unconstrained Videos</title>
+      <link>/publication/robust-cross-modal-knowledge-distillation-for-unconstrained-videos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/robust-cross-modal-knowledge-distillation-for-unconstrained-videos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Temporal Relational Modeling with Self-Supervision for Action Segmentation</title>
+      <link>/publication/temporal-relational-modeling-with-self-supervision-for-action-segmentation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/temporal-relational-modeling-with-self-supervision-for-action-segmentation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards Accurate Knowledge Transfer via Target-awareness Representation Disentanglement</title>
+      <link>/publication/towards-accurate-knowledge-transfer-via-target-awareness-representation-disentanglement/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/towards-accurate-knowledge-transfer-via-target-awareness-representation-disentanglement/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

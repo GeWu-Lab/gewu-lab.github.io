@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Di Hu | GeWu-Lab</title>
+    <link>/authors/di-hu/</link>
+      <atom:link href="/authors/di-hu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Di Hu</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2025 GeWu-Lab</copyright>
+    <image>
+      <url>/img/logo.png</url>
+      <title>Di Hu</title>
+      <link>/authors/di-hu/</link>
+    </image>
+    
+    <item>
+      <title>A Two-Stage Framework for Multiple Sound-Source Localization</title>
+      <link>/publication/a-two-stage-framework-for-multiple-sound-source-localization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/a-two-stage-framework-for-multiple-sound-source-localization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adaptive Unimodal Regulation for Balanced Multimodal Information Acquisition</title>
+      <link>/publication/adaptive-unimodal-regulation-for-balanced-multimodal-information-acquisition/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/adaptive-unimodal-regulation-for-balanced-multimodal-information-acquisition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ambient Sound Helps: Audiovisual Crowd Counting in Extreme Conditions</title>
+      <link>/publication/ambient-sound-helps_-audiovisual-crowd-counting-in-extreme-conditions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/ambient-sound-helps_-audiovisual-crowd-counting-in-extreme-conditions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AnyTouch: Learning Unified Static-Dynamic Representation across Multiple Visuo-tactile Sensors</title>
+      <link>/publication/anytouch-learning-unified-static-dynamic-representation-across-multiple-visuo-tactile-sensors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/anytouch-learning-unified-static-dynamic-representation-across-multiple-visuo-tactile-sensors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Balanced Audiovisual Dataset for Imbalance Analysis</title>
+      <link>/publication/balanced-audiovisual-dataset-for-imbalance-analysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/balanced-audiovisual-dataset-for-imbalance-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Balanced Multimodal Learning via On-the-fly Gradient Modulation</title>
+      <link>/publication/balanced-multimodal-learning-via-on-the-fly-gradient-modulation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/balanced-multimodal-learning-via-on-the-fly-gradient-modulation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Boosting Audio Visual Question Answering via Key Semantic-Aware Cues</title>
+      <link>/publication/boosting-audio-visual-question-answering-via-key-semantic-aware-cues/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/boosting-audio-visual-question-answering-via-key-semantic-aware-cues/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Can Textual Semantics Mitigate Sounding Object SegmentationPreference?</title>
+      <link>/publication/can-textual-semantics-mitigate-sounding-object-segmentationpreference_/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/can-textual-semantics-mitigate-sounding-object-segmentationpreference_/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Class-aware Sounding Objects Localization via Audiovisual Correspondence</title>
+      <link>/publication/class-aware-sounding-objects-localization-via-audiovisual-correspondence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/class-aware-sounding-objects-localization-via-audiovisual-correspondence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Co-Learn Sounding Object Visual Grounding and Visually Indicated Sound Separation in A Cycle</title>
+      <link>/publication/co-learn-sounding-object-visual-grounding-and-visually-indicated-sound-separation-in-a-cycle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/co-learn-sounding-object-visual-grounding-and-visually-indicated-sound-separation-in-a-cycle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cross-Task Transfer for Geotagged Audiovisual Aerial Scene Recognition</title>
+      <link>/publication/cross-task-transfer-for-geotagged-audiovisual-aerial-scene-recognition/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/cross-task-transfer-for-geotagged-audiovisual-aerial-scene-recognition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Curriculum Audiovisual Learning</title>
+      <link>/publication/curriculum-audiovisual-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/curriculum-audiovisual-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cyclic Co-Learning of Sounding Object Visual Grounding and Sound Separation</title>
+      <link>/publication/cyclic-co-learning-of-sounding-object-visual-grounding-and-sound-separation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/cyclic-co-learning-of-sounding-object-visual-grounding-and-sound-separation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Binary Reconstruction for Cross-modal Hashing</title>
+      <link>/publication/deep-binary-reconstruction-for-cross-modal-hashing-journal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/deep-binary-reconstruction-for-cross-modal-hashing-journal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Binary Reconstruction for Cross-modal Hashing</title>
+      <link>/publication/deep-binary-reconstruction-for-cross-modal-hashing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/deep-binary-reconstruction-for-cross-modal-hashing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Linear Discriminant Analysis Hashing</title>
+      <link>/publication/deep-linear-discriminant-analysis-hashing-supplemental-material/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/deep-linear-discriminant-analysis-hashing-supplemental-material/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Multimodal Clustering for Unsupervised Audiovisual Learning Representation</title>
+      <link>/publication/deep-multimodal-clustering-for-unsupervised-audiovisual-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/deep-multimodal-clustering-for-unsupervised-audiovisual-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Depth Helps: Improving Pre-trained RGB-based Policy with Depth Information Injection</title>
+      <link>/publication/depth-helps_-improving-pre-trained-rgb-based-policy-with-depth-information-injection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/depth-helps_-improving-pre-trained-rgb-based-policy-with-depth-information-injection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Diagnosing and Re-learning for Balanced Multimodal Learning</title>
+      <link>/publication/diagnosing-and-re-learning-for-balanced-multimodal-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/diagnosing-and-re-learning-for-balanced-multimodal-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Discrete Spectral Hashing for Efficient Similarity Retrieval</title>
+      <link>/publication/discrete-spectral-hashing-for-efficient-similarity-retrieval/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/discrete-spectral-hashing-for-efficient-similarity-retrieval/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Discriminative Sounding Objects Localization via Self-supervised Audiovisual Matching</title>
+      <link>/publication/discriminative-sounding-objects-localization-via-self-supervised-audiovisual-matching/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/discriminative-sounding-objects-localization-via-self-supervised-audiovisual-matching/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Does Ambient Sound Help? - Audiovisual Crowd Counting</title>
+      <link>/publication/does-ambient-sound-help_-audiovisual-crowd-counting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/does-ambient-sound-help_-audiovisual-crowd-counting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient Quantification of Multimodal Interaction at Sample Level</title>
+      <link>/publication/efficient-quantification-of-multimodal-interaction-at-sample-level/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/efficient-quantification-of-multimodal-interaction-at-sample-level/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enhancing Multi-modal Cooperation via Fine-grained Modality Valuation</title>
+      <link>/publication/enhancing-multi-modal-cooperation-via-fine-grained-modality-valuation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/enhancing-multi-modal-cooperation-via-fine-grained-modality-valuation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploiting Visual Context Semantics for Sound Source Localization</title>
+      <link>/publication/exploiting-visual-context-semantics-for-sound-source-localization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/exploiting-visual-context-semantics-for-sound-source-localization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generalising Combinatorial Discriminant Analysis through Conditioning Truncated Rayleigh Flow</title>
+      <link>/publication/generalising-combinatorial-discriminant-analysis-through-conditioning-truncated-rayleigh-flow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/generalising-combinatorial-discriminant-analysis-through-conditioning-truncated-rayleigh-flow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Geometric-Inspired Graph-based Incomplete Multi-view Clustering</title>
+      <link>/publication/geometric-inspired-graph-based-incomplete-multi-view-clustering/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/geometric-inspired-graph-based-incomplete-multi-view-clustering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Heterogeneous Scene Analysis via Self-supervised Audiovisual Learning</title>
+      <link>/publication/heterogeneous-scene-analysis-via-self-supervised-audiovisual-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/heterogeneous-scene-analysis-via-self-supervised-audiovisual-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Image2song: Song Retrieval via Bridging Image Content and Lyric Words</title>
+      <link>/publication/image2song-song-retrieval-via-bridging-image-content-and-lyric-words/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/image2song-song-retrieval-via-bridging-image-content-and-lyric-words/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kinematic-aware Prompting for Generalizable Articulated Object Manipulation with LLMs</title>
+      <link>/publication/kinematic-aware-prompting-for-generalizable-articulated-object-manipulation-with-llms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/kinematic-aware-prompting-for-generalizable-articulated-object-manipulation-with-llms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>KOI: Accelerating Online Imitation Learning via Hybrid Key-state Guidance</title>
+      <link>/publication/koi_-accelerating-online-imitation-learning-via-hybrid-key-state-guidance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/koi_-accelerating-online-imitation-learning-via-hybrid-key-state-guidance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Large Graph Hashing with Spectral Rotation</title>
+      <link>/publication/large-graph-hashing-with-spectral-rotation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/large-graph-hashing-with-spectral-rotation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning in Audio-visual Context: A Review, Analysis, and New Perspective</title>
+      <link>/publication/learning-in-audio-visual-context_-a-review-analysis-and-new-perspective/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/learning-in-audio-visual-context_-a-review-analysis-and-new-perspective/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning to Answer Questions in Dynamic Audio-Visual Scenarios</title>
+      <link>/publication/learning-to-answer-questions-in-dynamic-audio-visual-scenarios/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/learning-to-answer-questions-in-dynamic-audio-visual-scenarios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Listen to the Image</title>
+      <link>/publication/listen-to-the-image/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/listen-to-the-image/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MMCosine: Multi-Modal Cosine Loss Towards Balanced Audio-Visual Fine-Grained Learning</title>
+      <link>/publication/mmcosine_-multi-modal-cosine-loss-towards-balanced-audio-visual-fine-grained-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/mmcosine_-multi-modal-cosine-loss-towards-balanced-audio-visual-fine-grained-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MMPareto: Innocent Uni-modal Assistance for Enhanced Multi-modal Learning</title>
+      <link>/publication/mmpareto_-innocent-uni-modal-assistance-for-enhanced-multi-modal-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/mmpareto_-innocent-uni-modal-assistance-for-enhanced-multi-modal-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-Scale Attention for Audio Question Answering</title>
+      <link>/publication/multi-scale-attention-for-audio-question-answering/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/multi-scale-attention-for-audio-question-answering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multiple Sound Sources Localization from Coarse to Fine</title>
+      <link>/publication/multiple-sound-sources-localization-from-coarse-to-fine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/multiple-sound-sources-localization-from-coarse-to-fine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Not All Knowledge Is Created Equal</title>
+      <link>/publication/not-all-knowledge-is-created-equal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/not-all-knowledge-is-created-equal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On-the-fly Modulation for Balanced Multimodal Learning</title>
+      <link>/publication/on-the-fly-modulation-for-balanced-multimodal-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/on-the-fly-modulation-for-balanced-multimodal-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Patch Matters: Training-free Fine-grained Image Caption Enhancement via Local Perception</title>
+      <link>/publication/patch-matters-training-free-fine-grained-image-caption-enhancement-via-local-perception/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/patch-matters-training-free-fine-grained-image-caption-enhancement-via-local-perception/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Phoenix: A Motion-based Self-Reflection Framework for Fine-grained Robotic Action Correction</title>
+      <link>/publication/phoenix-a-motion-based-self-reflection-framework-for-fine-grained-robotic-action-correction-/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/phoenix-a-motion-based-self-reflection-framework-for-fine-grained-robotic-action-correction-/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Progressive Spatio-temporal Perception for Audio-Visual Question Answering</title>
+      <link>/publication/progressive-spatio-temporal-perception-for-audio-visual-question-answering/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/progressive-spatio-temporal-perception-for-audio-visual-question-answering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Prompting Segmentation with Sound is Generalizable Audio-Visual Source Localizer</title>
+      <link>/publication/prompting-segmentation-with-sound-is-generalizable-audio-visual-source-localizer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/prompting-segmentation-with-sound-is-generalizable-audio-visual-source-localizer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quantifying and Enhancing Multi-modal Robustness with Modality Preference</title>
+      <link>/publication/quantifying-and-enhancing-multi-modal-robustness-with-modality-preference/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/quantifying-and-enhancing-multi-modal-robustness-with-modality-preference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ref-AVS: Refer and Segment Objects in Audio-Visual Scenes</title>
+      <link>/publication/ref-avs_-refer-and-segment-objects-in-audio-visual-scenes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/ref-avs_-refer-and-segment-objects-in-audio-visual-scenes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Revisiting Pre-training in Audio-Visual Learning</title>
+      <link>/publication/revisiting-pre-training-in-audio-visual-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/revisiting-pre-training-in-audio-visual-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reviving the Cooperation Dynamics in Multimodal Transformer</title>
+      <link>/publication/reviving-the-cooperation-dynamics-in-multimodal-transformer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/reviving-the-cooperation-dynamics-in-multimodal-transformer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robust Cross-modal Knowledge Distillation for Unconstrained Videos</title>
+      <link>/publication/robust-cross-modal-knowledge-distillation-for-unconstrained-videos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/robust-cross-modal-knowledge-distillation-for-unconstrained-videos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SeCo: Separating Unknown Musical Visual Sounds with Consistency Guidance</title>
+      <link>/publication/seco_-separating-unknown-musical-visual-sounds-with-consistency-guidance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/seco_-separating-unknown-musical-visual-sounds-with-consistency-guidance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Self-supervised Audiovisual Representation Learning for Remote Sensing Data</title>
+      <link>/publication/self-supervised-audiovisual-representation-learning-for-remote-sensing-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/self-supervised-audiovisual-representation-learning-for-remote-sensing-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Self-supervised Learning for Heterogeneous Audiovisual Scene Analysis</title>
+      <link>/publication/self-supervised-learning-for-heterogeneous-audiovisual-scene-analysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/self-supervised-learning-for-heterogeneous-audiovisual-scene-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SepFusion: Finding Optimal Fusion Structures for Visual Sound Separation</title>
+      <link>/publication/sepfusion_-finding-optimal-fusion-structures-for-visual-sound-separation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/sepfusion_-finding-optimal-fusion-structures-for-visual-sound-separation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SphereDiffusion: Spherical Geometry-aware Distortion Resilient Diffusion Model</title>
+      <link>/publication/spherediffusion_-spherical-geometry-aware-distortion-resilient-diffusion-model/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/spherediffusion_-spherical-geometry-aware-distortion-resilient-diffusion-model/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stepping Stones: A Progressive Training Strategy for Audio-Visual Semantic Segmentation</title>
+      <link>/publication/stepping-stones_-a-progressive-training-strategy-for-audio-visual-semantic-segmentation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/stepping-stones_-a-progressive-training-strategy-for-audio-visual-semantic-segmentation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Supervised Knowledge May Hurt Novel Class Discovery Performance</title>
+      <link>/publication/supervised-knowledge-may-hurt-novel-class-discovery-performance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/supervised-knowledge-may-hurt-novel-class-discovery-performance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Temporal Multimodal Learning in Audiovisual Speech Recognition</title>
+      <link>/publication/temporal-multimodal-learning-in-audiovisual-speech-recognition/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/temporal-multimodal-learning-in-audiovisual-speech-recognition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Temporal Relational Modeling with Self-Supervision for Action Segmentation</title>
+      <link>/publication/temporal-relational-modeling-with-self-supervision-for-action-segmentation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/temporal-relational-modeling-with-self-supervision-for-action-segmentation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TikTalk: A Video-Based Dialogue Dataset for Multi-Modal Chitchat in Real World</title>
+      <link>/publication/tiktalk_-a-video-based-dialogue-dataset-for-multi-modal-chitchat-in-real-world/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/tiktalk_-a-video-based-dialogue-dataset-for-multi-modal-chitchat-in-real-world/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards Accurate Knowledge Transfer via Target-awareness Representation Disentanglement</title>
+      <link>/publication/towards-accurate-knowledge-transfer-via-target-awareness-representation-disentanglement/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/towards-accurate-knowledge-transfer-via-target-awareness-representation-disentanglement/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards Inadequately Pre-trained Models in Transfer Learning</title>
+      <link>/publication/towards-inadequately-pre-trained-models-in-transfer-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/towards-inadequately-pre-trained-models-in-transfer-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards Long Form Audio-visual Video Understanding</title>
+      <link>/publication/towards-long-form-audio-visual-video-understanding/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/towards-long-form-audio-visual-video-understanding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unsupervised Multi-Source Domain Adaptation for Person Re-Identification</title>
+      <link>/publication/unsupervised-multi-source-domain-adaptation-for-person-re-identification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/unsupervised-multi-source-domain-adaptation-for-person-re-identification/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unveiling and Mitigating Bias in Audio Visual Segmentation</title>
+      <link>/publication/unveiling-and-mitigating-bias-in-audio-visual-segmentation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/unveiling-and-mitigating-bias-in-audio-visual-segmentation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visual Sound Localization in-the-Wild by Cross-Modal Interference Erasing</title>
+      <link>/publication/visual-sound-localization-in-the-wild-by-cross-modal-interference-erasing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/visual-sound-localization-in-the-wild-by-cross-modal-interference-erasing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>🔥Crab: A Unified Audio-Visual Scene Understanding Model with Explicit Cooperation</title>
+      <link>/publication/crab-a-unified-audio-visual-scene-understanding-model-with-explicit-cooperation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/crab-a-unified-audio-visual-scene-understanding-model-with-explicit-cooperation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>🔥MokA: Multimodal Low-Rank Adaptation for MLLMs</title>
+      <link>/publication/moka-multimodal-low-rank-adaptation-for-mllms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/moka-multimodal-low-rank-adaptation-for-mllms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>🔥Play to the Score: Stage-Guided Dynamic Multi-Sensory Fusion for Robotic Manipulation</title>
+      <link>/publication/play-to-the-score_-stage-guided-dynamic-multi-sensory-fusion-for-robotic-manipulation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/play-to-the-score_-stage-guided-dynamic-multi-sensory-fusion-for-robotic-manipulation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>🔥Robotic Policy Learning via Human-assisted Action Preference Optimization</title>
+      <link>/publication/robotic-policy-learning-via-human-assisted-action-preference-optimization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/robotic-policy-learning-via-human-assisted-action-preference-optimization/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

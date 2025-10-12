@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xiaoxiang Zhu | GeWu-Lab</title>
+    <link>/authors/xiaoxiang-zhu/</link>
+      <atom:link href="/authors/xiaoxiang-zhu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Xiaoxiang Zhu</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2025 GeWu-Lab</copyright>
+    <image>
+      <url>/img/logo.png</url>
+      <title>Xiaoxiang Zhu</title>
+      <link>/authors/xiaoxiang-zhu/</link>
+    </image>
+    
+    <item>
+      <title>Cross-Task Transfer for Geotagged Audiovisual Aerial Scene Recognition</title>
+      <link>/publication/cross-task-transfer-for-geotagged-audiovisual-aerial-scene-recognition/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/cross-task-transfer-for-geotagged-audiovisual-aerial-scene-recognition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Does Ambient Sound Help? - Audiovisual Crowd Counting</title>
+      <link>/publication/does-ambient-sound-help_-audiovisual-crowd-counting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/does-ambient-sound-help_-audiovisual-crowd-counting/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

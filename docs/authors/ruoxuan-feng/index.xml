@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ruoxuan Feng | GeWu-Lab</title>
+    <link>/authors/ruoxuan-feng/</link>
+      <atom:link href="/authors/ruoxuan-feng/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ruoxuan Feng</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2025 GeWu-Lab</copyright>
+    <image>
+      <url>/img/logo.png</url>
+      <title>Ruoxuan Feng</title>
+      <link>/authors/ruoxuan-feng/</link>
+    </image>
+    
+    <item>
+      <title>AnyTouch: Learning Unified Static-Dynamic Representation across Multiple Visuo-tactile Sensors</title>
+      <link>/publication/anytouch-learning-unified-static-dynamic-representation-across-multiple-visuo-tactile-sensors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/anytouch-learning-unified-static-dynamic-representation-across-multiple-visuo-tactile-sensors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Diagnosing and Re-learning for Balanced Multimodal Learning</title>
+      <link>/publication/diagnosing-and-re-learning-for-balanced-multimodal-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/diagnosing-and-re-learning-for-balanced-multimodal-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enhancing Multi-modal Cooperation via Fine-grained Modality Valuation</title>
+      <link>/publication/enhancing-multi-modal-cooperation-via-fine-grained-modality-valuation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/enhancing-multi-modal-cooperation-via-fine-grained-modality-valuation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MMCosine: Multi-Modal Cosine Loss Towards Balanced Audio-Visual Fine-Grained Learning</title>
+      <link>/publication/mmcosine_-multi-modal-cosine-loss-towards-balanced-audio-visual-fine-grained-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/mmcosine_-multi-modal-cosine-loss-towards-balanced-audio-visual-fine-grained-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Phoenix: A Motion-based Self-Reflection Framework for Fine-grained Robotic Action Correction</title>
+      <link>/publication/phoenix-a-motion-based-self-reflection-framework-for-fine-grained-robotic-action-correction-/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/phoenix-a-motion-based-self-reflection-framework-for-fine-grained-robotic-action-correction-/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Revisiting Pre-training in Audio-Visual Learning</title>
+      <link>/publication/revisiting-pre-training-in-audio-visual-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/revisiting-pre-training-in-audio-visual-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>🔥Play to the Score: Stage-Guided Dynamic Multi-Sensory Fusion for Robotic Manipulation</title>
+      <link>/publication/play-to-the-score_-stage-guided-dynamic-multi-sensory-fusion-for-robotic-manipulation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/play-to-the-score_-stage-guided-dynamic-multi-sensory-fusion-for-robotic-manipulation/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yandong Wen | GeWu-Lab</title>
+    <link>/authors/yandong-wen/</link>
+      <atom:link href="/authors/yandong-wen/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yandong Wen</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2025 GeWu-Lab</copyright>
+    <image>
+      <url>/img/logo.png</url>
+      <title>Yandong Wen</title>
+      <link>/authors/yandong-wen/</link>
+    </image>
+    
+    <item>
+      <title>Patch Matters: Training-free Fine-grained Image Caption Enhancement via Local Perception</title>
+      <link>/publication/patch-matters-training-free-fine-grained-image-caption-enhancement-via-local-perception/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/patch-matters-training-free-fine-grained-image-caption-enhancement-via-local-perception/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

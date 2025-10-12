@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="generator" content="Source Themes Academic 4.6.3">
+  
+    
+  
+    
+    
+    
+    
+    
+      
+      
+      
+    
+    
+  
+    <meta name="author" content="Ruize Xu">
+  
+    
+    
+    
+      
+    
+    <meta name="description" content="Understanding modality imbalance in multimodal learning and how to address it">
+  
+    
+    <link rel="alternate" hreflang="en-us" href="/blog/balanced-multimodal-learning/">
+  
+    
+
+
+    
+    
+    
+    <meta name="theme-color" content="#2962ff">
+    
+  
+    
+    
+    
+    
+      
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+  
+      
+      
+      
+        
+      
+      
+        
+        
+          
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+          
+        
+      
+  
+      
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+      
+  
+      
+  
+    
+  
+    
+    
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+    
+  
+    
+    
+    
+    
+    <link rel="stylesheet" href="/css/academic.css">
+  
+    
+
+
+
+
+    
+
+  
+    
+  
+    <link rel="manifest" href="/index.webmanifest">
+    <link rel="icon" type="image/png" href="/img/icon-32.png">
+    <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+  
+    <link rel="canonical" href="/blog/balanced-multimodal-learning/">
+  
+    
+    
+    
+    
+      
+    
+    
+    <meta property="twitter:card" content="summary_large_image">
+    
+    <meta property="og:site_name" content="GeWu-Lab">
+    <meta property="og:url" content="/blog/balanced-multimodal-learning/">
+    <meta property="og:title" content="Balanced Multimodal Learning | GeWu-Lab">
+    <meta property="og:description" content="Understanding modality imbalance in multimodal learning and how to address it"><meta property="og:image" content="/blog/balanced-multimodal-learning/featured.jpg">
+    <meta property="twitter:image" content="/blog/balanced-multimodal-learning/featured.jpg"><meta property="og:locale" content="en-us">
+    
+      
+        <meta property="article:published_time" content="2025-10-10T00:00:00&#43;00:00">
+      
+      <meta property="article:modified_time" content="2025-10-10T00:00:00&#43;00:00">
+    
+  
+    
+
+
+
+  
+
+  
+    
+
+  
+    
+
+
+
+
+  
+    
+    <title>GeWu-Lab</title>
+  
+  </head>
+  
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/"><div style="display: flex; align-items: center;">
+            <img src="/img/logo.png" alt="GeWu-Lab" style="zoom:80%;">
+            <div style="margin-left: 20px; color: #2C298B; letter-spacing: 2px">GeWu-Lab</div>
+          </div></a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/"><img src="/img/logo.png" alt="GeWu-Lab"></a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#hero"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/member/"><span>Members</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/publication/"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/dataset/"><span>Datasets</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/blog/"><span>Blog</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/gallery/"><span>Gallery</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  <style>
+  .featured-image-wrapper {
+    display: none !important;
+  }
+   
+  .article-container h1:first-child,
+  .universal-wrapper h1:first-child {
+    white-space: nowrap;
+  }
+   
+  .article-container > .article-metadata {
+    display: none !important;
+  }
+   
+  .article-style {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+   
+  .article-style h1 {
+    font-size: 1.8rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    white-space: normal;
+    text-align: left;
+  }
+  .article-style h2 {
+    font-size: 1.5rem;
+    margin-top: 1.3rem;
+    margin-bottom: 0.8rem;
+    text-align: left;
+  }
+  .article-style h3 {
+    font-size: 1.3rem;
+    margin-top: 1.1rem;
+    margin-bottom: 0.6rem;
+    text-align: left;
+  }
+  .article-style h4 {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    text-align: left;
+  }
+</style>
+
+<article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+<div class="article-container pt-3">
+  <h1>Balanced Multimodal Learning</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  
+  <span>
+        Chengxiang Huang
+      
+    </span>, <span>
+        Yake Wei
+      
+    </span>
+
+  </div>
+  <div>
+    <span></span>
+  </div>
+  
+  
+
+</div>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 325px;">
+  <div style="position: relative">
+    <img src="/blog/balanced-multimodal-learning/featured_huf165911cbfb8a524cdc0d6db65bdb2b3_502848_720x0_resize_q90_lanczos.jpg" alt="" class="featured-image">
+    
+  </div>
+</div>
+
+
+
+
+
+  <div class="article-container">
+
+    
+    
+    <div class="custom-author-info" style="margin-bottom: 2rem; color: #666;">
+      
+      <div style="margin-bottom: 0.5rem;">
+        <strong>Author:</strong>
+        Chengxiang Huang, Yake Wei
+      </div>
+      
+      
+      <div>
+        <strong>Reviewed by:</strong>
+        Di Hu
+      </div>
+      
+    </div>
+    
+
+    <div class="article-style">
+      
+
+<h1 id="what-is-modality-imbalance">What is modality imbalance?</h1>
+
+<p><img src="image.png" alt="image.png" /></p>
+
+<p>In human activities, we often use both hands together to perform a series of actions. For example, a skilled juggler can seamlessly toss objects between their hands in a rhythmic pattern. <strong>This action requires precise coordination between both hands.</strong> However, despite working together, the hands are not always equal in their roles—<strong>most people have a dominant hand.</strong> Right-handed individuals primarily rely on their right hand for control and dexterity, while left-handed individuals depend more on their left hand. This dominance is a natural physiological phenomenon.</p>
+
+<p>If we want to further enhance the coordination between both hands—such as juggling multiple balls effortlessly like a professional performer—it requires extensive practice. Improving the proficiency of the non-dominant hand and refining synchronization between both hands are essential to achieving fluid and precise movements.</p>
+
+<p>Now, let’s draw a parallel with multimodal learning. In a multimodal learning system, multiple modalities serve as inputs, working together within a model to accomplish a shared objective and generate an output. But <strong>do certain modalities take on a dominant role, just like our hands?</strong> And <strong>does this dominant modality similarly suppress the collaborative efficiency of the others?</strong> Through empirical observations and theoretical analysis, the multimodal community has found that the answer is <strong>YES</strong> [<a href="https://arxiv.org/abs/2406.19097" target="_blank">1</a>][<a href="https://arxiv.org/abs/2312.00935" target="_blank">2</a>].</p>
+
+<p><img src="balancemm.png" alt="Fig 1. Classic multimodal learning paradigm." /></p>
+
+<p style="text-align: center; font-size: 0.9em; color: #666; margin-top: -10px;"><em>Fig 1. Classic multimodal learning paradigm.</em></p>
+
+<p>As shown in Fig 1, in a classic multimodal learning paradigm, consider the typical case of two modalities. Data from each modality is first processed through its respective encoder to obtain unimodal representations. These representations are then interacted and integrated before being fed into a predictor. The entire multimodal model is optimized based on the learning objective.</p>
+
+<p><img src="audio-video.png" alt="Fig 2. An audio-video event labeled as *bus.*" /></p>
+
+<p style="text-align: center; font-size: 0.9em; color: #666; margin-top: -10px;"><em>Fig 2. An audio-video event labeled as bus.</em></p>
+
+<p>Therefore, in the classical multimodal learning paradigm, <strong>we typically train different modalities jointly</strong>. However, we must recognize that <strong>data from different modalities exhibit inherent heterogeneity.</strong> For instance, consider an audio-video pair labeled as <em>bus</em> in Fig 2. In the visual modality, the bus is clearly visible, making it relatively easy to learn the concept of bus. In contrast, the audio modality may capture a variety of environmental sounds from the street, which can be noisy and less informative for distinguishing the bus category. <strong>We find that this disparity in learning characteristics across modalities introduces potential challenges for effective multimodal collaboration.</strong></p>
+
+<p><img src="Xnip2025-04-03_18-44-05.jpg" alt="Fig 3. Unimodal components determine the feed-forward and back-propagation stages in the &quot;additive&quot; manner. Take modality *a* and *v* as an example." /></p>
+
+<p style="text-align: center; font-size: 0.9em; color: #666; margin-top: -10px;"><em>Fig 3. Unimodal components determine the feed-forward and back-propagation stages in the "additive" manner. Take modality a and v as an example.</em></p>
+
+<p>The paper <a href="https://arxiv.org/pdf/2203.15332" target="_blank"><em>OGM (Balanced Multimodal Learning via On-the-fly Gradient Modulation)</em></a> [<a href="https://arxiv.org/pdf/2203.15332" target="_blank">3</a>] conducted an analysis for the optimization process of classic multimodal joint learning. Here we take two modalities, $a$ and $v$ as an example. Note that this analysis can be extended to $M$ modalities case, which is provided in  <em><a href="https://arxiv.org/abs/2410.11582" target="_blank">T-PAMI 2024 paper</a></em> [<a href="https://arxiv.org/abs/2410.11582" target="_blank">4</a>].</p>
+
+<p>Suppose each $x_{i}$ contains inputs of two modalities: $x_{i}=(x^{a}_{i}, x^{v}_{i})$. $y_{i} \in \{1,2,\cdots,C\}$ is the target label of sample $x_i$ and $C$ is the number of categories. For modality $m$, where $m \in \{a,v\}$, its input is processed by the corresponding encoder $\varphi^{m}(\theta^{m},\cdot)$. $\theta^{m}$ are the parameters of the encoder. After extraction, their features are fused via concatenation (which is one of the most widely used fusion strategies), and passed to a single-layer linear classifier. $W \in \mathbb{R}^{C \times \sum^M_{m=1} d_{\varphi^m}}$ and $b \in \mathbb{R}^{C}$ denote the parameters of the linear classifier. $d_{\varphi^m}$ is the output dimension of $\varphi^{m}(\theta^{m},\cdot)$. Then, we can formulate the multimodal prediction $f(x_i)$ of the feed-forward stage, and the gradient $\frac{\partial L }{\partial f(x_{i})_c}$ as shown in Fig 3.</p>
+
+<p>We can have the following observations:</p>
+
+<blockquote>
+<p><strong>🛠 Key Observations:</strong></p>
+
+<p>• In the feed-forward stage, the final output is determined by the &ldquo;<strong>additive</strong>&rdquo; combination of unimodal components.</p>
+
+<p>• In the back-propagation stage, the gradient is also influenced by the &ldquo;<strong>additive</strong>&rdquo; combination of unimodal components.</p>
+</blockquote>
+
+<p>Now, <strong>let&rsquo;s consider the heterogeneity of multimodal data.</strong></p>
+
+<p>Suppose one modality—such as the cleaner and easier-to-learn visual modality in the former case—consistently provides higher-quality representations and assigns high confidence to the correct category. Regardless of the other modality&rsquo;s prediction, the final combined result remains correct since the additive combination.</p>
+
+<p>As a result, <strong>the easier-to-learn modality tends to dominate and control the overall learning dynamics of the multimodal model.</strong> This dominance suppresses the optimization of other modalities, leading to underutilization. Ultimately, this imbalance limits the full potential of the multimodal model, highlighting the critical challenge of achieving <strong>balanced multimodal learning</strong>.</p>
+
+<h1 id="how-to-alleviate-modality-imbalance">How to alleviate modality imbalance?</h1>
+
+<p><img src="image%201.png" alt="Fig 4. The taxonomy of methods for multimodal imbalance learning. This figure is from [[5](https://arxiv.org/abs/2502.10816)]." /></p>
+
+<p style="text-align: center; font-size: 0.9em; color: #666; margin-top: -10px;"><em>Fig 4. The taxonomy of methods for multimodal imbalance learning. This figure is from <a href="https://arxiv.org/abs/2502.10816">[5]</a>.</em></p>
+
+<p>After identifying the problem, the next step is to explore potential solutions. For this fundamental challenge of modality imbalance, the goal is not merely to design a specific model architecture. Instead, attention has gradually shifted toward different stages of the training process, with the aim of developing algorithms that are transferable across a wide range of multimodal learning scenarios.</p>
+
+<p>To provide a clearer understanding of existing solutions, we categorize representative methods into four key stages of multimodal training: <strong>Data input, Feed-forward</strong>, <strong>Learning objective, and Optimization</strong>, as illustrated in Fig 4. The following sections provide a detailed discussion of approaches within each category.</p>
+
+<h2 id="data-input">Data input</h2>
+
+<p><strong>The quality of multimodal data is crucial for effective multimodal learning.</strong> However, for any given multimodal sample (e.g., a data point composed of visual and audio modalities), there often exists a disparity in the quality or informativeness between the constituent modalities. This disparity can cause the model to develop a preference for the modality that is easier to learn, which subsequently tends to dominate the overall learning dynamics and suppress the optimization of other modalities.</p>
+
+<p><img src="sample-level.png" alt="Fig 5. An illustration of sample-level discrepancies between modalities. This figure is from [[6](https://arxiv.org/abs/2309.06255)]." /></p>
+
+<p style="text-align: center; font-size: 0.9em; color: #666; margin-top: -10px;"><em>Fig 5. An illustration of sample-level discrepancies between modalities. This figure is from <a href="https://arxiv.org/abs/2309.06255">[6]</a>.</em></p>
+
+<p>Imagine a video and audio clip describing a motorcycle; the amount of information contained in each modality can differ significantly. For example, as shown in Fig. 5(a), the image itself contains very limited information, while in Fig. 5(b), the visual clearly shows a motorcycle wheel. This per-sample information disparity leads to varying contributions to model prediction. As illustrated in Fig. 5(c), when the visual modality carries little information (Fig. 5(a)), the model tends to rely more on the audio modality, whereas when the visual modality is informative (Fig. 5(b)), the model is more inclined to rely on visual cues.</p>
+
+<p>To address the imbalance originating from this <em>sample-level quality disparity</em>, the work <a href="https://arxiv.org/abs/2309.06255" target="_blank"><em>Enhancing Multimodal Cooperation via Sample-level Modality Valuation</em></a> [<a href="https://arxiv.org/abs/2309.06255" target="_blank">6</a>] proposes a targeted solution. The key insight is to shift the focus from a &ldquo;macro&rdquo; or <em>dataset-level</em> view of data quality to a fine-grained <em>sample-level</em> perspective. The approach first introduces a valuation metric grounded in the Shapley value from game theory to precisely measure the contribution of each modality for every individual sample. Once the modality with a lower contribution is identified for a specific sample, a targeted re-sampling strategy is employed. This provides focused, additional training for the deficient modality, compensating for its initial lack of informativeness and thereby promoting a more balanced and effective multimodal collaboration.</p>
+
+<h2 id="feed-forward">Feed-forward</h2>
+
+<p>Adjustments during the feed-forward stage determine how a multimodal model perceives and integrates information from different modalities during prediction.</p>
+
+<p>A number of studies intervene at this stage to <strong>enhance the processing of information from weaker modalities</strong>, thereby mitigating the dominance of stronger ones in multimodal learning [<a href="https://arxiv.org/abs/2410.11582" target="_blank">4</a>].</p>
+
+<p>For example,  <em><a href="https://arxiv.org/abs/2311.10707" target="_blank">Multimodal Learning with Alternating Unimodal Adaptation (MLA)</a></em> [<a href="https://arxiv.org/abs/2311.10707" target="_blank">7</a>] directly addresses modality imbalance by altering the <strong>feed-forward stage</strong> during training. Instead of a conventional feed-forward pass where inputs from all modalities are processed jointly, MLA&rsquo;s <em>alternating unimodal learning</em> framework constrains each feed-forward operation to a single modality at a time. In any given training step, the network <em>sees and computes</em> an output based on only one data stream, which prevents signals from dominant modalities from interfering with or suppressing weaker ones. This isolated feed-forward process ensures a more balanced representation is learned before backpropagation, while a supporting gradient modification technique ensures the shared classifier doesn&rsquo;t forget previously seen modalities.
+Apart from MLA, several other methods also intervene at the feed-forward stage to tackle modality imbalance. For instance, <a href="https://ieeexplore.ieee.org/document/10096641" target="_blank"><em>Adaptive Mask Co-optimization (AMCo)</em></a> [<a href="https://ieeexplore.ieee.org/document/10096641" target="_blank">8</a>] dynamically masks features of the dominant modality, while <a href="https://arxiv.org/abs/2410.11582" target="_blank"><em>On-the-fly Prediction Modulation (OPM)</em></a> [<a href="https://arxiv.org/abs/2410.11582" target="_blank">4</a>] drops some of the dominant modality&rsquo;s features. Meanwhile, <a href="https://arxiv.org/abs/2202.05306" target="_blank"><em>Greedy</em></a> [<a href="https://arxiv.org/abs/2202.05306" target="_blank">9</a>] enhances multimodal fusion by leveraging the MMTM architecture to facilitate better modality interaction.</p>
+
+<h2 id="learning-objective">Learning objective</h2>
+
+<p>Whether from the perspective of data input or the feed-forward stage, these approaches focus on adjusting multimodal information before or during its entry into the model. However, they do not explicitly encourage the model to move toward modality balance during the update. In contrast, another group of methods [<a href="https://arxiv.org/abs/2405.17730" target="_blank">10</a>] [<a href="https://www.notion.so/Balanced-multimodal-learning-26b8de78fa28807ebfcfd5a625532c65?pvs=21" target="_blank">11</a>] [<a href="https://dl.acm.org/doi/10.1145/3539597.3570423" target="_blank">12</a>] [<a href="https://arxiv.org/abs/2306.01265" target="_blank">13</a>] [<a href="https://jiangqy.github.io/publications/NeurIPS2024_LFM.pdf" target="_blank">14</a>] [<a href="https://arxiv.org/abs/2305.01233" target="_blank">15</a>] [<a href="https://arxiv.org/abs/1905.12681" target="_blank">16</a>] focuses on the learning objective itself  to alleviate modality imbalance.</p>
+
+<p>One representative example of learning objective–level intervention is <a href="https://arxiv.org/abs/2405.17730" target="_blank"><em>MMPareto (Boosting Multimodal Learning with Innocent Unimodal Assistance)</em></a> [<a href="https://arxiv.org/abs/2405.17730" target="_blank">10</a>]. Unlike previous methods that adjust the input data or modify how the model processes different modalities during the feed-forward stage, MMPareto focuses directly on <strong>how the model updates its parameters</strong> , that is, on the learning objective itself.</p>
+
+<p><img src="image%202.png" alt="Fig 6. Illustration of multimodal framework and gradient integration strategy of MMPareto [[8](https://arxiv.org/abs/2405.17730)]." /></p>
+
+<p style="text-align: center; font-size: 0.9em; color: #666; margin-top: -10px;"><em>Fig 6. Illustration of multimodal framework and gradient integration strategy of MMPareto <a href="https://arxiv.org/abs/2405.17730">[8]</a>.</em></p>
+
+<p>A standard multimodal model is often trained with a single, shared objective function that evaluates performance after all modalities have been fused. However, to better supervise each modality&rsquo;s representation and prevent weaker ones from being neglected, some methods enhance this setup. They adopt a multitask-like framework, as depicted in Figure 6, which supplements the main multimodal objective with separate objectives for each individual modality (unimodal). While this helps weaker modalities learn better, it also creates a potential problem: the optimization goals of these different losses can conflict with each other. For example, the model might receive contradictory signals from the multimodal and unimodal objectives, leading to unstable or suboptimal training.</p>
+
+<p>MMPareto addresses this by carefully analyzing and combining these gradients (the directions in which the model updates its parameters). It draws inspiration from <em>Pareto optimization</em>, a technique that aims to find a balance when optimizing multiple goals. Specifically, MMPareto ensures that the final update direction benefits both the multimodal and unimodal objectives without letting one overpower the other. At the same time, it <em>adjusts the strength of these updates</em> to help the model learn more generalizable patterns and avoid overfitting.</p>
+
+<p>In simple terms, instead of just telling the model “learn from both objectives,” MMPareto tells it <strong>how to learn from both in a coordinated and balanced way</strong>.</p>
+
+<p>In addition to MMPareto, several other methods also tackle modality imbalance by adjusting the learning objective. For example, <a href="https://arxiv.org/abs/2303.05338#:~:text=Fueled%20by%20the%20success%20of%20cosine%20loss%20that,variability%2C%20this%20paper%20proposes%20Multi-Modal%20Cosine%20loss%2C%20MMCosine." target="_blank"><em>Multimodal Cosine Loss (MMCosine)</em></a> [<a href="https://www.notion.so/Balanced-multimodal-learning-26b8de78fa28807ebfcfd5a625532c65?pvs=21" target="_blank">11</a>] introduces a multimodal cosine loss to reduce the gap in weight norms between different modalities and applies inter-symmetric constraints to encourage balanced and collaborative learning. <a href="https://dl.acm.org/doi/10.1145/3539597.3570423" target="_blank"><em>MBSD</em></a> [<a href="https://dl.acm.org/doi/10.1145/3539597.3570423" target="_blank">12</a>] adopts a knowledge distillation framework, transferring the knowledge (predicted probability distributions and high-level representations) learned by the dominant modality to the weaker one. <a href="https://arxiv.org/abs/2306.01265" target="_blank"><em>Calibrating Multimodal Learning (CML)</em></a> [<a href="https://arxiv.org/abs/2306.01265" target="_blank">13</a>] introduces a confidence loss for each modality, reducing the confidence of the dominant modality to alleviate imbalance. <a href="https://jiangqy.github.io/publications/NeurIPS2024_LFM.pdf" target="_blank"><em>LFM</em></a> [<a href="https://jiangqy.github.io/publications/NeurIPS2024_LFM.pdf" target="_blank">14</a>] incorporates contrastive learning losses for each modality to mitigate differences in their ability to fit category labels, thereby addressing the imbalance at the supervision level.</p>
+
+<p>Another related line of work enhances multimodal learning by introducing unimodal-specific training objectives. <a href="https://arxiv.org/abs/2305.01233" target="_blank"><em>Uni-Modal Teacher (UMT)</em></a> [<a href="https://arxiv.org/abs/2305.01233" target="_blank">15</a>] distills unimodal feature-level outputs from standalone unimodal models into the corresponding unimodal branches within the multimodal model, helping each modality learn more effectively. <a href="https://arxiv.org/abs/1905.12681" target="_blank"><em>Gradient-Blending (GBlending)</em></a> [<a href="https://arxiv.org/abs/1905.12681" target="_blank">16</a>] dynamically calculates optimal fusion weights based on the overfitting behavior of each modality, guiding the model&rsquo;s training accordingly.</p>
+
+<h2 id="optimization">Optimization</h2>
+
+<p>Beyond modifying the data input, feed-forward process, or learning objectives, another important direction focuses on <strong>optimization itself.</strong> Specifically, adjusting how gradients from different modalities are handled during training. These <em>gradient-based strategies</em> aim to ensure that each modality receives an appropriate learning signal, rather than being overpowered by stronger modalities during backpropagation.</p>
+
+<p>A representative method in this category is <a href="https://arxiv.org/pdf/2203.15332" target="_blank"><em>On-the-fly Gradient Modulation (OGM)</em></a> [<a href="https://arxiv.org/pdf/2203.15332" target="_blank">3</a>]. This method is based on a key observation. As shown in Fig 3, the gradients associated with weaker modalities tend to be suppressed during training, largely because the dominant modality&rsquo;s high-confidence predictions (i.e., higher logits) overshadow them. As a result, weaker modalities receive fewer meaningful updates and struggle to improve. OGM addresses this by <strong>slowing down the gradient updates of dominant modalities</strong>, effectively allowing the weaker ones to &ldquo;catch up.&rdquo;</p>
+
+<p><img src="image%203.png" alt="Fig 7. The pipeline of the On-the-fly Gradient Modulation strategy [[3](https://arxiv.org/pdf/2203.15332)]." /></p>
+
+<p style="text-align: center; font-size: 0.9em; color: #666; margin-top: -10px;"><em>Fig 7. The pipeline of the On-the-fly Gradient Modulation strategy <a href="https://arxiv.org/pdf/2203.15332">[3]</a>.</em></p>
+
+<p>To do this, OGM dynamically monitors the <em>discrepancy between modalities’ contributions</em> to the prediction at each training step. If one modality (e.g., audio) consistently produces more confident predictions than the other (e.g., visual), OGM interprets it as being over-optimized. It then applies a <em>modulation factor</em> to scale down that modality’s gradient before the model updates its parameters.</p>
+
+<p>This ensures that the underperforming modality receives relatively stronger gradient signals, giving it more opportunity to improve. Importantly, this is done without changing the model architecture or requiring additional modules, and the entire process happens &ldquo;on the fly&rdquo; during training.</p>
+
+<p>However, reducing gradients can also weaken the beneficial randomness (i.e., stochastic noise) that helps models generalize well. To counteract this, OGM introduces <em>Gaussian noise</em> into the training process. This Generalization Enhancement (GE) step restores and even boosts the model’s ability to generalize to unseen data, ensuring that balancing the modalities doesn’t come at the cost of performance.</p>
+
+<p>Building upon <em>OGM</em>, <a href="https://arxiv.org/abs/2308.07686" target="_blank"><em>AGM</em></a> [<a href="https://arxiv.org/abs/2308.07686" target="_blank">17</a>] incorporates a Shapley value-based method to estimate the contribution of each modality and adjusts the gradient magnitudes accordingly. <a href="https://www.notion.so/Balanced-multimodal-learning-26b8de78fa28807ebfcfd5a625532c65?pvs=21" target="_blank"><em>Prototypical Modality Rebalance (PMR)</em></a> [<a href="https://www.notion.so/Balanced-multimodal-learning-26b8de78fa28807ebfcfd5a625532c65?pvs=21" target="_blank">18</a>] modulates gradient strength based on category prototypes, thereby accelerating the learning process of weak modalities. <a href="https://arxiv.org/abs/2503.18595" target="_blank"><em>InfoReg</em></a> [<a href="https://arxiv.org/abs/2503.18595" target="_blank">19</a>] identifies the different rates at which the model acquires information from each modality and constrains the gradient updates of dominant modalities at the batch level. By regulating the Fisher information of dominant modalities it helps to reduce imbalance during training.</p>
+
+<p>In addition to gradient-based approaches, some methods adopt other optimization strategies to alleviate multimodal imbalance. <a href="https://arxiv.org/abs/2405.09321" target="_blank"><em>ReconBoost</em></a> [<a href="https://arxiv.org/abs/2405.09321" target="_blank">20</a>] introduces the idea of boosting, a traditional technique in machine learning, as an optimization paradigm to enhance unimodal performance and, in turn, mitigate imbalance. <a href="https://arxiv.org/abs/2407.09705" target="_blank"><em>Diagnosing &amp; Re-learning (Relearning)</em></a> [<a href="https://arxiv.org/abs/2407.09705" target="_blank">21</a>] adopts a re-initialization policy to reduce over-dependence on dominant modalities while preventing weaker ones from overfitting to noise.</p>
+
+<h1 id="further-work-related-to-multimodal-imbalance">Further work related to multimodal imbalance</h1>
+
+<p>The problem of modality imbalance in multimodal learning has been extensively studied from multiple perspectives, including <strong>Data input</strong>, <strong>Feed-forward</strong>, <strong>Learning objective</strong>, and <strong>Optimization</strong>. However, all of these approaches are developed within the paradigm of conventional multimodal learning frameworks. Recent research has begun to extend the study of modality imbalance to broader and more complex settings.</p>
+
+<h3 id="benchmark">Benchmark</h3>
+
+<p>To systematically evaluate and compare different approaches for multimodal imbalance, <a href="https://arxiv.org/pdf/2502.10816v2" target="_blank"><em>BalanceBenchmark</em></a> [<a href="https://arxiv.org/pdf/2502.10816v2" target="_blank">5</a>] has been introduced. This benchmark consolidates numerous existing methods and datasets, providing a unified coding framework that facilitates fair comparison and reproducibility. However, further large-scale experiments are needed, especially on Transformer-based encoder architectures, which are now prevalent. Additionally, more investigation into extreme imbalance scenarios, where one modality is significantly weaker or noisier than the others, should be conducted to test the boundaries of current methods.</p>
+
+<h3 id="modality-imbalance-in-transformer">Modality imbalance in Transformer</h3>
+
+<p><a href="https://arxiv.org/abs/2506.11465" target="_blank"><em>RollingQ</em></a> [<a href="https://arxiv.org/abs/2506.11465" target="_blank">22</a>] identifies that when using Transformers for dynamic multimodal fusion, the model tends to favor certain modalities over others, assigning them higher attention scores and larger gradients during backpropagation. To address this imbalance, <em>RollingQ</em> proposes a method called <em>rotating the query</em>, which disrupts the existing modality preference. This technique rebalances attention allocation, gives underrepresented modalities more opportunity to be optimized, and ultimately revives cooperative learning dynamics between modalities.</p>
+
+<h3 id="modality-imbalance-in-mllms">Modality imbalance in MLLMs</h3>
+
+<p>With the recent surge of interest in multimodal large models (MLLMs), a number of studies have begun to highlight the persistence of modality imbalance issues in this new context [<a href="https://arxiv.org/abs/2405.09818" target="_blank">23</a>] [<a href="https://arxiv.org/abs/2506.05191" target="_blank">24</a>] [<a href="https://arxiv.org/pdf/2407.12580" target="_blank">25</a>] [<a href="https://arxiv.org/pdf/2505.20873" target="_blank">26</a>] [<a href="https://arxiv.org/abs/2501.02669" target="_blank">27</a>]. For instance, the work <a href="https://arxiv.org/abs/2405.09818" target="_blank"><em>Chameleon</em></a> [<a href="https://arxiv.org/abs/2405.09818" target="_blank">23</a>] points out that competition naturally arises between modalities within large-scale multimodal model architectures. Some other studies [<a href="https://arxiv.org/abs/2506.05191" target="_blank">24</a>] [<a href="https://arxiv.org/pdf/2407.12580" target="_blank">25</a>] [<a href="https://arxiv.org/pdf/2505.20873" target="_blank">26</a>] have begun to address this imbalance at the <strong>token level</strong>. A representative example is <a href="https://arxiv.org/abs/2506.05191" target="_blank"><em>MokA</em></a> [<a href="https://arxiv.org/abs/2506.05191" target="_blank">24</a>], which observes a strong reliance on the text modality during parameter-efficient fine-tuning (PEFT) and proposes leveraging attention mechanisms to selectively extract highly correlated information from other modalities, thereby improving performance.</p>
+
+<p>These works collectively demonstrate that modality imbalance remains a prevalent issue under current MLLMs framework. Since large language models (LLMs) often serve as the backbone of MLLMs, the text modality inherently becomes the dominant modality during training. In this context, future work should not only continue exploring modality-specific adjustments within the existing MLLMs framework, but also critically examine whether the framework itself is well-suited for fostering balanced multimodal intelligence and whether it can truly serve as the foundation for achieving artificial general intelligence (AGI).</p>
+
+<h1 id="future-research-direction-questions">Future research direction questions</h1>
+
+<ol>
+<li>While <a href="https://arxiv.org/pdf/2502.10816v2" target="_blank"><em>BalanceBenchmark</em></a> [<a href="https://arxiv.org/pdf/2502.10816v2" target="_blank">5</a>] introduced the concept of &ldquo;relative balance&rdquo; (i.e., a trade-off point between performance and balance), it really gets us thinking: Does the blind pursuit of modality balance always pay off? Is this &ldquo;relative balance&rdquo; the same as &ldquo;true balance&rdquo;? And most importantly, how do we find that sweet spot in practice?</li>
+<li>Can we design a novel fusion architecture for multimodal large models that does not rely on a single dominant modality, especially text?</li>
+<li>Does a more equitable fusion mechanism exist that allows different modalities to interact more deeply and non-hierarchically at higher levels of the model, rather than simply &ldquo;translating&rdquo; visual or auditory information into textual concepts?</li>
+<li>How can we design new Parameter-Efficient Fine-Tuning (PEFT) methods that can balance updating and utilize information from all modalities during the fine-tuning process, rather than focusing only on text-related components? (<a href="https://arxiv.org/abs/2506.05191" target="_blank"><em>MokA</em></a> [<a href="https://arxiv.org/abs/2506.05191" target="_blank">24</a>] has made some efforts!)</li>
+<li>How can we design a comprehensive evaluation benchmark for multimodal large models specifically to measure the contribution of different modalities and the model&rsquo;s modality preferences?</li>
+<li>Can we develop explainability tools to visualize and analyze how information flows, fuses, and is ultimately utilized across modalities within a multimodal large model, thereby precisely identifying the bottlenecks of imbalance?</li>
+<li>In the progression towards AGI, how should a model learn to autonomously adjust its reliance on different modalities according to task demands to achieve true synergy and complementarity?</li>
+</ol>
+
+<h3 id="join-our-discussion"><strong>Join our discussion</strong></h3>
+
+<p>If you&rsquo;re interested in multimodal imbalance and want to dive deeper into the discussion, we welcome you to join our community:</p>
+
+<p><strong>GitHub:</strong> <a href="https://github.com/GeWu-Lab/awesome-balanced-multimodal-learning" target="_blank">https://github.com/GeWu-Lab/awesome-balanced-multimodal-learning</a></p>
+
+<p><strong>Slack Channel:</strong> <a href="https://join.slack.com/t/balancedmulti-mhs9373/shared_invite/zt-3aj46comq-CNWrkqqGI9Z2kNn64aU9FQ" target="_blank">https://join.slack.com/t/balancedmulti-mhs9373/shared_invite/zt-3aj46comq-CNWrkqqGI9Z2kNn64aU9FQ</a></p>
+
+<h1 id="references">References</h1>
+
+<p>[1] Adewumi, T., Alkhaled, L., Gurung, N., van Boven, G., &amp; Pagliai, I. (2024). Fairness and bias in multimodal ai: A survey. <em>arXiv preprint arXiv:2406.19097</em>.</p>
+
+<p>[2] Zhang, Y., &amp; Latham, P. (2024, July). Understanding Unimodal Bias in Multimodal Deep Linear Networks. In <em>Proceedings of the 41st International Conference on Machine Learning</em> (Vol. 235). PMLR.</p>
+
+<p>[3] Peng, X., Wei, Y., Deng, A., Wang, D., &amp; Hu, D. (2022). Balanced multimodal learning via on-the-fly gradient modulation. In <em>Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition</em> (pp. 8238-8247).</p>
+
+<p>[4] Wei, Y., Hu, D., Du, H., &amp; Wen, J. R. (2024). On-the-fly modulation for balanced multimodal learning. <em>IEEE Transactions on Pattern Analysis and Machine Intelligence</em>.</p>
+
+<p>[5] Xu, S., Cui, M., Huang, C., Wang, H., &amp; Hu, D. (2025). Balancebenchmark: A survey for multimodal imbalance learning. <em>arXiv preprint arXiv:2502.10816</em>.</p>
+
+<p>[6] Wei, Y., Feng, R., Wang, Z., &amp; Hu, D. (2024). Enhancing multimodal cooperation via sample-level modality valuation. In <em>Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition</em> (pp. 27338-27347).</p>
+
+<p>[7] Zhang, X., Yoon, J., Bansal, M., &amp; Yao, H. (2024). Multimodal representation learning by alternating unimodal adaptation. In <em>Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition</em> (pp. 27456-27466).</p>
+
+<p>[8] Zhou, Y., Liang, X., Zheng, S., Xuan, H., &amp; Kumada, T. (2023, June). Adaptive mask co-optimization for modal dependence in multimodal learning. In <em>ICASSP 2023-2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)</em> (pp. 1-5). IEEE.</p>
+
+<p>[9] Wu, N., Jastrzebski, S., Cho, K., &amp; Geras, K. J. (2022, June). Characterizing and overcoming the greedy nature of learning in multi-modal deep neural networks. In <em>International Conference on Machine Learning</em> (pp. 24043-24055). PMLR.</p>
+
+<p>[10] Wei, Y., &amp; Hu, D. (2024, July). MMPareto: boosting multimodal learning with innocent unimodal assistance. In <em>Proceedings of the 41st International Conference on Machine Learning</em> (pp. 52559-52572).</p>
+
+<p>[11] Xu, R., Feng, R., Zhang, S. X., &amp; Hu, D. (2023, June). Mmcosine: Multi-modal cosine loss towards balanced audio-visual fine-grained learning. In <em>ICASSP 2023-2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)</em> (pp. 1-5). IEEE.</p>
+
+<p>[12] Liu, S., Li, L., Song, J., Yang, Y., &amp; Zeng, X. (2023, February). Multimodal pre-training with self-distillation for product understanding in e-commerce. In <em>Proceedings of the Sixteenth ACM International Conference on Web Search and Data Mining</em> (pp. 1039-1047).</p>
+
+<p>[13] Ma, H., Zhang, Q., Zhang, C., Wu, B., Fu, H., Zhou, J. T., &amp; Hu, Q. (2023, July). Calibrating multimodal learning. In <em>International Conference on Machine Learning</em> (pp. 23429-23450). PMLR.</p>
+
+<p>[14] Yang, Y., Wan, F., Jiang, Q. Y., &amp; Xu, Y. (2024). Facilitating multimodal classification via dynamically learning modality gap. <em>Advances in Neural Information Processing Systems</em>, <em>37</em>, 62108-62122.</p>
+
+<p>[15] Du, C., Teng, J., Li, T., Liu, Y., Yuan, T., Wang, Y., &hellip; &amp; Zhao, H. (2023, July). On uni-modal feature learning in supervised multi-modal learning. In <em>International Conference on Machine Learning</em> (pp. 8632-8656). PMLR.</p>
+
+<p>[16] Wang, W., Tran, D., &amp; Feiszli, M. (2020). What makes training multi-modal classification networks hard?. In <em>Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition</em> (pp. 12695-12705).</p>
+
+<p>[17] Li, H., Li, X., Hu, P., Lei, Y., Li, C., &amp; Zhou, Y. (2023). Boosting multi-modal model performance with adaptive gradient modulation. In <em>Proceedings of the IEEE/CVF International Conference on Computer Vision</em> (pp. 22214-22224).</p>
+
+<p>[18] Fan, Y., Xu, W., Wang, H., Wang, J., &amp; Guo, S. (2023). Pmr: Prototypical modal rebalance for multimodal learning. In <em>Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition</em> (pp. 20029-20038).</p>
+
+<p>[19] Huang, C., Wei, Y., Yang, Z., &amp; Hu, D. (2025). Adaptive unimodal regulation for balanced multimodal information acquisition. In <em>Proceedings of the Computer Vision and Pattern Recognition Conference</em> (pp. 25854-25863).</p>
+
+<p>[20] Hua, C., Xu, Q., Bao, S., Yang, Z., &amp; Huang, Q. (2024, July). ReconBoost: Boosting Can Achieve Modality Reconcilement. In <em>International Conference on Machine Learning</em> (pp. 19573-19597). PMLR.</p>
+
+<p>[21] Wei, Y., Li, S., Feng, R., &amp; Hu, D. (2024, September). Diagnosing and re-learning for balanced multimodal learning. In <em>European Conference on Computer Vision</em> (pp. 71-86). Cham: Springer Nature Switzerland.</p>
+
+<p>[22] Ni, H., Wei, Y., Liu, H., Chen, G., Peng, C., Lin, H., &amp; Hu, D. RollingQ: Reviving the Cooperation Dynamics in Multimodal Transformer. In <em>Forty-second International Conference on Machine Learning</em>.</p>
+
+<p>[23] Team, C. (2024). Chameleon: Mixed-modal early-fusion foundation models. <em>arXiv preprint arXiv:2405.09818</em>.</p>
+
+<p>[24] Wei, Y., Miao, Y., Zhou, D., &amp; Hu, D. (2025). MokA: Multimodal Low-Rank Adaptation for MLLMs. In <em>Advances in Neural Information Processing Systems</em> (NeurIPS).</p>
+
+<p>[25] Jiang, T., Song, M., Zhang, Z., Huang, H., Deng, W., Sun, F., &hellip; &amp; Zhuang, F. (2024). E5-V: Universal Embeddings with Multimodal Large Language Models. <em>CoRR</em>.</p>
+
+<p>[26] Jung, C., Jang, Y., Choi, J., &amp; Chung, J. S. (2025). Fork-Merge Decoding: Enhancing Multimodal Understanding in Audio-Visual Large Language Models. <em>arXiv preprint arXiv:2505.20873</em>.</p>
+
+<p>[27] Park, S., Panigrahi, A., Cheng, Y., Yu, D., Goyal, A., &amp; Arora, S. Generalizing from SIMPLE to HARD Visual Reasoning: Can We Mitigate Modality Imbalance in VLMs?. In <em>Forty-second International Conference on Machine Learning</em>.</p>
+
+    </div>
+
+    
+
+
+
+
+  
+  
+
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+    
+    <script src="/js/mathjax-config.js"></script>
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        
+      
+
+      
+      
+      <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/js/academic.min.9bd6658f553ad8328726cf536e172917.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+    
+    <p class="powered-by">
+      copyright &copy; 2025 GeWu-Lab 
+      <br/>
+      
+      Gaoling School of Artificial Intelligence, Renmin University of China, Beijing 100872
+    </p>
+  </footer>
+  
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

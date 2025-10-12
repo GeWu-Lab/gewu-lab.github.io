@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xiaoqiang Lu | GeWu-Lab</title>
+    <link>/authors/xiaoqiang-lu/</link>
+      <atom:link href="/authors/xiaoqiang-lu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Xiaoqiang Lu</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2025 GeWu-Lab</copyright>
+    <image>
+      <url>/img/logo.png</url>
+      <title>Xiaoqiang Lu</title>
+      <link>/authors/xiaoqiang-lu/</link>
+    </image>
+    
+    <item>
+      <title>Image2song: Song Retrieval via Bridging Image Content and Lyric Words</title>
+      <link>/publication/image2song-song-retrieval-via-bridging-image-content-and-lyric-words/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/image2song-song-retrieval-via-bridging-image-content-and-lyric-words/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Temporal Multimodal Learning in Audiovisual Speech Recognition</title>
+      <link>/publication/temporal-multimodal-learning-in-audiovisual-speech-recognition/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/temporal-multimodal-learning-in-audiovisual-speech-recognition/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

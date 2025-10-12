@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hongtao Wu | GeWu-Lab</title>
+    <link>/authors/hongtao-wu/</link>
+      <atom:link href="/authors/hongtao-wu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Hongtao Wu</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2025 GeWu-Lab</copyright>
+    <image>
+      <url>/img/logo.png</url>
+      <title>Hongtao Wu</title>
+      <link>/authors/hongtao-wu/</link>
+    </image>
+    
+    <item>
+      <title>🔥Robotic Policy Learning via Human-assisted Action Preference Optimization</title>
+      <link>/publication/robotic-policy-learning-via-human-assisted-action-preference-optimization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/robotic-policy-learning-via-human-assisted-action-preference-optimization/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

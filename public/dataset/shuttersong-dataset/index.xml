@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shuttersong Dataset | GeWu-Lab</title>
+    <link>/dataset/shuttersong-dataset/</link>
+      <atom:link href="/dataset/shuttersong-dataset/index.xml" rel="self" type="application/rss+xml" />
+    <description>Shuttersong Dataset</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2025 GeWu-Lab</copyright>
+    <image>
+      <url>/dataset/shuttersong-dataset/featured.jpg</url>
+      <title>Shuttersong Dataset</title>
+      <link>/dataset/shuttersong-dataset/</link>
+    </image>
+    
+  </channel>
+</rss>

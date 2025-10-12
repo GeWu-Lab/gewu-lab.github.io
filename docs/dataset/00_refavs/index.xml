@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&lt;b&gt;Ref&lt;/b&gt;er and Segment Objects in &lt;b&gt;A&lt;/b&gt;udio-&lt;b&gt;V&lt;/b&gt;isual &lt;b&gt;S&lt;/b&gt;cenes (Ref-AVS) Dataset | GeWu-Lab</title>
+    <link>/dataset/00_refavs/</link>
+      <atom:link href="/dataset/00_refavs/index.xml" rel="self" type="application/rss+xml" />
+    <description>&lt;b&gt;Ref&lt;/b&gt;er and Segment Objects in &lt;b&gt;A&lt;/b&gt;udio-&lt;b&gt;V&lt;/b&gt;isual &lt;b&gt;S&lt;/b&gt;cenes (Ref-AVS) Dataset</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2025 GeWu-Lab</copyright>
+    <image>
+      <url>/dataset/00_refavs/featured.png</url>
+      <title>&lt;b&gt;Ref&lt;/b&gt;er and Segment Objects in &lt;b&gt;A&lt;/b&gt;udio-&lt;b&gt;V&lt;/b&gt;isual &lt;b&gt;S&lt;/b&gt;cenes (Ref-AVS) Dataset</title>
+      <link>/dataset/00_refavs/</link>
+    </image>
+    
+  </channel>
+</rss>

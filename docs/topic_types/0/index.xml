@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>0 | GeWu-Lab</title>
+    <link>/topic_types/0/</link>
+      <atom:link href="/topic_types/0/index.xml" rel="self" type="application/rss+xml" />
+    <description>0</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2025 GeWu-Lab</copyright>
+    <image>
+      <url>/img/logo.png</url>
+      <title>0</title>
+      <link>/topic_types/0/</link>
+    </image>
+    
+    <item>
+      <title>Adaptive Unimodal Regulation for Balanced Multimodal Information Acquisition</title>
+      <link>/publication/adaptive-unimodal-regulation-for-balanced-multimodal-information-acquisition/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/adaptive-unimodal-regulation-for-balanced-multimodal-information-acquisition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Balanced Audiovisual Dataset for Imbalance Analysis</title>
+      <link>/publication/balanced-audiovisual-dataset-for-imbalance-analysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/balanced-audiovisual-dataset-for-imbalance-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Balanced Multimodal Learning via On-the-fly Gradient Modulation</title>
+      <link>/publication/balanced-multimodal-learning-via-on-the-fly-gradient-modulation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/balanced-multimodal-learning-via-on-the-fly-gradient-modulation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Diagnosing and Re-learning for Balanced Multimodal Learning</title>
+      <link>/publication/diagnosing-and-re-learning-for-balanced-multimodal-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/diagnosing-and-re-learning-for-balanced-multimodal-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enhancing Multi-modal Cooperation via Fine-grained Modality Valuation</title>
+      <link>/publication/enhancing-multi-modal-cooperation-via-fine-grained-modality-valuation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/enhancing-multi-modal-cooperation-via-fine-grained-modality-valuation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generalising Combinatorial Discriminant Analysis through Conditioning Truncated Rayleigh Flow</title>
+      <link>/publication/generalising-combinatorial-discriminant-analysis-through-conditioning-truncated-rayleigh-flow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/generalising-combinatorial-discriminant-analysis-through-conditioning-truncated-rayleigh-flow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Geometric-Inspired Graph-based Incomplete Multi-view Clustering</title>
+      <link>/publication/geometric-inspired-graph-based-incomplete-multi-view-clustering/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/geometric-inspired-graph-based-incomplete-multi-view-clustering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MMCosine: Multi-Modal Cosine Loss Towards Balanced Audio-Visual Fine-Grained Learning</title>
+      <link>/publication/mmcosine_-multi-modal-cosine-loss-towards-balanced-audio-visual-fine-grained-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/mmcosine_-multi-modal-cosine-loss-towards-balanced-audio-visual-fine-grained-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Not All Knowledge Is Created Equal</title>
+      <link>/publication/not-all-knowledge-is-created-equal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/not-all-knowledge-is-created-equal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On-the-fly Modulation for Balanced Multimodal Learning</title>
+      <link>/publication/on-the-fly-modulation-for-balanced-multimodal-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/on-the-fly-modulation-for-balanced-multimodal-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Patch Matters: Training-free Fine-grained Image Caption Enhancement via Local Perception</title>
+      <link>/publication/patch-matters-training-free-fine-grained-image-caption-enhancement-via-local-perception/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/patch-matters-training-free-fine-grained-image-caption-enhancement-via-local-perception/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quantifying and Enhancing Multi-modal Robustness with Modality Preference</title>
+      <link>/publication/quantifying-and-enhancing-multi-modal-robustness-with-modality-preference/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/quantifying-and-enhancing-multi-modal-robustness-with-modality-preference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards Accurate Knowledge Transfer via Target-awareness Representation Disentanglement</title>
+      <link>/publication/towards-accurate-knowledge-transfer-via-target-awareness-representation-disentanglement/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/towards-accurate-knowledge-transfer-via-target-awareness-representation-disentanglement/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards Inadequately Pre-trained Models in Transfer Learning</title>
+      <link>/publication/towards-inadequately-pre-trained-models-in-transfer-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/towards-inadequately-pre-trained-models-in-transfer-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unsupervised Multi-Source Domain Adaptation for Person Re-Identification</title>
+      <link>/publication/unsupervised-multi-source-domain-adaptation-for-person-re-identification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/unsupervised-multi-source-domain-adaptation-for-person-re-identification/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>🔥MokA: Multimodal Low-Rank Adaptation for MLLMs</title>
+      <link>/publication/moka-multimodal-low-rank-adaptation-for-mllms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/moka-multimodal-low-rank-adaptation-for-mllms/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

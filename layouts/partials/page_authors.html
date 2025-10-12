@@ -1,0 +1,38 @@
+{{ $page := . }}
+
+{{/* add the people*/}}
+
+{{ $base_url:= .RelPermalink}}
+{{ $people_url:= .Params.people_links}}
+{{ $institution_url:= .Params.institution_links}}
+
+<div class="container" style="background-color: #f8f9fa!important;">
+    <h2 style="font-size: 40px; font-weight:700;margin-bottom: 15px;">THE TEAM</h2>
+
+    <p style="color:  #6c757d!important;">{{.Params.desc}}</p>
+    
+    <div class="row justify-content-center people-widget"> 
+
+    {{range $index, $institution := .Params.institution}}
+        {{ $institution_web:= index $institution_url $index}}
+        {{ $institution_pic:= print $base_url $institution ".jpg" }}
+        <div class="col-md-6">
+            <a href="{{$institution_web}}"><img style="width: 80%" src="{{ $institution_pic }}" ></a>
+        </div>
+    {{end}}
+        </div>
+    <hr>
+        <div class="row justify-content-center people-widget"> 
+    {{range $index, $person := .Params.people}}
+        {{$people_web:= index $people_url $index}}
+        {{$people_pic:= print $base_url $person ".jpg"}}
+    <div class="col-12 col-sm-auto people-person">
+          <a href="{{$people_web}}"><img class="portrait" src="{{ $people_pic }}" alt="Avatar"></a>
+
+    <div class="portrait-title">
+    <h2><a href="{{$people_web}}">{{ $person }}</a></h2>
+    </div>
+    </div>
+    {{end}}
+  </div>
+</div>

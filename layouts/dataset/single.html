@@ -1,0 +1,69 @@
+{{- define "main" -}}
+
+<article class="article article-project">
+
+    {{ partial "page_header.html" . }}
+
+    <div class="article-container">
+
+        <div class="article-style">
+          {{ .Content }}
+        </div>
+    
+        {{ partial "page_footer" . }}
+    
+        <div class="project-related-pages content-widget-hr">
+          {{ $page := . }}
+          {{ $datasets := .File.ContentBaseName }}
+    
+          {{ $items := where (where site.RegularPages "Type" "post") ".Params.datasets" "intersect" (slice $datasets) }}
+          {{ $count := len $items }}
+          {{ if ge $count 1 }}
+            <h2>{{ (i18n "posts") }}</h2>
+            {{ range $items }}
+              {{ if eq site.Params.datasets.post_view 1 }}
+                {{ partial "li_list" . }}
+              {{ else if eq site.Params.datasets.post_view 3 }}
+                {{ partial "li_card" . }}
+              {{ else }}
+                {{ partial "li_compact" . }}
+              {{ end }}
+            {{ end }}
+          {{ end }}
+    
+          {{ $items := where (where site.RegularPages "Type" "publication") ".Params.datasets" "intersect" (slice $datasets) }}
+          {{ $pubs_len := len $items }}
+          {{ if ge $pubs_len 1 }}
+            <h2>{{ (i18n "publications") }}</h2>
+            {{ range $items }}
+              {{ if eq site.Params.datasets.publication_view 1 }}
+                {{ partial "li_list" . }}
+              {{ else if eq site.Params.datasets.publication_view 3 }}
+                {{ partial "li_card" . }}
+              {{ else if eq site.Params.datasets.publication_view 4 }}
+                {{ partial "li_citation" . }}
+              {{ else }}
+                {{ partial "li_compact" . }}
+              {{ end }}
+            {{ end }}
+          {{ end }}
+    
+          {{ $items := where (where site.RegularPages "Type" "talk") ".Params.datasets" "intersect" (slice $datasets) }}
+          {{ $talks_len := len $items }}
+          {{ if ge $talks_len 1 }}
+            <h2>{{ (i18n "talks") }}</h2>
+            {{ range $items }}
+              {{ if eq site.Params.datasets.talk_view 1 }}
+                {{ partial "li_list" . }}
+              {{ else if eq site.Params.datasets.talk_view 3 }}
+                {{ partial "li_card" . }}
+              {{ else }}
+                {{ partial "li_compact" . }}
+              {{ end }}
+            {{ end }}
+          {{ end }}
+        </div>
+      </div>
+</article>
+
+{{- end -}}

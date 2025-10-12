@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Feiping Nie | GeWu-Lab</title>
+    <link>/authors/feiping-nie/</link>
+      <atom:link href="/authors/feiping-nie/index.xml" rel="self" type="application/rss+xml" />
+    <description>Feiping Nie</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2025 GeWu-Lab</copyright>
+    <image>
+      <url>/img/logo.png</url>
+      <title>Feiping Nie</title>
+      <link>/authors/feiping-nie/</link>
+    </image>
+    
+    <item>
+      <title>Curriculum Audiovisual Learning</title>
+      <link>/publication/curriculum-audiovisual-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/curriculum-audiovisual-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Binary Reconstruction for Cross-modal Hashing</title>
+      <link>/publication/deep-binary-reconstruction-for-cross-modal-hashing-journal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/deep-binary-reconstruction-for-cross-modal-hashing-journal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Binary Reconstruction for Cross-modal Hashing</title>
+      <link>/publication/deep-binary-reconstruction-for-cross-modal-hashing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/deep-binary-reconstruction-for-cross-modal-hashing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Linear Discriminant Analysis Hashing</title>
+      <link>/publication/deep-linear-discriminant-analysis-hashing-supplemental-material/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/deep-linear-discriminant-analysis-hashing-supplemental-material/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Multimodal Clustering for Unsupervised Audiovisual Learning Representation</title>
+      <link>/publication/deep-multimodal-clustering-for-unsupervised-audiovisual-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/deep-multimodal-clustering-for-unsupervised-audiovisual-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Discrete Spectral Hashing for Efficient Similarity Retrieval</title>
+      <link>/publication/discrete-spectral-hashing-for-efficient-similarity-retrieval/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/discrete-spectral-hashing-for-efficient-similarity-retrieval/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Geometric-Inspired Graph-based Incomplete Multi-view Clustering</title>
+      <link>/publication/geometric-inspired-graph-based-incomplete-multi-view-clustering/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/geometric-inspired-graph-based-incomplete-multi-view-clustering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Heterogeneous Scene Analysis via Self-supervised Audiovisual Learning</title>
+      <link>/publication/heterogeneous-scene-analysis-via-self-supervised-audiovisual-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/heterogeneous-scene-analysis-via-self-supervised-audiovisual-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Large Graph Hashing with Spectral Rotation</title>
+      <link>/publication/large-graph-hashing-with-spectral-rotation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/large-graph-hashing-with-spectral-rotation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Listen to the Image</title>
+      <link>/publication/listen-to-the-image/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/listen-to-the-image/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Self-supervised Learning for Heterogeneous Audiovisual Scene Analysis</title>
+      <link>/publication/self-supervised-learning-for-heterogeneous-audiovisual-scene-analysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/self-supervised-learning-for-heterogeneous-audiovisual-scene-analysis/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

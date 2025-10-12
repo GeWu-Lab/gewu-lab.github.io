@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sensory Substitution for the Blind | GeWu-Lab</title>
+    <link>/project/5_sensory-substitution-for-the-blind/</link>
+      <atom:link href="/project/5_sensory-substitution-for-the-blind/index.xml" rel="self" type="application/rss+xml" />
+    <description>Sensory Substitution for the Blind</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2025 GeWu-Lab</copyright>
+    <image>
+      <url>/project/5_sensory-substitution-for-the-blind/featured.jpg</url>
+      <title>Sensory Substitution for the Blind</title>
+      <link>/project/5_sensory-substitution-for-the-blind/</link>
+    </image>
+    
+  </channel>
+</rss>

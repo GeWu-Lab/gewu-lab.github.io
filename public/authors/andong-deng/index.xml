@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Andong Deng | GeWu-Lab</title>
+    <link>/authors/andong-deng/</link>
+      <atom:link href="/authors/andong-deng/index.xml" rel="self" type="application/rss+xml" />
+    <description>Andong Deng</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2025 GeWu-Lab</copyright>
+    <image>
+      <url>/img/logo.png</url>
+      <title>Andong Deng</title>
+      <link>/authors/andong-deng/</link>
+    </image>
+    
+    <item>
+      <title>Balanced Multimodal Learning via On-the-fly Gradient Modulation</title>
+      <link>/publication/balanced-multimodal-learning-via-on-the-fly-gradient-modulation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/balanced-multimodal-learning-via-on-the-fly-gradient-modulation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robust Cross-modal Knowledge Distillation for Unconstrained Videos</title>
+      <link>/publication/robust-cross-modal-knowledge-distillation-for-unconstrained-videos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/robust-cross-modal-knowledge-distillation-for-unconstrained-videos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards Inadequately Pre-trained Models in Transfer Learning</title>
+      <link>/publication/towards-inadequately-pre-trained-models-in-transfer-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/towards-inadequately-pre-trained-models-in-transfer-learning/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

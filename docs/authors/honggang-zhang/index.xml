@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Honggang Zhang | GeWu-Lab</title>
+    <link>/authors/honggang-zhang/</link>
+      <atom:link href="/authors/honggang-zhang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Honggang Zhang</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2025 GeWu-Lab</copyright>
+    <image>
+      <url>/img/logo.png</url>
+      <title>Honggang Zhang</title>
+      <link>/authors/honggang-zhang/</link>
+    </image>
+    
+    <item>
+      <title>Can Textual Semantics Mitigate Sounding Object SegmentationPreference?</title>
+      <link>/publication/can-textual-semantics-mitigate-sounding-object-segmentationpreference_/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/can-textual-semantics-mitigate-sounding-object-segmentationpreference_/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ref-AVS: Refer and Segment Objects in Audio-Visual Scenes</title>
+      <link>/publication/ref-avs_-refer-and-segment-objects-in-audio-visual-scenes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/ref-avs_-refer-and-segment-objects-in-audio-visual-scenes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unveiling and Mitigating Bias in Audio Visual Segmentation</title>
+      <link>/publication/unveiling-and-mitigating-bias-in-audio-visual-segmentation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/unveiling-and-mitigating-bias-in-audio-visual-segmentation/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

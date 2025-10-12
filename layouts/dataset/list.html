@@ -1,0 +1,26 @@
+{{- define "main" -}}
+
+{{ partial "page_header.html" . }}
+
+<div class="universal-wrapper">
+
+  {{ with .Content }}
+  <div class="article-style">{{ . }}</div>
+  {{ end }}
+
+  {{ $paginator := .Paginate .Data.Pages }}
+
+  {{ range sort $paginator.Pages ".Params.weight" }}
+  
+  <div>
+    {{ partial "li_compact_for_dataset" . }}
+  </div>
+  {{ end }}
+
+  {{if .Params.is_item}}
+    {{ partial "page_authors.html" . }}
+  {{end}}
+  {{ partial "pagination" . }}
+</div>
+
+{{- end -}}

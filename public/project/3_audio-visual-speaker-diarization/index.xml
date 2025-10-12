@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tencent AI Lab Rhino-Bird Focused Research Program | GeWu-Lab</title>
+    <link>/project/3_audio-visual-speaker-diarization/</link>
+      <atom:link href="/project/3_audio-visual-speaker-diarization/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tencent AI Lab Rhino-Bird Focused Research Program</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2025 GeWu-Lab</copyright>
+    <image>
+      <url>/project/3_audio-visual-speaker-diarization/featured.png</url>
+      <title>Tencent AI Lab Rhino-Bird Focused Research Program</title>
+      <link>/project/3_audio-visual-speaker-diarization/</link>
+    </image>
+    
+  </channel>
+</rss>

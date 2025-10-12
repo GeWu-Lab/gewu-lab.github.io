@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xuelong Li | GeWu-Lab</title>
+    <link>/authors/xuelong-li/</link>
+      <atom:link href="/authors/xuelong-li/index.xml" rel="self" type="application/rss+xml" />
+    <description>Xuelong Li</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2025 GeWu-Lab</copyright>
+    <image>
+      <url>/img/logo.png</url>
+      <title>Xuelong Li</title>
+      <link>/authors/xuelong-li/</link>
+    </image>
+    
+    <item>
+      <title>Deep Binary Reconstruction for Cross-modal Hashing</title>
+      <link>/publication/deep-binary-reconstruction-for-cross-modal-hashing-journal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/deep-binary-reconstruction-for-cross-modal-hashing-journal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Binary Reconstruction for Cross-modal Hashing</title>
+      <link>/publication/deep-binary-reconstruction-for-cross-modal-hashing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/deep-binary-reconstruction-for-cross-modal-hashing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Linear Discriminant Analysis Hashing</title>
+      <link>/publication/deep-linear-discriminant-analysis-hashing-supplemental-material/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/deep-linear-discriminant-analysis-hashing-supplemental-material/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Multimodal Clustering for Unsupervised Audiovisual Learning Representation</title>
+      <link>/publication/deep-multimodal-clustering-for-unsupervised-audiovisual-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/deep-multimodal-clustering-for-unsupervised-audiovisual-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Depth Helps: Improving Pre-trained RGB-based Policy with Depth Information Injection</title>
+      <link>/publication/depth-helps_-improving-pre-trained-rgb-based-policy-with-depth-information-injection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/depth-helps_-improving-pre-trained-rgb-based-policy-with-depth-information-injection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Discrete Spectral Hashing for Efficient Similarity Retrieval</title>
+      <link>/publication/discrete-spectral-hashing-for-efficient-similarity-retrieval/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/discrete-spectral-hashing-for-efficient-similarity-retrieval/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Image2song: Song Retrieval via Bridging Image Content and Lyric Words</title>
+      <link>/publication/image2song-song-retrieval-via-bridging-image-content-and-lyric-words/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/image2song-song-retrieval-via-bridging-image-content-and-lyric-words/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kinematic-aware Prompting for Generalizable Articulated Object Manipulation with LLMs</title>
+      <link>/publication/kinematic-aware-prompting-for-generalizable-articulated-object-manipulation-with-llms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/kinematic-aware-prompting-for-generalizable-articulated-object-manipulation-with-llms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>KOI: Accelerating Online Imitation Learning via Hybrid Key-state Guidance</title>
+      <link>/publication/koi_-accelerating-online-imitation-learning-via-hybrid-key-state-guidance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/koi_-accelerating-online-imitation-learning-via-hybrid-key-state-guidance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Large Graph Hashing with Spectral Rotation</title>
+      <link>/publication/large-graph-hashing-with-spectral-rotation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/large-graph-hashing-with-spectral-rotation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning in Audio-visual Context: A Review, Analysis, and New Perspective</title>
+      <link>/publication/learning-in-audio-visual-context_-a-review-analysis-and-new-perspective/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/learning-in-audio-visual-context_-a-review-analysis-and-new-perspective/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Listen to the Image</title>
+      <link>/publication/listen-to-the-image/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/listen-to-the-image/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Self-supervised Learning for Heterogeneous Audiovisual Scene Analysis</title>
+      <link>/publication/self-supervised-learning-for-heterogeneous-audiovisual-scene-analysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/self-supervised-learning-for-heterogeneous-audiovisual-scene-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Temporal Multimodal Learning in Audiovisual Speech Recognition</title>
+      <link>/publication/temporal-multimodal-learning-in-audiovisual-speech-recognition/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/temporal-multimodal-learning-in-audiovisual-speech-recognition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>🔥Play to the Score: Stage-Guided Dynamic Multi-Sensory Fusion for Robotic Manipulation</title>
+      <link>/publication/play-to-the-score_-stage-guided-dynamic-multi-sensory-fusion-for-robotic-manipulation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/play-to-the-score_-stage-guided-dynamic-multi-sensory-fusion-for-robotic-manipulation/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

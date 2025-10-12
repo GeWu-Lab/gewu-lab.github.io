@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Realistic MUSIC &amp; DailyLife dataset | GeWu-Lab</title>
+    <link>/dataset/realistic-music-dailylife-dataset/</link>
+      <atom:link href="/dataset/realistic-music-dailylife-dataset/index.xml" rel="self" type="application/rss+xml" />
+    <description>Realistic MUSIC &amp; DailyLife dataset</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2025 GeWu-Lab</copyright>
+    <image>
+      <url>/dataset/realistic-music-dailylife-dataset/featured.png</url>
+      <title>Realistic MUSIC &amp; DailyLife dataset</title>
+      <link>/dataset/realistic-music-dailylife-dataset/</link>
+    </image>
+    
+  </channel>
+</rss>

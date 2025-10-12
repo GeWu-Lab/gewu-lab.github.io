@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Baidu Research Program of Cross-Modal Knowledge Distillation with Interpretability | GeWu-Lab</title>
+    <link>/project/4_cross-modal-transfer-learning-with-interpretability/</link>
+      <atom:link href="/project/4_cross-modal-transfer-learning-with-interpretability/index.xml" rel="self" type="application/rss+xml" />
+    <description>Baidu Research Program of Cross-Modal Knowledge Distillation with Interpretability</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2025 GeWu-Lab</copyright>
+    <image>
+      <url>/project/4_cross-modal-transfer-learning-with-interpretability/featured.jpeg</url>
+      <title>Baidu Research Program of Cross-Modal Knowledge Distillation with Interpretability</title>
+      <link>/project/4_cross-modal-transfer-learning-with-interpretability/</link>
+    </image>
+    
+  </channel>
+</rss>

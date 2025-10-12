@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ji-Rong Wen | GeWu-Lab</title>
+    <link>/authors/ji-rong-wen/</link>
+      <atom:link href="/authors/ji-rong-wen/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ji-Rong Wen</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2025 GeWu-Lab</copyright>
+    <image>
+      <url>/img/logo.png</url>
+      <title>Ji-Rong Wen</title>
+      <link>/authors/ji-rong-wen/</link>
+    </image>
+    
+    <item>
+      <title>Class-aware Sounding Objects Localization via Audiovisual Correspondence</title>
+      <link>/publication/class-aware-sounding-objects-localization-via-audiovisual-correspondence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/class-aware-sounding-objects-localization-via-audiovisual-correspondence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning to Answer Questions in Dynamic Audio-Visual Scenarios</title>
+      <link>/publication/learning-to-answer-questions-in-dynamic-audio-visual-scenarios/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/learning-to-answer-questions-in-dynamic-audio-visual-scenarios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On-the-fly Modulation for Balanced Multimodal Learning</title>
+      <link>/publication/on-the-fly-modulation-for-balanced-multimodal-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/on-the-fly-modulation-for-balanced-multimodal-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Self-supervised Audiovisual Representation Learning for Remote Sensing Data</title>
+      <link>/publication/self-supervised-audiovisual-representation-learning-for-remote-sensing-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/self-supervised-audiovisual-representation-learning-for-remote-sensing-data/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

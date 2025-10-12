@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Balanced Audiovisual Dataset | GeWu-Lab</title>
+    <link>/dataset/02_balanced/</link>
+      <atom:link href="/dataset/02_balanced/index.xml" rel="self" type="application/rss+xml" />
+    <description>Balanced Audiovisual Dataset</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2025 GeWu-Lab</copyright>
+    <image>
+      <url>/dataset/02_balanced/featured.png</url>
+      <title>Balanced Audiovisual Dataset</title>
+      <link>/dataset/02_balanced/</link>
+    </image>
+    
+  </channel>
+</rss>
