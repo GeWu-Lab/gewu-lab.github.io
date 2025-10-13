@@ -3,7 +3,7 @@ name: Xincheng Pang
 
 superuser: true
 
-role: Since 2022
+role: Master Graduate, 2022-2025
 
 
 # website_url: http://www.pangxincheng.work  # 可以配置个人主页, 如果有的话
