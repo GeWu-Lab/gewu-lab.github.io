@@ -8,7 +8,7 @@ authors:
  - Ji-Rong Wen  
  - Di Hu 
 publication_types: ["1"]  
-publication: Computer Vision and Pattern Recognition (CVPR) 2022 <b>Oral Presentation</b> 
+publication: Computer Vision and Pattern Recognition (CVPR) 2022
 publication_types_name: Conference Paper  
 url_pdf: https://arxiv.org/abs/2203.14072  
 url_code: https://github.com/GeWu-Lab/MUSIC-AVQA  

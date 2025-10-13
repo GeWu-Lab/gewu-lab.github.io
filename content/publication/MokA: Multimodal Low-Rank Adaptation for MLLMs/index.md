@@ -13,7 +13,7 @@ url_code: https://github.com/GeWu-Lab/MokA
 url_project: ""
 url_dataset: ""
 topic_types: ["0"]
-topic_types_name: Multi-Modal Learning Mechanism
+topic_types_name: Multimodal Learning Mechanism
 rating: 2025_09_18
 is_oral: true
 ---

@@ -12,6 +12,6 @@ publication_types: ["1"]
 publication: Conference on Computer Vision and Pattern Recognition (CVPR) 2025   
 publication_types_name: Conference Paper  
 topic_types: ["0"]
-topic_types_name: Multi-Modal Learning Mechanism
+topic_types_name: Multimodal Learning Mechanism
 rating : 2025_02_27
 ---  

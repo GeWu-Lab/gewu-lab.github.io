@@ -98,7 +98,7 @@ rating : 2021_08_01  # 发表时间, 用于默认排序
 > Workshop paper = 9  
 > topic类型id映射表  
 > Uncategorized = 0  
-> Multi-Modal Learning Mechanism = 1
+> Multimodal Learning Mechanism = 1
 > Audio-Visual Learning = 2  
 > Deep Learning with hashing = 3  
 

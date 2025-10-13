@@ -12,6 +12,6 @@ url_pdf: https://arxiv.org/abs/2303.05338
 url_code: https://gewu-lab.github.io/MMCosine/ 
 url_project: https://github.com/GeWu-Lab/MMCosine_ICASSP23
 topic_types: ["0"]
-topic_types_name: Multi-Modal Learning Mechanism
+topic_types_name: Multimodal Learning Mechanism
 rating : 2023_02_01
 ---  

@@ -12,6 +12,6 @@ publication_types_name: Conference Paper
 url_pdf: https://arxiv.org/abs/2407.09705
 url_code: https://github.com/GeWu-Lab/Diagnosing_Relearning_ECCV2024
 topic_types: ["0"]
-topic_types_name: Multi-Modal Learning Mechanism
+topic_types_name: Multimodal Learning Mechanism
 rating : 2024_07_01
 ---  

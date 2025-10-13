@@ -11,6 +11,6 @@ publication_types_name: "Conference Paper"
 url_pdf: "https://ieeexplore.ieee.org/abstract/document/10694738"  
 url_code: "https://github.com/GeWu-Lab/BML_TPAMI2024"  
 topic_types: ["0"]
-topic_types_name: Multi-Modal Learning Mechanism
+topic_types_name: Multimodal Learning Mechanism
 rating: "2024_10_11"
 ---

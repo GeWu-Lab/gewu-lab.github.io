@@ -9,7 +9,7 @@ publication: Association for the Advancement of Artificial Intelligence (AAAI) 2
 publication_types_name: Conference Paper  
 url_pdf: https://dtaoo.github.io/papers/2017_LGHSR.pdf  
 url_code: https://dtaoo.github.io/code/2017_LGHSR.zip  
-topic_types: ["3"]
-topic_types_name: topic_hash
+topic_types: ["0"]
+topic_types_name: Multimodal Learning Mechanism
 rating : 2017_10_01
 ---  
