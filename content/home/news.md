@@ -15,14 +15,14 @@ robotic_video_2 = "faucet.mp4"
 
 [[item]]
     title = "[10-10-2025] Yake and Wenke received travel grants!"
-    subtitle = "Congrats to Yeke and Wenke!"
+    subtitle = "Congrats to Yake and Wenke!"
     subtitle_color = ""
     link = ""
 
 
 [[item]]
     title = "[25-07-2025] Two papers accepted by NeurIPS!"
-    subtitle = "Congrats to Yeke and Wenke!"
+    subtitle = "Congrats to Yake and Wenke!"
     subtitle_color = ""
     link = ""
 
