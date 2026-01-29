@@ -12,6 +12,11 @@ direction_img = "boards_new.jpg"
 robotic_video = "open_cabinet.mp4"
 robotic_video_2 = "faucet.mp4"
 
+[[item]]
+    title = "[26-01-2026] Two papers accepted by ICLR!"
+    subtitle = "Congrats to Ruoxuan and Jingxian!"
+    subtitle_color = ""
+    link = ""
 
 [[item]]
     title = "[10-10-2025] Yake and Wenke received travel grants!"
@@ -21,7 +26,7 @@ robotic_video_2 = "faucet.mp4"
 
 
 [[item]]
-    title = "[25-07-2025] Two papers accepted by NeurIPS!"
+    title = "[18-09-2025] Two papers accepted by NeurIPS!"
     subtitle = "Congrats to Yake and Wenke!"
     subtitle_color = ""
     link = ""

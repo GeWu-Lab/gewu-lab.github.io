@@ -2,6 +2,13 @@
 height = "600px"
 
 [[item]]
+    title = "2025-11-28"
+    content = "Team-Building Day"
+    font_color = "#f8f8f2"
+    align = "center"  # Choose `center`, `left`, or `right`.
+    overlay_img = "photos/25tuanjian.jpg"
+    overlay_filter = 0.5
+[[item]]
     title = "2025-8-16"
     content = "The World Humanoid Robot Games"
     font_color = "#f8f8f2"
