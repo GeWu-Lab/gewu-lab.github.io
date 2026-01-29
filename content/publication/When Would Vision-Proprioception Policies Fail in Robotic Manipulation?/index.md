@@ -7,7 +7,7 @@ authors:
 - "Zhiwu Lu"
 - "Di Hu"
 publication_types: ["1"]
-publication: International Conference on Learning Representations (ICLR) 2025
+publication: International Conference on Learning Representations (ICLR) 2026
 publication_types_name: Conference Paper
 #url_pdf: TBD
 #url_code: TBD
