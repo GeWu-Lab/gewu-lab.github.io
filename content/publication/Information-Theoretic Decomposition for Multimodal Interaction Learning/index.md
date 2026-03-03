@@ -13,5 +13,5 @@ publication_types_names: Conference Paper
 #url_code: ""    # 需要的话填代码仓库链接
 topic_types: ["0"]
 topic_types_name: Multimodal Learning
-rating : 2026
+rating : 2026_02_27
 ---

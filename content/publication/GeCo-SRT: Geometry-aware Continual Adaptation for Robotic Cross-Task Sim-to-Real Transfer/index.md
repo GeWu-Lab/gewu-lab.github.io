@@ -12,5 +12,5 @@ url_pdf: https://arxiv.org/abs/2602.20871
 #url_code: https://github.com/GeWu-Lab/Keystate_Online_Imitation
 topic_types: ["2"]
 topic_types_name: Embodied AI
-rating : 2024_09_01
+rating : 2026_02_27
 ---  
