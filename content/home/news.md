@@ -21,7 +21,7 @@ robotic_video_2 = "faucet.mp4"
 
 
 [[item]]
-    title = "[21-02-2026] Three papers accepted by CVPR!"
+    title = "[21-02-2026] Four papers accepted by CVPR!"
     subtitle = "Congrats to Zequn, Henghui and Wenbo!"
     subtitle_color = ""
     link = ""
