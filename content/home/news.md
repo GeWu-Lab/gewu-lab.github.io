@@ -12,6 +12,20 @@ direction_img = "boards_new.jpg"
 robotic_video = "open_cabinet.mp4"
 robotic_video_2 = "faucet.mp4"
 
+
+
+[[item]]
+    title = "[26-01-2026] AnyTouch2 Dataset & Models Released!"
+    subtitle_color = ""
+    link = ""
+
+
+[[item]]
+    title = "[26-01-2026] Three papers accepted by CVPR!"
+    subtitle = "Congrats to Zequn, Henghui and Wenbo!"
+    subtitle_color = ""
+    link = ""
+
 [[item]]
     title = "[26-01-2026] Two papers accepted by ICLR!"
     subtitle = "Congrats to Ruoxuan and Jingxian!"

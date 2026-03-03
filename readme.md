@@ -4,6 +4,7 @@
 1. clone本仓库, 然后按照下面的步骤修改
 2. 修改完之后, 使用`hugo -d docs`生成文件到docs文件夹下(需要安装hugo, hugo的版本0.66.0, hugo的安装非常简单)  
 3. push到github上, 等待几分钟, 就可以完成更新  
+4. 当在本地克隆后，可直接在文件夹内部使用```hugo server```命令，在本地先查看修改的结果。等修改好后再push上去。
 ### 添加相册
 1. 将图片添加到`static/img/photos`下(例如`WechatIMG241.jpeg`)  
 2. 在`content/gallery/_index.md`中添加一个`[[item]]`, 格式如下:
@@ -172,3 +173,41 @@ rating: 2021_1_1
 ---
 关于dataset的一段介绍(如果配置了web_link, 这里可以不写)
 ```
+
+
+
+
+
+### 关于home页面中silder的更新
+
+首先，silder并不是通过markdown文件进行更新的，而是直接通过更改html实现更新。
+
+当要添加或删除一张silde时，应当：
+
+1. 首先，打开gewu-lab.github.io/layouts/partials/widgets/slider.html文件。
+
+2. 随后，在主体部分增添或删除一个代码块。每个代码块对应了一个silder。一个标准的代码块如下：
+
+```html
+  <div class="wg-hero dark carousel-item" style="height: 600px; background-color: rgb(255, 255, 255); background-image: url(&quot;/img/home_rotation_img/anytouch2.png&quot;); min-height: 600px;">
+    <div class="container" style="text-align: center;">
+        <h1 class="hero-title"></h1>
+    </div>
+      <div class="work-caption">
+        <div class="caption-inner">
+            <h2>AnyTouch 2 is now released!</h2>
+        </div>
+      </div>
+  </div>
+```
+
+以该代码块为例，其中/img/home_rotation_img代表了gewu-lab.github.io/static/img/home_rotation_img文件夹。也就是要把图片对应放到这个文件夹里。
+
+3. 对应数量地调整滑块数量：
+
+   ```html
+   <li data-target="#slider" data-slide-to="4" class=""></li> 
+   ```
+
+即可完成更新。
+
