@@ -21,18 +21,18 @@
     </item>
     
     <item>
-      <title>AnyTouch 2: General Optical Tactile Representation Learning For Dynamic Tactile Perception</title>
-      <link>/publication/anytouch2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/publication/anytouch2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>AnyTouch: Learning Unified Static-Dynamic Representation across Multiple Visuo-tactile Sensors</title>
       <link>/publication/anytouch-learning-unified-static-dynamic-representation-across-multiple-visuo-tactile-sensors/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/publication/anytouch-learning-unified-static-dynamic-representation-across-multiple-visuo-tactile-sensors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>APPO: Attention-guided Perception Policy Optimization for Video Reasoning</title>
+      <link>/publication/appo-attention-guided-perception-policy-optimization-for-video-reasoning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/appo-attention-guided-perception-policy-optimization-for-video-reasoning/</guid>
       <description></description>
     </item>
     
@@ -153,6 +153,14 @@
       <link>/publication/image2song-song-retrieval-via-bridging-image-content-and-lyric-words/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/publication/image2song-song-retrieval-via-bridging-image-content-and-lyric-words/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Information-Theoretic Decomposition for Multimodal Interaction Learning</title>
+      <link>/publication/information-theoretic-decomposition-for-multimodal-interaction-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/information-theoretic-decomposition-for-multimodal-interaction-learning/</guid>
       <description></description>
     </item>
     
@@ -393,6 +401,14 @@
       <link>/publication/when-would-vision-proprioception-policies-fail-in-robotic-manipulation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/publication/when-would-vision-proprioception-policies-fail-in-robotic-manipulation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>🔥AnyTouch 2: General Optical Tactile Representation Learning For Dynamic Tactile Perception</title>
+      <link>/publication/anytouch2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/anytouch2/</guid>
       <description></description>
     </item>
     

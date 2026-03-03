@@ -1,5 +1,5 @@
 ---
-title: "AnyTouch 2: General Optical Tactile Representation Learning For Dynamic Tactile Perception"
+title: "🔥AnyTouch 2: General Optical Tactile Representation Learning For Dynamic Tactile Perception"
 authors:
 - Ruoxuan Feng
 - Yuxuan Zhou
