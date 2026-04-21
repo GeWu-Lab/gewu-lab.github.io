@@ -1,6 +1,12 @@
 +++
 height = "600px"
-
+[[item]]
+  title = "2026-4-18"
+  content = "Ranked First Overall"
+  font_color = "#f8f8f2"
+  align = "center"
+  overlay_img = "photos/batulu.jpg"
+  overlay_filter = 0.5
 [[item]]
     title = "2025-11-28"
     content = "Team-Building Day"
