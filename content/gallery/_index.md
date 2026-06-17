@@ -36,6 +36,13 @@ height = "600px"
   overlay_img = "photos/batulu.jpg"
   overlay_filter = 0.5
 [[item]]
+    title = "2026-03-06"
+    content = "New Semester Begins"
+    font_color = "#f8f8f2"
+    align = "center"
+    overlay_img = "photos/26chifan.jpg"
+    overlay_filter = 0.5
+[[item]]
     title = "2025-11-28"
     content = "Team-Building Day"
     font_color = "#f8f8f2"
