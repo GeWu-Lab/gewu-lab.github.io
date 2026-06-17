@@ -20,7 +20,7 @@ robotic_video_2 = "faucet.mp4"
     link = ""
 
 [[item]]
-    title = "[29-04-2026] Yake is selected for CVPR Doctoral Consortium!"
+    title = "[29-04-2026] Yake was selected for CVPR Doctoral Consortium!"
     subtitle_color = ""
     link = ""
 
