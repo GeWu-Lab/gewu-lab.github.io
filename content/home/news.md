@@ -15,6 +15,16 @@ robotic_video_2 = "faucet.mp4"
 
 
 [[item]]
+    title = "[08-06-2026] Yake was invited to give a talk at CVPR 2026 Workshop!"
+    subtitle_color = ""
+    link = ""
+
+[[item]]
+    title = "[29-04-2026] Yake is selected for CVPR Doctoral Consortium!"
+    subtitle_color = ""
+    link = ""
+
+[[item]]
     title = "[21-02-2026] AnyTouch2 Dataset & Models Released!"
     subtitle_color = ""
     link = ""

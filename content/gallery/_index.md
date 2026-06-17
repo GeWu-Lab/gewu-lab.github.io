@@ -1,6 +1,34 @@
 +++
 height = "600px"
 [[item]]
+    title = "2026-06-08"
+    content = "Yake was invited to give a talk at CVPR 2026 Workshop"
+    font_color = "#f8f8f2"
+    align = "center"
+    overlay_img = "photos/yake2026.png"
+    overlay_filter = 0.5
+[[item]]
+    title = "2026-05-23"
+    content = "Zhiyi & Bitao at 2026 China Sensor Competition –<br>Force-Tactile Track"
+    font_color = "#f8f8f2"
+    align = "center"
+    overlay_img = "photos/zhiyi.jpg"
+    overlay_filter = 0.5
+[[item]]
+    title = "2026-05-18"
+    content = "Premier Li Qiang visited our work on Offline-to-Online Reinforcement Learning"
+    font_color = "#f8f8f2"
+    align = "center"
+    overlay_img = "photos/liqiang.jpg"
+    overlay_filter = 0.5
+[[item]]
+    title = "2026-05-09"
+    content = "Valse 2026 in Wuhan"
+    font_color = "#f8f8f2"
+    align = "center"
+    overlay_img = "photos/valse2026.jpg"
+    overlay_filter = 0.5
+[[item]]
   title = "2026-4-18"
   content = "Ranked First Overall"
   font_color = "#f8f8f2"
