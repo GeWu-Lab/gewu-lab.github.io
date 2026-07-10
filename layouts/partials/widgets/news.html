@@ -56,7 +56,7 @@
         <hr/>
         <div style="height: 250px; margin-top: 20px; overflow:auto">
             {{ range $index, $item := $page.Params.item }}
-            <a href="{{ $item.link }}" target="_blank">{{ $item.title }}</a>  
+            {{ if $item.link }}<a href="{{ $item.link }}" target="_blank">{{ $item.title | safeHTML }}</a>{{ else }}{{ $item.title | safeHTML }}{{ end }}
             <p style="color: {{ $item.subtitle_color }};">{{ $item.subtitle }}</p>
             {{ end }}
             {{ $page.Content }}

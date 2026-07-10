@@ -15,6 +15,12 @@ robotic_video_2 = "faucet.mp4"
 
 
 [[item]]
+    title = "[09-07-2026] We have released <a href=\"https://gewu-lab.github.io/Robo-ValueRL/\" target=\"_blank\">Robo-ValueRL</a>, an offline-to-online reinforcement learning framework achieving millimeter-level precision for VLA-RL. The paper, code, data, and models are now publicly available!"
+    subtitle = ""
+    subtitle_color = ""
+    link = ""
+
+[[item]]
     title = "[08-06-2026] Yake was invited to give a talk at CVPR 2026 Workshop!"
     subtitle_color = ""
     link = ""
