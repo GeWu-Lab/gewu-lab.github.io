@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ruihua Song | GeWu-Lab</title>
-    <link>/authors/ruihua-song/</link>
-      <atom:link href="/authors/ruihua-song/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://gewu-lab.github.io/authors/ruihua-song/</link>
+      <atom:link href="https://gewu-lab.github.io/authors/ruihua-song/index.xml" rel="self" type="application/rss+xml" />
     <description>Ruihua Song</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2026 GeWu-Lab</copyright>
     <image>
-      <url>/img/logo.png</url>
+      <url>https://gewu-lab.github.io/img/logo.png</url>
       <title>Ruihua Song</title>
-      <link>/authors/ruihua-song/</link>
+      <link>https://gewu-lab.github.io/authors/ruihua-song/</link>
     </image>
     
     <item>
       <title>Class-aware Sounding Objects Localization via Audiovisual Correspondence</title>
-      <link>/publication/class-aware-sounding-objects-localization-via-audiovisual-correspondence/</link>
+      <link>https://gewu-lab.github.io/publication/class-aware-sounding-objects-localization-via-audiovisual-correspondence/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/publication/class-aware-sounding-objects-localization-via-audiovisual-correspondence/</guid>
+      <guid>https://gewu-lab.github.io/publication/class-aware-sounding-objects-localization-via-audiovisual-correspondence/</guid>
       <description></description>
     </item>
     
     <item>
       <title>TikTalk: A Video-Based Dialogue Dataset for Multi-Modal Chitchat in Real World</title>
-      <link>/publication/tiktalk_-a-video-based-dialogue-dataset-for-multi-modal-chitchat-in-real-world/</link>
+      <link>https://gewu-lab.github.io/publication/tiktalk_-a-video-based-dialogue-dataset-for-multi-modal-chitchat-in-real-world/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/publication/tiktalk_-a-video-based-dialogue-dataset-for-multi-modal-chitchat-in-real-world/</guid>
+      <guid>https://gewu-lab.github.io/publication/tiktalk_-a-video-based-dialogue-dataset-for-multi-modal-chitchat-in-real-world/</guid>
       <description></description>
     </item>
     

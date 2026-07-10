@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yuhao Sun | GeWu-Lab</title>
-    <link>/authors/yuhao-sun/</link>
-      <atom:link href="/authors/yuhao-sun/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://gewu-lab.github.io/authors/yuhao-sun/</link>
+      <atom:link href="https://gewu-lab.github.io/authors/yuhao-sun/index.xml" rel="self" type="application/rss+xml" />
     <description>Yuhao Sun</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2026 GeWu-Lab</copyright>
     <image>
-      <url>/img/logo.png</url>
+      <url>https://gewu-lab.github.io/img/logo.png</url>
       <title>Yuhao Sun</title>
-      <link>/authors/yuhao-sun/</link>
+      <link>https://gewu-lab.github.io/authors/yuhao-sun/</link>
     </image>
     
     <item>
       <title>AnyTouch: Learning Unified Static-Dynamic Representation across Multiple Visuo-tactile Sensors</title>
-      <link>/publication/anytouch-learning-unified-static-dynamic-representation-across-multiple-visuo-tactile-sensors/</link>
+      <link>https://gewu-lab.github.io/publication/anytouch-learning-unified-static-dynamic-representation-across-multiple-visuo-tactile-sensors/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/publication/anytouch-learning-unified-static-dynamic-representation-across-multiple-visuo-tactile-sensors/</guid>
+      <guid>https://gewu-lab.github.io/publication/anytouch-learning-unified-static-dynamic-representation-across-multiple-visuo-tactile-sensors/</guid>
       <description></description>
     </item>
     

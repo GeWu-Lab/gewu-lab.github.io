@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Chengxiang Huang | GeWu-Lab</title>
-    <link>/authors/chengxiang-huang/</link>
-      <atom:link href="/authors/chengxiang-huang/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://gewu-lab.github.io/authors/chengxiang-huang/</link>
+      <atom:link href="https://gewu-lab.github.io/authors/chengxiang-huang/index.xml" rel="self" type="application/rss+xml" />
     <description>Chengxiang Huang</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2026 GeWu-Lab</copyright><lastBuildDate>Fri, 10 Oct 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/logo.png</url>
+      <url>https://gewu-lab.github.io/img/logo.png</url>
       <title>Chengxiang Huang</title>
-      <link>/authors/chengxiang-huang/</link>
+      <link>https://gewu-lab.github.io/authors/chengxiang-huang/</link>
     </image>
     
     <item>
       <title>Balanced Multimodal Learning</title>
-      <link>/blog/balanced-multimodal-learning/</link>
+      <link>https://gewu-lab.github.io/blog/balanced-multimodal-learning/</link>
       <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>/blog/balanced-multimodal-learning/</guid>
+      <guid>https://gewu-lab.github.io/blog/balanced-multimodal-learning/</guid>
       <description>
 
 &lt;h1 id=&#34;what-is-modality-imbalance&#34;&gt;What is modality imbalance?&lt;/h1&gt;
@@ -234,9 +234,9 @@ Apart from MLA, several other methods also intervene at the feed-forward stage t
     
     <item>
       <title>Adaptive Unimodal Regulation for Balanced Multimodal Information Acquisition</title>
-      <link>/publication/adaptive-unimodal-regulation-for-balanced-multimodal-information-acquisition/</link>
+      <link>https://gewu-lab.github.io/publication/adaptive-unimodal-regulation-for-balanced-multimodal-information-acquisition/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/publication/adaptive-unimodal-regulation-for-balanced-multimodal-information-acquisition/</guid>
+      <guid>https://gewu-lab.github.io/publication/adaptive-unimodal-regulation-for-balanced-multimodal-information-acquisition/</guid>
       <description></description>
     </item>
     

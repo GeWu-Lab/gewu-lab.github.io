@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shilei Wen | GeWu-Lab</title>
-    <link>/authors/shilei-wen/</link>
-      <atom:link href="/authors/shilei-wen/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://gewu-lab.github.io/authors/shilei-wen/</link>
+      <atom:link href="https://gewu-lab.github.io/authors/shilei-wen/index.xml" rel="self" type="application/rss+xml" />
     <description>Shilei Wen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2026 GeWu-Lab</copyright>
     <image>
-      <url>/img/logo.png</url>
+      <url>https://gewu-lab.github.io/img/logo.png</url>
       <title>Shilei Wen</title>
-      <link>/authors/shilei-wen/</link>
+      <link>https://gewu-lab.github.io/authors/shilei-wen/</link>
     </image>
     
     <item>
       <title>Discriminative Sounding Objects Localization via Self-supervised Audiovisual Matching</title>
-      <link>/publication/discriminative-sounding-objects-localization-via-self-supervised-audiovisual-matching/</link>
+      <link>https://gewu-lab.github.io/publication/discriminative-sounding-objects-localization-via-self-supervised-audiovisual-matching/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/publication/discriminative-sounding-objects-localization-via-self-supervised-audiovisual-matching/</guid>
+      <guid>https://gewu-lab.github.io/publication/discriminative-sounding-objects-localization-via-self-supervised-audiovisual-matching/</guid>
       <description></description>
     </item>
     

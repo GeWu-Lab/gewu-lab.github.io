@@ -2,61 +2,61 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dongzhan Zhou | GeWu-Lab</title>
-    <link>/authors/dongzhan-zhou/</link>
-      <atom:link href="/authors/dongzhan-zhou/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://gewu-lab.github.io/authors/dongzhan-zhou/</link>
+      <atom:link href="https://gewu-lab.github.io/authors/dongzhan-zhou/index.xml" rel="self" type="application/rss+xml" />
     <description>Dongzhan Zhou</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2026 GeWu-Lab</copyright>
     <image>
-      <url>/img/logo.png</url>
+      <url>https://gewu-lab.github.io/img/logo.png</url>
       <title>Dongzhan Zhou</title>
-      <link>/authors/dongzhan-zhou/</link>
+      <link>https://gewu-lab.github.io/authors/dongzhan-zhou/</link>
     </image>
     
     <item>
       <title>Exploiting Visual Context Semantics for Sound Source Localization</title>
-      <link>/publication/exploiting-visual-context-semantics-for-sound-source-localization/</link>
+      <link>https://gewu-lab.github.io/publication/exploiting-visual-context-semantics-for-sound-source-localization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/publication/exploiting-visual-context-semantics-for-sound-source-localization/</guid>
+      <guid>https://gewu-lab.github.io/publication/exploiting-visual-context-semantics-for-sound-source-localization/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ref-AVS: Refer and Segment Objects in Audio-Visual Scenes</title>
-      <link>/publication/ref-avs_-refer-and-segment-objects-in-audio-visual-scenes/</link>
+      <link>https://gewu-lab.github.io/publication/ref-avs_-refer-and-segment-objects-in-audio-visual-scenes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/publication/ref-avs_-refer-and-segment-objects-in-audio-visual-scenes/</guid>
+      <guid>https://gewu-lab.github.io/publication/ref-avs_-refer-and-segment-objects-in-audio-visual-scenes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SeCo: Separating Unknown Musical Visual Sounds with Consistency Guidance</title>
-      <link>/publication/seco_-separating-unknown-musical-visual-sounds-with-consistency-guidance/</link>
+      <link>https://gewu-lab.github.io/publication/seco_-separating-unknown-musical-visual-sounds-with-consistency-guidance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/publication/seco_-separating-unknown-musical-visual-sounds-with-consistency-guidance/</guid>
+      <guid>https://gewu-lab.github.io/publication/seco_-separating-unknown-musical-visual-sounds-with-consistency-guidance/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SepFusion: Finding Optimal Fusion Structures for Visual Sound Separation</title>
-      <link>/publication/sepfusion_-finding-optimal-fusion-structures-for-visual-sound-separation/</link>
+      <link>https://gewu-lab.github.io/publication/sepfusion_-finding-optimal-fusion-structures-for-visual-sound-separation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/publication/sepfusion_-finding-optimal-fusion-structures-for-visual-sound-separation/</guid>
+      <guid>https://gewu-lab.github.io/publication/sepfusion_-finding-optimal-fusion-structures-for-visual-sound-separation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>🔥AnyTouch 2: General Optical Tactile Representation Learning For Dynamic Tactile Perception</title>
-      <link>/publication/anytouch2/</link>
+      <link>https://gewu-lab.github.io/publication/anytouch2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/publication/anytouch2/</guid>
+      <guid>https://gewu-lab.github.io/publication/anytouch2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>🔥MokA: Multimodal Low-Rank Adaptation for MLLMs</title>
-      <link>/publication/moka-multimodal-low-rank-adaptation-for-mllms/</link>
+      <link>https://gewu-lab.github.io/publication/moka-multimodal-low-rank-adaptation-for-mllms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/publication/moka-multimodal-low-rank-adaptation-for-mllms/</guid>
+      <guid>https://gewu-lab.github.io/publication/moka-multimodal-low-rank-adaptation-for-mllms/</guid>
       <description></description>
     </item>
     

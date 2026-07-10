@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Di Hu - Chengze Wang - Feiping Nie - Xuelong Li | GeWu-Lab</title>
-    <link>/authors/di-hu-chengze-wang-feiping-nie-xuelong-li/</link>
-      <atom:link href="/authors/di-hu-chengze-wang-feiping-nie-xuelong-li/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://gewu-lab.github.io/authors/di-hu-chengze-wang-feiping-nie-xuelong-li/</link>
+      <atom:link href="https://gewu-lab.github.io/authors/di-hu-chengze-wang-feiping-nie-xuelong-li/index.xml" rel="self" type="application/rss+xml" />
     <description>Di Hu - Chengze Wang - Feiping Nie - Xuelong Li</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2026 GeWu-Lab</copyright>
     <image>
-      <url>/img/logo.png</url>
+      <url>https://gewu-lab.github.io/img/logo.png</url>
       <title>Di Hu - Chengze Wang - Feiping Nie - Xuelong Li</title>
-      <link>/authors/di-hu-chengze-wang-feiping-nie-xuelong-li/</link>
+      <link>https://gewu-lab.github.io/authors/di-hu-chengze-wang-feiping-nie-xuelong-li/</link>
     </image>
     
     <item>
       <title>Dense Multimodal Fusion for Hierarchically Joint Representation</title>
-      <link>/publication/dense-multimodal-fusion-for-hierarchically-joint-representation/</link>
+      <link>https://gewu-lab.github.io/publication/dense-multimodal-fusion-for-hierarchically-joint-representation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/publication/dense-multimodal-fusion-for-hierarchically-joint-representation/</guid>
+      <guid>https://gewu-lab.github.io/publication/dense-multimodal-fusion-for-hierarchically-joint-representation/</guid>
       <description></description>
     </item>
     

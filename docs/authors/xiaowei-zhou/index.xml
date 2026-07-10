@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Xiaowei Zhou | GeWu-Lab</title>
-    <link>/authors/xiaowei-zhou/</link>
-      <atom:link href="/authors/xiaowei-zhou/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://gewu-lab.github.io/authors/xiaowei-zhou/</link>
+      <atom:link href="https://gewu-lab.github.io/authors/xiaowei-zhou/index.xml" rel="self" type="application/rss+xml" />
     <description>Xiaowei Zhou</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2026 GeWu-Lab</copyright>
     <image>
-      <url>/img/logo.png</url>
+      <url>https://gewu-lab.github.io/img/logo.png</url>
       <title>Xiaowei Zhou</title>
-      <link>/authors/xiaowei-zhou/</link>
+      <link>https://gewu-lab.github.io/authors/xiaowei-zhou/</link>
     </image>
     
     <item>
       <title>Visual Sound Localization in-the-Wild by Cross-Modal Interference Erasing</title>
-      <link>/publication/visual-sound-localization-in-the-wild-by-cross-modal-interference-erasing/</link>
+      <link>https://gewu-lab.github.io/publication/visual-sound-localization-in-the-wild-by-cross-modal-interference-erasing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/publication/visual-sound-localization-in-the-wild-by-cross-modal-interference-erasing/</guid>
+      <guid>https://gewu-lab.github.io/publication/visual-sound-localization-in-the-wild-by-cross-modal-interference-erasing/</guid>
       <description></description>
     </item>
     

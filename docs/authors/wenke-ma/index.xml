@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wenke Ma | GeWu-Lab</title>
-    <link>/authors/wenke-ma/</link>
-      <atom:link href="/authors/wenke-ma/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://gewu-lab.github.io/authors/wenke-ma/</link>
+      <atom:link href="https://gewu-lab.github.io/authors/wenke-ma/index.xml" rel="self" type="application/rss+xml" />
     <description>Wenke Ma</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2026 GeWu-Lab</copyright>
     <image>
-      <url>/img/logo.png</url>
+      <url>https://gewu-lab.github.io/img/logo.png</url>
       <title>Wenke Ma</title>
-      <link>/authors/wenke-ma/</link>
+      <link>https://gewu-lab.github.io/authors/wenke-ma/</link>
     </image>
     
     <item>
       <title>🔥Play to the Score: Stage-Guided Dynamic Multi-Sensory Fusion for Robotic Manipulation</title>
-      <link>/publication/play-to-the-score_-stage-guided-dynamic-multi-sensory-fusion-for-robotic-manipulation/</link>
+      <link>https://gewu-lab.github.io/publication/play-to-the-score_-stage-guided-dynamic-multi-sensory-fusion-for-robotic-manipulation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/publication/play-to-the-score_-stage-guided-dynamic-multi-sensory-fusion-for-robotic-manipulation/</guid>
+      <guid>https://gewu-lab.github.io/publication/play-to-the-score_-stage-guided-dynamic-multi-sensory-fusion-for-robotic-manipulation/</guid>
       <description></description>
     </item>
     

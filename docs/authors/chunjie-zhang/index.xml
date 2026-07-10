@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Chunjie Zhang | GeWu-Lab</title>
-    <link>/authors/chunjie-zhang/</link>
-      <atom:link href="/authors/chunjie-zhang/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://gewu-lab.github.io/authors/chunjie-zhang/</link>
+      <atom:link href="https://gewu-lab.github.io/authors/chunjie-zhang/index.xml" rel="self" type="application/rss+xml" />
     <description>Chunjie Zhang</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2026 GeWu-Lab</copyright>
     <image>
-      <url>/img/logo.png</url>
+      <url>https://gewu-lab.github.io/img/logo.png</url>
       <title>Chunjie Zhang</title>
-      <link>/authors/chunjie-zhang/</link>
+      <link>https://gewu-lab.github.io/authors/chunjie-zhang/</link>
     </image>
     
     <item>
       <title>🔥Crab: A Unified Audio-Visual Scene Understanding Model with Explicit Cooperation</title>
-      <link>/publication/crab-a-unified-audio-visual-scene-understanding-model-with-explicit-cooperation/</link>
+      <link>https://gewu-lab.github.io/publication/crab-a-unified-audio-visual-scene-understanding-model-with-explicit-cooperation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/publication/crab-a-unified-audio-visual-scene-understanding-model-with-explicit-cooperation/</guid>
+      <guid>https://gewu-lab.github.io/publication/crab-a-unified-audio-visual-scene-understanding-model-with-explicit-cooperation/</guid>
       <description></description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ludan Ruan* | GeWu-Lab</title>
-    <link>/authors/ludan-ruan/</link>
-      <atom:link href="/authors/ludan-ruan/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://gewu-lab.github.io/authors/ludan-ruan/</link>
+      <atom:link href="https://gewu-lab.github.io/authors/ludan-ruan/index.xml" rel="self" type="application/rss+xml" />
     <description>Ludan Ruan*</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2026 GeWu-Lab</copyright>
     <image>
-      <url>/img/logo.png</url>
+      <url>https://gewu-lab.github.io/img/logo.png</url>
       <title>Ludan Ruan*</title>
-      <link>/authors/ludan-ruan/</link>
+      <link>https://gewu-lab.github.io/authors/ludan-ruan/</link>
     </image>
     
     <item>
       <title>TikTalk: A Video-Based Dialogue Dataset for Multi-Modal Chitchat in Real World</title>
-      <link>/publication/tiktalk_-a-video-based-dialogue-dataset-for-multi-modal-chitchat-in-real-world/</link>
+      <link>https://gewu-lab.github.io/publication/tiktalk_-a-video-based-dialogue-dataset-for-multi-modal-chitchat-in-real-world/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/publication/tiktalk_-a-video-based-dialogue-dataset-for-multi-modal-chitchat-in-real-world/</guid>
+      <guid>https://gewu-lab.github.io/publication/tiktalk_-a-video-based-dialogue-dataset-for-multi-modal-chitchat-in-real-world/</guid>
       <description></description>
     </item>
     

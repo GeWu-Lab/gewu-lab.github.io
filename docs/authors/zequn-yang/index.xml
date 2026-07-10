@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Zequn Yang | GeWu-Lab</title>
-    <link>/authors/zequn-yang/</link>
-      <atom:link href="/authors/zequn-yang/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://gewu-lab.github.io/authors/zequn-yang/</link>
+      <atom:link href="https://gewu-lab.github.io/authors/zequn-yang/index.xml" rel="self" type="application/rss+xml" />
     <description>Zequn Yang</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2026 GeWu-Lab</copyright>
     <image>
-      <url>/img/logo.png</url>
+      <url>https://gewu-lab.github.io/img/logo.png</url>
       <title>Zequn Yang</title>
-      <link>/authors/zequn-yang/</link>
+      <link>https://gewu-lab.github.io/authors/zequn-yang/</link>
     </image>
     
     <item>
       <title>Adaptive Unimodal Regulation for Balanced Multimodal Information Acquisition</title>
-      <link>/publication/adaptive-unimodal-regulation-for-balanced-multimodal-information-acquisition/</link>
+      <link>https://gewu-lab.github.io/publication/adaptive-unimodal-regulation-for-balanced-multimodal-information-acquisition/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/publication/adaptive-unimodal-regulation-for-balanced-multimodal-information-acquisition/</guid>
+      <guid>https://gewu-lab.github.io/publication/adaptive-unimodal-regulation-for-balanced-multimodal-information-acquisition/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Efficient Quantification of Multimodal Interaction at Sample Level</title>
-      <link>/publication/efficient-quantification-of-multimodal-interaction-at-sample-level/</link>
+      <link>https://gewu-lab.github.io/publication/efficient-quantification-of-multimodal-interaction-at-sample-level/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/publication/efficient-quantification-of-multimodal-interaction-at-sample-level/</guid>
+      <guid>https://gewu-lab.github.io/publication/efficient-quantification-of-multimodal-interaction-at-sample-level/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Geometric-Inspired Graph-based Incomplete Multi-view Clustering</title>
-      <link>/publication/geometric-inspired-graph-based-incomplete-multi-view-clustering/</link>
+      <link>https://gewu-lab.github.io/publication/geometric-inspired-graph-based-incomplete-multi-view-clustering/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/publication/geometric-inspired-graph-based-incomplete-multi-view-clustering/</guid>
+      <guid>https://gewu-lab.github.io/publication/geometric-inspired-graph-based-incomplete-multi-view-clustering/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Information-Theoretic Decomposition for Multimodal Interaction Learning</title>
-      <link>/publication/information-theoretic-decomposition-for-multimodal-interaction-learning/</link>
+      <link>https://gewu-lab.github.io/publication/information-theoretic-decomposition-for-multimodal-interaction-learning/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/publication/information-theoretic-decomposition-for-multimodal-interaction-learning/</guid>
+      <guid>https://gewu-lab.github.io/publication/information-theoretic-decomposition-for-multimodal-interaction-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Quantifying and Enhancing Multi-modal Robustness with Modality Preference</title>
-      <link>/publication/quantifying-and-enhancing-multi-modal-robustness-with-modality-preference/</link>
+      <link>https://gewu-lab.github.io/publication/quantifying-and-enhancing-multi-modal-robustness-with-modality-preference/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/publication/quantifying-and-enhancing-multi-modal-robustness-with-modality-preference/</guid>
+      <guid>https://gewu-lab.github.io/publication/quantifying-and-enhancing-multi-modal-robustness-with-modality-preference/</guid>
       <description></description>
     </item>
     

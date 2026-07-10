@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog | GeWu-Lab</title>
-    <link>/blog/</link>
-      <atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://gewu-lab.github.io/blog/</link>
+      <atom:link href="https://gewu-lab.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <description>Blog</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2026 GeWu-Lab</copyright><lastBuildDate>Fri, 10 Oct 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/logo.png</url>
+      <url>https://gewu-lab.github.io/img/logo.png</url>
       <title>Blog</title>
-      <link>/blog/</link>
+      <link>https://gewu-lab.github.io/blog/</link>
     </image>
     
     <item>
       <title>Balanced Multimodal Learning</title>
-      <link>/blog/balanced-multimodal-learning/</link>
+      <link>https://gewu-lab.github.io/blog/balanced-multimodal-learning/</link>
       <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>/blog/balanced-multimodal-learning/</guid>
+      <guid>https://gewu-lab.github.io/blog/balanced-multimodal-learning/</guid>
       <description>
 
 &lt;h1 id=&#34;what-is-modality-imbalance&#34;&gt;What is modality imbalance?&lt;/h1&gt;

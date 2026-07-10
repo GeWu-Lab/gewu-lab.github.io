@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jingxian Lu | GeWu-Lab</title>
-    <link>/authors/jingxian-lu/</link>
-      <atom:link href="/authors/jingxian-lu/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://gewu-lab.github.io/authors/jingxian-lu/</link>
+      <atom:link href="https://gewu-lab.github.io/authors/jingxian-lu/index.xml" rel="self" type="application/rss+xml" />
     <description>Jingxian Lu</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2026 GeWu-Lab</copyright>
     <image>
-      <url>/img/logo.png</url>
+      <url>https://gewu-lab.github.io/img/logo.png</url>
       <title>Jingxian Lu</title>
-      <link>/authors/jingxian-lu/</link>
+      <link>https://gewu-lab.github.io/authors/jingxian-lu/</link>
     </image>
     
     <item>
       <title>KOI: Accelerating Online Imitation Learning via Hybrid Key-state Guidance</title>
-      <link>/publication/koi_-accelerating-online-imitation-learning-via-hybrid-key-state-guidance/</link>
+      <link>https://gewu-lab.github.io/publication/koi_-accelerating-online-imitation-learning-via-hybrid-key-state-guidance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/publication/koi_-accelerating-online-imitation-learning-via-hybrid-key-state-guidance/</guid>
+      <guid>https://gewu-lab.github.io/publication/koi_-accelerating-online-imitation-learning-via-hybrid-key-state-guidance/</guid>
       <description></description>
     </item>
     
     <item>
       <title>When Would Vision-Proprioception Policies Fail in Robotic Manipulation?</title>
-      <link>/publication/when-would-vision-proprioception-policies-fail-in-robotic-manipulation/</link>
+      <link>https://gewu-lab.github.io/publication/when-would-vision-proprioception-policies-fail-in-robotic-manipulation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/publication/when-would-vision-proprioception-policies-fail-in-robotic-manipulation/</guid>
+      <guid>https://gewu-lab.github.io/publication/when-would-vision-proprioception-policies-fail-in-robotic-manipulation/</guid>
       <description></description>
     </item>
     

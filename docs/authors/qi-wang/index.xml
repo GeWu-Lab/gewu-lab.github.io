@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Qi Wang | GeWu-Lab</title>
-    <link>/authors/qi-wang/</link>
-      <atom:link href="/authors/qi-wang/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://gewu-lab.github.io/authors/qi-wang/</link>
+      <atom:link href="https://gewu-lab.github.io/authors/qi-wang/index.xml" rel="self" type="application/rss+xml" />
     <description>Qi Wang</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2026 GeWu-Lab</copyright>
     <image>
-      <url>/img/logo.png</url>
+      <url>https://gewu-lab.github.io/img/logo.png</url>
       <title>Qi Wang</title>
-      <link>/authors/qi-wang/</link>
+      <link>https://gewu-lab.github.io/authors/qi-wang/</link>
     </image>
     
     <item>
       <title>Listen to the Image</title>
-      <link>/publication/listen-to-the-image/</link>
+      <link>https://gewu-lab.github.io/publication/listen-to-the-image/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/publication/listen-to-the-image/</guid>
+      <guid>https://gewu-lab.github.io/publication/listen-to-the-image/</guid>
       <description></description>
     </item>
     
