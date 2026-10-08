@@ -5,7 +5,7 @@
     <link>/topic_types/1/</link>
       <atom:link href="/topic_types/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2025 GeWu-Lab</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2026 GeWu-Lab</copyright>
     <image>
       <url>/img/logo.png</url>
       <title>1</title>
@@ -25,6 +25,14 @@
       <link>/publication/ambient-sound-helps_-audiovisual-crowd-counting-in-extreme-conditions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/publication/ambient-sound-helps_-audiovisual-crowd-counting-in-extreme-conditions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>APPO: Attention-guided Perception Policy Optimization for Video Reasoning</title>
+      <link>/publication/appo-attention-guided-perception-policy-optimization-for-video-reasoning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/appo-attention-guided-perception-policy-optimization-for-video-reasoning/</guid>
       <description></description>
     </item>
     

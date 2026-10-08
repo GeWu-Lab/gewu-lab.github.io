@@ -5,7 +5,7 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>GeWu-Lab</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2025 GeWu-Lab</copyright><lastBuildDate>Fri, 10 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2026 GeWu-Lab</copyright><lastBuildDate>Fri, 10 Oct 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/logo.png</url>
       <title>GeWu-Lab</title>
@@ -265,6 +265,14 @@ Apart from MLA, several other methods also intervene at the feed-forward stage t
     </item>
     
     <item>
+      <title>APPO: Attention-guided Perception Policy Optimization for Video Reasoning</title>
+      <link>/publication/appo-attention-guided-perception-policy-optimization-for-video-reasoning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/appo-attention-guided-perception-policy-optimization-for-video-reasoning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Balanced Audiovisual Dataset for Imbalance Analysis</title>
       <link>/publication/balanced-audiovisual-dataset-for-imbalance-analysis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -441,6 +449,14 @@ Apart from MLA, several other methods also intervene at the feed-forward stage t
     </item>
     
     <item>
+      <title>GeCo-SRT: Geometry-aware Continual Adaptation for Robotic Cross-Task Sim-to-Real Transfer</title>
+      <link>/publication/geco-srt-geometry-aware-continual-adaptation-for-robotic-cross-task-sim-to-real-transfer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/geco-srt-geometry-aware-continual-adaptation-for-robotic-cross-task-sim-to-real-transfer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Generalising Combinatorial Discriminant Analysis through Conditioning Truncated Rayleigh Flow</title>
       <link>/publication/generalising-combinatorial-discriminant-analysis-through-conditioning-truncated-rayleigh-flow/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -469,6 +485,14 @@ Apart from MLA, several other methods also intervene at the feed-forward stage t
       <link>/publication/image2song-song-retrieval-via-bridging-image-content-and-lyric-words/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/publication/image2song-song-retrieval-via-bridging-image-content-and-lyric-words/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Information-Theoretic Decomposition for Multimodal Interaction Learning</title>
+      <link>/publication/information-theoretic-decomposition-for-multimodal-interaction-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/information-theoretic-decomposition-for-multimodal-interaction-learning/</guid>
       <description></description>
     </item>
     
@@ -765,6 +789,22 @@ Apart from MLA, several other methods also intervene at the feed-forward stage t
       <link>/publication/visual-sound-localization-in-the-wild-by-cross-modal-interference-erasing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/publication/visual-sound-localization-in-the-wild-by-cross-modal-interference-erasing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>When Would Vision-Proprioception Policies Fail in Robotic Manipulation?</title>
+      <link>/publication/when-would-vision-proprioception-policies-fail-in-robotic-manipulation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/when-would-vision-proprioception-policies-fail-in-robotic-manipulation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>🔥AnyTouch 2: General Optical Tactile Representation Learning For Dynamic Tactile Perception</title>
+      <link>/publication/anytouch2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/anytouch2/</guid>
       <description></description>
     </item>
     

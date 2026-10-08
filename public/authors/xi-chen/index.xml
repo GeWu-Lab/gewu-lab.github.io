@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xi Chen | GeWu-Lab</title>
+    <link>/authors/xi-chen/</link>
+      <atom:link href="/authors/xi-chen/index.xml" rel="self" type="application/rss+xml" />
+    <description>Xi Chen</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2026 GeWu-Lab</copyright>
+    <image>
+      <url>/img/logo.png</url>
+      <title>Xi Chen</title>
+      <link>/authors/xi-chen/</link>
+    </image>
+    
+    <item>
+      <title>APPO: Attention-guided Perception Policy Optimization for Video Reasoning</title>
+      <link>/publication/appo-attention-guided-perception-policy-optimization-for-video-reasoning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/appo-attention-guided-perception-policy-optimization-for-video-reasoning/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

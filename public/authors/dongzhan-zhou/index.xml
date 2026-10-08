@@ -5,7 +5,7 @@
     <link>/authors/dongzhan-zhou/</link>
       <atom:link href="/authors/dongzhan-zhou/index.xml" rel="self" type="application/rss+xml" />
     <description>Dongzhan Zhou</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2025 GeWu-Lab</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2026 GeWu-Lab</copyright>
     <image>
       <url>/img/logo.png</url>
       <title>Dongzhan Zhou</title>
@@ -41,6 +41,14 @@
       <link>/publication/sepfusion_-finding-optimal-fusion-structures-for-visual-sound-separation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/publication/sepfusion_-finding-optimal-fusion-structures-for-visual-sound-separation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>🔥AnyTouch 2: General Optical Tactile Representation Learning For Dynamic Tactile Perception</title>
+      <link>/publication/anytouch2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/anytouch2/</guid>
       <description></description>
     </item>
     

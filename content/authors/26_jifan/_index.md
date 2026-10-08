@@ -10,4 +10,4 @@ role: Since 2026
 user_groups:
 - Ph.D Students
 ---
-Jifan Li is a fourth-year student at [the School of Automation Science and Electrical Engineering(SASEE)](https://dept3.buaa.edu.cn/), [Beihang University(BUAA)](https://www.buaa.edu.cn/). He will be a doctoral candidate in joint training with [Beijing Academy of Artificial Intelligence(BAAI)](https://www.baai.ac.cn/en/) in 2026 fall . His research focuses on embodied AI.
+Jifan Li is a first-year Ph.D. student at [GeWu-Lab](https://gewu-lab.github.io/), jointly trained with the [Beijing Academy of Artificial Intelligence (BAAI)](https://www.baai.ac.cn/). He received his B.E. from the [School of Automation Science and Electrical Engineering (SASEE)](https://asee.buaa.edu.cn/), [Beihang University](https://www.buaa.edu.cn/). His research focuses on embodied AI.

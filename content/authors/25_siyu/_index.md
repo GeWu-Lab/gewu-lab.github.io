@@ -3,7 +3,7 @@ name: Siyu Mei
 
 superuser: true
 
-role: Since 2025
+role: Visiting Student, 2025-2026
 
 # website_url: ""  # 如果有个人主页，可以在这里加
 

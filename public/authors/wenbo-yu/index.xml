@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wenbo Yu | GeWu-Lab</title>
+    <link>/authors/wenbo-yu/</link>
+      <atom:link href="/authors/wenbo-yu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Wenbo Yu</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2026 GeWu-Lab</copyright>
+    <image>
+      <url>/img/logo.png</url>
+      <title>Wenbo Yu</title>
+      <link>/authors/wenbo-yu/</link>
+    </image>
+    
+    <item>
+      <title>GeCo-SRT: Geometry-aware Continual Adaptation for Robotic Cross-Task Sim-to-Real Transfer</title>
+      <link>/publication/geco-srt-geometry-aware-continual-adaptation-for-robotic-cross-task-sim-to-real-transfer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/geco-srt-geometry-aware-continual-adaptation-for-robotic-cross-task-sim-to-real-transfer/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

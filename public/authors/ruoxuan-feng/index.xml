@@ -5,7 +5,7 @@
     <link>/authors/ruoxuan-feng/</link>
       <atom:link href="/authors/ruoxuan-feng/index.xml" rel="self" type="application/rss+xml" />
     <description>Ruoxuan Feng</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2025 GeWu-Lab</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2026 GeWu-Lab</copyright>
     <image>
       <url>/img/logo.png</url>
       <title>Ruoxuan Feng</title>
@@ -57,6 +57,14 @@
       <link>/publication/revisiting-pre-training-in-audio-visual-learning/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/publication/revisiting-pre-training-in-audio-visual-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>🔥AnyTouch 2: General Optical Tactile Representation Learning For Dynamic Tactile Perception</title>
+      <link>/publication/anytouch2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/anytouch2/</guid>
       <description></description>
     </item>
     

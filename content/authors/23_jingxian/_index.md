@@ -3,7 +3,7 @@ name: Jingxian Lu
 
 superuser: true
 
-role: Since 2023
+role: Visiting Student, 2023-2026
 
 
 # website_url:   # 可以配置个人主页, 如果有的话

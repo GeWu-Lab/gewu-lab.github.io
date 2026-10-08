@@ -5,7 +5,7 @@
     <link>/authors/zhiwu-lu/</link>
       <atom:link href="/authors/zhiwu-lu/index.xml" rel="self" type="application/rss+xml" />
     <description>Zhiwu Lu</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2025 GeWu-Lab</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2026 GeWu-Lab</copyright>
     <image>
       <url>/img/logo.png</url>
       <title>Zhiwu Lu</title>
@@ -17,6 +17,14 @@
       <link>/publication/tiktalk_-a-video-based-dialogue-dataset-for-multi-modal-chitchat-in-real-world/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/publication/tiktalk_-a-video-based-dialogue-dataset-for-multi-modal-chitchat-in-real-world/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>When Would Vision-Proprioception Policies Fail in Robotic Manipulation?</title>
+      <link>/publication/when-would-vision-proprioception-policies-fail-in-robotic-manipulation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/when-would-vision-proprioception-policies-fail-in-robotic-manipulation/</guid>
       <description></description>
     </item>
     

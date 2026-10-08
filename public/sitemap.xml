@@ -220,7 +220,11 @@
   </url>
   
   <url>
-    <loc>/authors/25_guikai/</loc>
+    <loc>/authors/25_bitao/</loc>
+  </url>
+  
+  <url>
+    <loc>/authors/25_jiaxuan/</loc>
   </url>
   
   <url>
@@ -264,7 +268,15 @@
   </url>
   
   <url>
+    <loc>/authors/25_yubo/</loc>
+  </url>
+  
+  <url>
     <loc>/authors/25_yumiao/</loc>
+  </url>
+  
+  <url>
+    <loc>/authors/25_yutong/</loc>
   </url>
   
   <url>
@@ -272,7 +284,23 @@
   </url>
   
   <url>
+    <loc>/authors/25_zhangluan/</loc>
+  </url>
+  
+  <url>
+    <loc>/authors/25_zhiyi/</loc>
+  </url>
+  
+  <url>
+    <loc>/authors/26_chengpeng/</loc>
+  </url>
+  
+  <url>
     <loc>/authors/26_jifan/</loc>
+  </url>
+  
+  <url>
+    <loc>/authors/26_keying/</loc>
   </url>
   
   <url>
@@ -280,7 +308,31 @@
   </url>
   
   <url>
+    <loc>/authors/26_yupan/</loc>
+  </url>
+  
+  <url>
+    <loc>/authors/26_zhenghao/</loc>
+  </url>
+  
+  <url>
+    <loc>/authors/26_zhirong/</loc>
+  </url>
+  
+  <url>
     <loc>/authors/26_ziheng/</loc>
+  </url>
+  
+  <url>
+    <loc>/authors/27_bowen/</loc>
+  </url>
+  
+  <url>
+    <loc>/authors/27_yaoxuan/</loc>
+  </url>
+  
+  <url>
+    <loc>/authors/27_zijian/</loc>
   </url>
   
   <url>
@@ -309,10 +361,6 @@
   
   <url>
     <loc>/publication_types/2/</loc>
-  </url>
-  
-  <url>
-    <loc>/topic_types/3/</loc>
   </url>
   
   <url>
@@ -353,6 +401,10 @@
   
   <url>
     <loc>/authors/ao-shen/</loc>
+  </url>
+  
+  <url>
+    <loc>/publication/appo-attention-guided-perception-policy-optimization-for-video-reasoning/</loc>
   </url>
   
   <url>
@@ -540,6 +592,10 @@
   </url>
   
   <url>
+    <loc>/publication/geco-srt-geometry-aware-continual-adaptation-for-robotic-cross-task-sim-to-real-transfer/</loc>
+  </url>
+  
+  <url>
     <loc>/publication/generalising-combinatorial-discriminant-analysis-through-conditioning-truncated-rayleigh-flow/</loc>
   </url>
   
@@ -553,6 +609,10 @@
   
   <url>
     <loc>/authors/guangyao-li/</loc>
+  </url>
+  
+  <url>
+    <loc>/authors/guocai-yao/</loc>
   </url>
   
   <url>
@@ -617,6 +677,10 @@
   
   <url>
     <loc>/publication/image2song-song-retrieval-via-bridging-image-content-and-lyric-words/</loc>
+  </url>
+  
+  <url>
+    <loc>/publication/information-theoretic-decomposition-for-multimodal-interaction-learning/</loc>
   </url>
   
   <url>
@@ -768,6 +832,10 @@
   </url>
   
   <url>
+    <loc>/authors/pengwei-wang/</loc>
+  </url>
+  
+  <url>
     <loc>/publication/phoenix-a-motion-based-self-reflection-framework-for-fine-grained-robotic-action-correction-/</loc>
   </url>
   
@@ -868,6 +936,10 @@
   </url>
   
   <url>
+    <loc>/authors/shaowei-cui/</loc>
+  </url>
+  
+  <url>
     <loc>/authors/shi-xiong-zhang/</loc>
   </url>
   
@@ -881,6 +953,10 @@
   
   <url>
     <loc>/authors/siwei-li/</loc>
+  </url>
+  
+  <url>
+    <loc>/authors/siyu-mei/</loc>
   </url>
   
   <url>
@@ -964,7 +1040,15 @@
   </url>
   
   <url>
+    <loc>/authors/weitao-zhang/</loc>
+  </url>
+  
+  <url>
     <loc>/authors/weiyao-lin/</loc>
+  </url>
+  
+  <url>
+    <loc>/authors/wenbo-yu/</loc>
   </url>
   
   <url>
@@ -977,6 +1061,14 @@
   
   <url>
     <loc>/authors/wenxuan-hou/</loc>
+  </url>
+  
+  <url>
+    <loc>/publication/when-would-vision-proprioception-policies-fail-in-robotic-manipulation/</loc>
+  </url>
+  
+  <url>
+    <loc>/authors/xi-chen/</loc>
   </url>
   
   <url>
@@ -1092,6 +1184,14 @@
   </url>
   
   <url>
+    <loc>/authors/yuxuan-wu/</loc>
+  </url>
+  
+  <url>
+    <loc>/authors/yuxuan-zhou/</loc>
+  </url>
+  
+  <url>
     <loc>/authors/zechen-bai/</loc>
   </url>
   
@@ -1116,6 +1216,10 @@
   </url>
   
   <url>
+    <loc>/authors/zhihao-xu/</loc>
+  </url>
+  
+  <url>
     <loc>/authors/zhipeng-wang/</loc>
   </url>
   
@@ -1137,6 +1241,10 @@
   
   <url>
     <loc>/authors/ziyun-li/</loc>
+  </url>
+  
+  <url>
+    <loc>/publication/anytouch2/</loc>
   </url>
   
   <url>
