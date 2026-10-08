@@ -7,6 +7,9 @@
 <div class="container">
     {{ range $page.Params.content.user_groups }}
         {{ $query := where (where site.Pages "Section" "authors") ".Params.user_groups" "intersect" (slice .) }}
+        {{ if eq . "Research Assistant" }}
+            {{ $query = sort $query "File.Path" "asc" }}
+        {{ end }}
         {{if $query}}
             <div style="display: flex; flex-direction: column; justify-content: center;">
                 <div style="margin:0 auto;">
@@ -62,6 +65,20 @@
 <div class="container">
     {{ range $page.Params.content.user_groups2 }}
         {{ $query := where (where site.Pages "Section" "authors") ".Params.user_groups" "intersect" (slice .) }}
+        {{ if eq . "Alumni" }}
+            {{ $phd := slice }}
+            {{ $masters := slice }}
+            {{ range $query }}
+                {{ $role := lower (.Params.role | default "") }}
+                {{ if hasPrefix $role "phd graduate" }}
+                    {{ $phd = $phd | append . }}
+                {{ else if hasPrefix $role "master graduate" }}
+                    {{ $masters = $masters | append . }}
+                {{ end }}
+            {{ end }}
+            {{ $others := $query | complement $phd $masters }}
+            {{ $query = union (union $phd $masters) $others }}
+        {{ end }}
         {{if $query}}
             <div style="display: flex; flex-direction: column; justify-content: center;">
                 <div style="margin:0 auto;">

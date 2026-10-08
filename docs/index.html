@@ -452,28 +452,17 @@
     background-color: #000 !important; 
 }
 
+.wg-slider {
+    --caption-height: 50px;
+}
+
 .wg-slider .wg-hero {
     position: relative;
     background-size: contain;
     background-position: center center;
     
      
-    padding-top: 50px; 
-
-     
-     
-    background-origin: content-box; 
-    
-     
-    background-repeat: no-repeat;
-}
-.wg-slider .wg-hero-video {
-    position: relative;
-    background-size: contain;
-    background-position: center center;
-    
-     
-    padding-top: 100px; 
+    padding-top: var(--caption-height);
 
      
      
@@ -487,7 +476,7 @@
     top: 0;
     left: 0;
     width: 100%; 
-    height: 50px; 
+    height: var(--caption-height);
     
      
     display: flex;
@@ -516,161 +505,139 @@
     justify-content: center;  
 
      
-    padding: 0 50px; 
+    padding: 0 24px;
 }
 
  
 .wg-slider .work-caption .caption-inner h2 {
     margin: 0;  
     color: rgb(255,255,255);  
-    font-size: 1.2rem;
+    font-size: clamp(18px, 2.4vw, 26px);
     font-weight: bold;
-    font-family: 'system-ui'
+    font-family: 'system-ui';
+    line-height: 1.25;
+}
+
+.wg-slider .work-caption .caption-inner h2.caption-long {
+    font-size: clamp(14px, 1.7vw, 20px);
+}
+
+.wg-slider .work-caption .caption-inner h2.caption-medium {
+    font-size: clamp(16px, 2vw, 24px);
 }
 
 .wg-slider .work-caption .caption-inner h2 .highlight{
     margin: 0;  
     color: rgb(183, 127, 112);  
-    font-size: 1.2rem;
+    font-size: inherit;
     font-weight: bold;
-    font-family: 'system-ui'
+    font-family: 'system-ui';
 }
 
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .home-section.wg-slider {
+        padding-top: 20px;  
+    }
+}
+
+@media (max-width: 767px) {
+    .wg-slider {
+        --caption-height: 60px;
+    }
+    .wg-slider .work-caption .caption-inner {
+        padding: 8px 16px;
+    }
+    .wg-slider .work-caption .caption-inner h2 {
+        font-size: clamp(13px, 3.6vw, 18px);
+    }
+    .wg-slider .work-caption .caption-inner h2.caption-long {
+        font-size: 12px;
+    }
+    .wg-slider .work-caption .caption-inner h2.caption-medium {
+        font-size: 13px;
+    }
+}
 
 </style>
 
 
-<section id="slider" class="home-section wg-slider    carousel slide" data-ride="carousel" data-interval="5000">
+
 
 <ol class="carousel-indicators">
-  
   <li data-target="#slider" data-slide-to="0" class="active"></li>
-  
   <li data-target="#slider" data-slide-to="1" class=""></li>
-  
   <li data-target="#slider" data-slide-to="2" class=""></li>
-  
   <li data-target="#slider" data-slide-to="3" class=""></li>
-  
   <li data-target="#slider" data-slide-to="4" class=""></li>
-
   <li data-target="#slider" data-slide-to="5" class=""></li>
-
-  <li data-target="#slider" data-slide-to="6" class=""></li>
-
-  <li data-target="#slider" data-slide-to="7" class=""></li>
 </ol>
 <div class="carousel-inner">
-  
-  <div class="wg-hero dark carousel-item active" style="height: 600px; background-color: rgb(255, 255, 255); background-image: url(&quot;/img/home_rotation_img/signal6.png&quot;); min-height: 600px;">
-    <div class="container" style="text-align: center;">
-        <h1 class="hero-title">
-        </h1>
-      </div>
-      <div class="work-caption">
-        <div class="caption-inner">
-            <h2>Welcome to GeWu-Lab!</h2>
-        </div>
-      </div>
-  </div>
-  
-  <div class="wg-hero dark carousel-item" style="height: 600px; background-color: rgb(255, 255, 255); background-image: url(&quot;/img/home_rotation_img/bml5.png&quot;); min-height: 600px;">
-    <div class="container" style="text-align: center;">
-        <h1 class="hero-title"></h1>
-    </div> 
-    
-    <div class="work-caption"> 
-        <div class="caption-inner">
-        <h2>MokA: Multimodal Low-Rank Adaptation for MLLMs,
-        <span class="highlight">
-            NeurIPS Oral
-        </span>
-        </h2>
-        </div>
-    </div>
-  </div>
 
-  
-  <div class="wg-hero dark carousel-item" style="height: 600px; background-color: rgb(255, 255, 255); background-image: url(&quot;/img/home_rotation_img/understanding6.png&quot;); min-height: 600px;">
+  <div class="wg-hero dark carousel-item active" style="height: 600px; background-color: rgb(255, 255, 255); background-image: url(&quot;/img/home_rotation_img/ruoxuan.jpg&quot;); min-height: 600px;">
     <div class="container" style="text-align: center;">
         <h1 class="hero-title"></h1>
     </div>
     <div class="work-caption">
         <div class="caption-inner">
-            <h2>Crab: A Unified Audio-Visual Scene Understanding Model with Explicit Cooperation</h2>
+            <h2 class="caption-long">ROMA: LLM System for Real-World Object-Centric Multi-Sensory Active Perception</h2>
         </div>
     </div>
   </div>
 
+  <div class="wg-hero dark carousel-item" style="height: 600px; background-color: rgb(255, 255, 255); background-image: url(&quot;/img/home_rotation_img/wenke.png&quot;); min-height: 600px;">
+    <div class="container" style="text-align: center;">
+        <h1 class="hero-title"></h1>
+    </div>
+    <div class="work-caption">
+        <div class="caption-inner">
+            <h2 class="caption-long">Robo-ValueRL: Reliable Value Estimation for Offline-to-Online Reinforcement Learning</h2>
+        </div>
+    </div>
+  </div>
+
+  <div class="wg-hero dark carousel-item" style="height: 600px; background-color: rgb(255, 255, 255); background-image: url(&quot;/img/home_rotation_img/zequn.png&quot;); min-height: 600px;">
+    <div class="container" style="text-align: center;">
+        <h1 class="hero-title"></h1>
+    </div>
+    <div class="work-caption">
+        <div class="caption-inner">
+            <h2>Gestalt: Large Multimodal Interplay Model</h2>
+        </div>
+    </div>
+  </div>
+
+  <div class="wg-hero dark carousel-item" style="height: 600px; background-color: rgb(255, 255, 255); background-image: url(&quot;/img/home_rotation_img/signal6.png&quot;); min-height: 600px;">
+    <div class="container" style="text-align: center;">
+        <h1 class="hero-title"></h1>
+    </div>
+    <div class="work-caption">
+        <div class="caption-inner">
+            <h2>Welcome to GeWu-Lab!</h2>
+        </div>
+    </div>
+  </div>
+
+  <div class="wg-hero dark carousel-item" style="height: 600px; background-color: rgb(255, 255, 255); background-image: url(&quot;/img/home_rotation_img/bml5.png&quot;); min-height: 600px;">
+    <div class="container" style="text-align: center;">
+        <h1 class="hero-title"></h1>
+    </div>
+    <div class="work-caption">
+        <div class="caption-inner">
+            <h2 class="caption-medium">MokA: Multimodal Low-Rank Adaptation for MLLMs, <span class="highlight">NeurIPS Oral</span></h2>
+        </div>
+    </div>
+  </div>
 
   <div class="wg-hero dark carousel-item" style="height: 600px; background-color: rgb(255, 255, 255); background-image: url(&quot;/img/home_rotation_img/anytouch2.png&quot;); min-height: 600px;">
     <div class="container" style="text-align: center;">
         <h1 class="hero-title"></h1>
     </div>
-      <div class="work-caption">
+    <div class="work-caption">
         <div class="caption-inner">
             <h2>AnyTouch 2 is now released!</h2>
         </div>
-      </div>
-  </div>
-  
-
-  <div class="wg-hero-video dark carousel-item" style="height: 600px; background-color: rgb(255, 255, 255); min-height: 600px;">
-    <div class="container" style="text-align: center;">
-        <video width="100%" height="100%" controls id="myVideo" 
-               autoplay muted playsinline loop> 
-               <source src="/img/home_rotation_img/video0.mov" type="video/mp4">
-            您的浏览器不支持 HTML5 视频。
-        </video>
     </div>
-    <div class="work-caption">
-        <div class="caption-inner">
-        <h2>Play to the Score: Stage-Guided Dynamic Multi-Sensory Fusion for Robotic Manipulation,
-        <span class="highlight">
-            CoRL 2024 Oral
-        </span>
-        </h2>
-        </div>
-    </div>
-  </div>
-
-
-  <div class="wg-hero-video dark carousel-item" style="height: 600px; background-color: rgb(255, 255, 255); min-height: 600px;">
-    <div class="container" style="text-align: center;">
-        <video width="100%" height="100%" controls id="myVideo" 
-               autoplay muted playsinline loop> 
-               <source src="/img/home_rotation_img/video2.mov" type="video/mp4">
-            您的浏览器不支持 HTML5 视频。
-        </video>
-    </div>
-    <div class="work-caption">
-        <div class="caption-inner">
-        <h2>Robotic Policy Learning via Human-assisted Action Preference Optimization</h2>
-        </div>
-    </div>
-  </div>
-
-
-  <div class="wg-hero dark carousel-item" style="height: 600px; background-color: rgb(255, 255, 255); background-image: url(&quot;/img/home_rotation_img/robot.jpg&quot;); min-height: 600px;">
-    <div class="container" style="text-align: center;">
-        <h1 class="hero-title"></h1>
-    </div>
-      <div class="work-caption">
-        <div class="caption-inner">
-            <h2>The World Humanoid Robot Games</h2>
-        </div>
-      </div>
-  </div>
-
-  <div class="wg-hero dark carousel-item" style="height: 600px; background-color: rgb(255, 255, 255); background-image: url(&quot;/img/home_rotation_img/valse.jpg&quot;); min-height: 600px;">
-    <div class="container" style="text-align: center;">
-        <h1 class="hero-title"></h1>
-    </div>
-      <div class="work-caption">
-        <div class="caption-inner">
-            <h2>Valse 2026 in Wuhan</h2>
-        </div>
-      </div>
   </div>
 
 </div>
@@ -682,7 +649,7 @@
   <span class="carousel-control-next-icon"></span>
   <span class="sr-only">Next</span>
 </a>
-  </section>
+
     
   </section>
 
@@ -775,6 +742,9 @@
         <h2>News</h2>
         <hr/>
         <div style="height: 250px; margin-top: 20px; overflow:auto">
+            
+            [08-10-2026] We have released <a href="https://huggingface.co/GeWu-Lab/Gestalt" target="_blank" rel="noopener">Gestalt</a>. The paper, code, data, and models are now publicly available!
+            <p style="color: ;"></p>
             
             [09-07-2026] We have released <a href="https://gewu-lab.github.io/Robo-ValueRL/" target="_blank">Robo-ValueRL</a>, an offline-to-online reinforcement learning framework achieving millimeter-level precision for VLA-RL. The paper, code, data, and models are now publicly available!
             <p style="color: ;"></p>
