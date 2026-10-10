@@ -5,12 +5,20 @@
     <link>/authors/wenke-xia/</link>
       <atom:link href="/authors/wenke-xia/index.xml" rel="self" type="application/rss+xml" />
     <description>Wenke Xia</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2026 GeWu-Lab</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2026 GeWu-Lab</copyright><lastBuildDate>Fri, 10 Jul 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/logo.png</url>
       <title>Wenke Xia</title>
       <link>/authors/wenke-xia/</link>
     </image>
+    
+    <item>
+      <title>Robo-ValueRL: Reliable Value Estimation for Offline-to-Online Reinforcement Learning</title>
+      <link>/publication/robo-valuerl-reliable-value-estimation-for-offline-to-online-reinforcement-learning/</link>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>/publication/robo-valuerl-reliable-value-estimation-for-offline-to-online-reinforcement-learning/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>AnyTouch: Learning Unified Static-Dynamic Representation across Multiple Visuo-tactile Sensors</title>
@@ -25,6 +33,14 @@
       <link>/publication/balanced-audiovisual-dataset-for-imbalance-analysis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/publication/balanced-audiovisual-dataset-for-imbalance-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Barrier-Constrained Guidance For Real-time Asynchronous VLA Execution</title>
+      <link>/publication/barrier-constrained-guidance-for-real-time-asynchronous-vla-execution/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/barrier-constrained-guidance-for-real-time-asynchronous-vla-execution/</guid>
       <description></description>
     </item>
     

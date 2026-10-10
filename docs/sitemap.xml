@@ -63,8 +63,108 @@
   </url>
   
   <url>
+    <loc>/publication_types/1/</loc>
+    <lastmod>2026-07-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/topic_types/2/</loc>
+    <lastmod>2026-07-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/authors/</loc>
-    <lastmod>2025-10-10T00:00:00+00:00</lastmod>
+    <lastmod>2026-07-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/di-hu/</loc>
+    <lastmod>2026-07-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2026-07-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/ji-rong-wen/</loc>
+    <lastmod>2026-07-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/jian-tang/</loc>
+    <lastmod>2026-07-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/jianlong-fu/</loc>
+    <lastmod>2026-07-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/jifan-li/</loc>
+    <lastmod>2026-07-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/pei-ren/</loc>
+    <lastmod>2026-07-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2026-07-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2026-07-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/qingyang-gao/</loc>
+    <lastmod>2026-07-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/robo-valuerl-reliable-value-estimation-for-offline-to-online-reinforcement-learning/</loc>
+    <lastmod>2026-07-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/topic_types/</loc>
+    <lastmod>2026-07-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/wenbo-yu/</loc>
+    <lastmod>2026-07-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/wenke-xia/</loc>
+    <lastmod>2026-07-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/yinuo-zhao/</loc>
+    <lastmod>2026-07-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/yixue-zhang/</loc>
+    <lastmod>2026-07-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/yizhuo-zhang/</loc>
+    <lastmod>2026-07-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/zhengping-che/</loc>
+    <lastmod>2026-07-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -84,11 +184,6 @@
   
   <url>
     <loc>/tags/deep-learning/</loc>
-    <lastmod>2025-10-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
     <lastmod>2025-10-10T00:00:00+00:00</lastmod>
   </url>
   
@@ -352,14 +447,6 @@
   </url>
   
   <url>
-    <loc>/publication_types/1/</loc>
-  </url>
-  
-  <url>
-    <loc>/topic_types/2/</loc>
-  </url>
-  
-  <url>
     <loc>/publication_types/2/</loc>
   </url>
   
@@ -413,6 +500,10 @@
   
   <url>
     <loc>/publication/balanced-multimodal-learning-via-on-the-fly-gradient-modulation/</loc>
+  </url>
+  
+  <url>
+    <loc>/publication/barrier-constrained-guidance-for-real-time-asynchronous-vla-execution/</loc>
   </url>
   
   <url>
@@ -533,10 +624,6 @@
   
   <url>
     <loc>/publication/depth-helps_-improving-pre-trained-rgb-based-policy-with-depth-information-injection/</loc>
-  </url>
-  
-  <url>
-    <loc>/authors/di-hu/</loc>
   </url>
   
   <url>
@@ -681,10 +768,6 @@
   
   <url>
     <loc>/publication/information-theoretic-decomposition-for-multimodal-interaction-learning/</loc>
-  </url>
-  
-  <url>
-    <loc>/authors/ji-rong-wen/</loc>
   </url>
   
   <url>
@@ -856,14 +939,6 @@
   </url>
   
   <url>
-    <loc>/publication_types/</loc>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
-  </url>
-  
-  <url>
     <loc>/authors/qi-wang/</loc>
   </url>
   
@@ -1000,10 +1075,6 @@
   </url>
   
   <url>
-    <loc>/topic_types/</loc>
-  </url>
-  
-  <url>
     <loc>/publication/towards-accurate-knowledge-transfer-via-target-awareness-representation-disentanglement/</loc>
   </url>
   
@@ -1048,15 +1119,7 @@
   </url>
   
   <url>
-    <loc>/authors/wenbo-yu/</loc>
-  </url>
-  
-  <url>
     <loc>/authors/wenke-ma/</loc>
-  </url>
-  
-  <url>
-    <loc>/authors/wenke-xia/</loc>
   </url>
   
   <url>
@@ -1177,6 +1240,10 @@
   
   <url>
     <loc>/authors/yuansheng-hua/</loc>
+  </url>
+  
+  <url>
+    <loc>/authors/yuchen-li/</loc>
   </url>
   
   <url>

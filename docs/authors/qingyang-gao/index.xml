@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Qingyang Gao | GeWu-Lab</title>
+    <link>/authors/qingyang-gao/</link>
+      <atom:link href="/authors/qingyang-gao/index.xml" rel="self" type="application/rss+xml" />
+    <description>Qingyang Gao</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2026 GeWu-Lab</copyright><lastBuildDate>Fri, 10 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/logo.png</url>
+      <title>Qingyang Gao</title>
+      <link>/authors/qingyang-gao/</link>
+    </image>
+    
+    <item>
+      <title>Robo-ValueRL: Reliable Value Estimation for Offline-to-Online Reinforcement Learning</title>
+      <link>/publication/robo-valuerl-reliable-value-estimation-for-offline-to-online-reinforcement-learning/</link>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>/publication/robo-valuerl-reliable-value-estimation-for-offline-to-online-reinforcement-learning/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

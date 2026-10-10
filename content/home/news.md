@@ -14,14 +14,34 @@ robotic_video_2 = "faucet.mp4"
 
 
 
+# Retain the existing lab announcement date; code/weights first released 30 September.
+# Sources: https://github.com/GeWu-Lab/Gestalt and https://arxiv.org/abs/2610.00576
 [[item]]
-    title = "[08-10-2026] We have released <a href=\"https://huggingface.co/GeWu-Lab/Gestalt\" target=\"_blank\" rel=\"noopener\">Gestalt</a>. The paper, code, data, and models are now publicly available!"
+    title = "[08-10-2026] We introduce <a href=\"https://gewu-lab.github.io/Gestalt/\" target=\"_blank\" rel=\"noopener\">Gestalt</a>, a unified model for multimodal understanding and generation. The <a href=\"https://arxiv.org/abs/2610.00576\" target=\"_blank\" rel=\"noopener\">paper</a>, <a href=\"https://github.com/GeWu-Lab/Gestalt\" target=\"_blank\" rel=\"noopener\">code</a>, and <a href=\"https://huggingface.co/GeWu-Lab/Gestalt\" target=\"_blank\" rel=\"noopener\">model weights</a> are available!"
     subtitle = ""
     subtitle_color = ""
     link = ""
 
+# ROMA: first arXiv submission, 3 October 2026 (not the 8 October revision).
+# Source: https://arxiv.org/abs/2610.06955
 [[item]]
-    title = "[09-07-2026] We have released <a href=\"https://gewu-lab.github.io/Robo-ValueRL/\" target=\"_blank\">Robo-ValueRL</a>, an offline-to-online reinforcement learning framework achieving millimeter-level precision for VLA-RL. The paper, code, data, and models are now publicly available!"
+    title = "[03-10-2026] We introduce <a href=\"https://gewu-lab.github.io/ROMA/\" target=\"_blank\" rel=\"noopener\">ROMA</a>, an LLM system for real-world object-centric multi-sensory active perception. The <a href=\"https://arxiv.org/abs/2610.06955\" target=\"_blank\" rel=\"noopener\">paper</a> is available on arXiv!"
+    subtitle = ""
+    subtitle_color = ""
+    link = ""
+
+# The authors' announcement specifies September 2026 without an exact day.
+# Source: https://namelesscrew.github.io/
+[[item]]
+    title = "[09-2026] <a href=\"https://gewu-lab.github.io/Robo-ValueRL/\" target=\"_blank\" rel=\"noopener\">Robo-ValueRL</a> and <a href=\"https://github.com/NamelessCrew/FreeBar\" target=\"_blank\" rel=\"noopener\">FreeBar</a> accepted by CoRL 2026!"
+    subtitle = "Congrats to Wenke, Wenbo, Jifan and all co-authors!"
+    subtitle_color = ""
+    link = ""
+
+# Robo-ValueRL: first arXiv submission, 10 July 2026.
+# Source: https://arxiv.org/abs/2607.09866
+[[item]]
+    title = "[10-07-2026] Our <a href=\"https://arxiv.org/abs/2607.09866\" target=\"_blank\" rel=\"noopener\">Robo-ValueRL paper</a> is available on arXiv! See the <a href=\"https://gewu-lab.github.io/Robo-ValueRL/\" target=\"_blank\" rel=\"noopener\">project page</a> for code, data, and models."
     subtitle = ""
     subtitle_color = ""
     link = ""
@@ -246,16 +266,16 @@ robotic_video_2 = "faucet.mp4"
     link = ""
 
 [[item]]
-    title = "[11-03-2023] Prof. Di Hu won the 2022 WuWenJun AI Excellent Young Scientist Award!"
-    subtitle = ""
-    subtitle_color = ""
-    link = ""
-
-[[item]]
     title = "[12-03-2023] One paper accepted by ICME."
     subtitle = "Congrats to Wenke and Xincheng!"
     subtitle_color = "#808080"
     link = "publication"
+
+[[item]]
+    title = "[11-03-2023] Prof. Di Hu won the 2022 WuWenJun AI Excellent Young Scientist Award!"
+    subtitle = ""
+    subtitle_color = ""
+    link = ""
 
 [[item]]
     title = "[16-02-2023] One paper accepted by ICASSP."

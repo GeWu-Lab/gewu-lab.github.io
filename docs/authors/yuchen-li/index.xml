@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yuchen Li | GeWu-Lab</title>
+    <link>/authors/yuchen-li/</link>
+      <atom:link href="/authors/yuchen-li/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yuchen Li</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>copyright © 2026 GeWu-Lab</copyright>
+    <image>
+      <url>/img/logo.png</url>
+      <title>Yuchen Li</title>
+      <link>/authors/yuchen-li/</link>
+    </image>
+    
+    <item>
+      <title>Barrier-Constrained Guidance For Real-time Asynchronous VLA Execution</title>
+      <link>/publication/barrier-constrained-guidance-for-real-time-asynchronous-vla-execution/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/publication/barrier-constrained-guidance-for-real-time-asynchronous-vla-execution/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
